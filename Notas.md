@@ -1,4 +1,4 @@
-# Notas y nomenclatura
+# Notas
 El sistema de música occidental se base en la selección de entre todas las frecuencias posibles de solo 11 frecuencias únicas, relacionadas entre sí de forma que presentan 
 una serie de propiedades matemáticas interesantes. En este capítulo generaremos dichas
 notas. 
@@ -101,8 +101,7 @@ Recuperemos ahora las 4 nota decidimos apartar temporalmente en el apartado
 únicamente emplea 12 notas (junto a sus respectivas octavas). 
 La forma en que las frecuencias de estas 12 notas son seleccionadas **no** es 
 dividiendo en 12 partes iguales las frecuencias contenidas entre dos octavas 
-como se podría entender del nombre, sino estableciendo una relación entre frecuencias
-que tras repetirse 12 veces genera la siguietne octava. Esta condición es que, 
+como se podría entender del nombre, sino estableciendo una relación entre frecuencias que cumplen todas las notas y que tras repetirse 12 veces genera la siguiente octava. Esta condición es que, 
 la frecuencia de una nota cualquiera siempre es el resultado de multiplicar la 
 frecuencia de la nota inmediatamente anterior por la razón 2^(1/12) => 1,059463094. 
 
@@ -117,48 +116,125 @@ Se aprecia como tras repetir el proceso 12 veces obtenemos la octava X2, la cual
 sabemos que es correcta puesto que cumple la condición de tener una frecuencia 
 igual al doble de X1.
 
+### Proporciones
+De lo anteriormente descrito podemos extraer la siguiente afirmación: 
+
+> Dos notas siempre mantienen la misma relación de distancia con sus 
+respectivas notas inmediatamente anteriores, independientemente de qué dos 
+notas escojamos.
+
+Parémonos a pensar en esta afirmación utilizando el ejemplo de notas generadas
+anteriormente. Comprobemos la distancia en frecuencia y en proporción
+entre varios pares de notas. 
+
+- Calculamos la distancia como frecuencia mayor - frecuencia menor
+- Calculamos la proporción como frecuencia mayor / distancia 
+
+| A | Frecuencia A | B | Frecuencia B | Distancia fB - fA | Proporción |
+| - | - | - | - | - | - |
+| Nota 2 | 105,9463Hz | Nota 4 | 118,816Hz | 12,8697 | 9,23
+| Nota 4 | 118,816Hz  | Nota 6 | 133,249Hz | 14,433  | 9,23
+| Nota 6 | 133,249Hz  | Nota 8 | 149,435Hz | 16,195  | 9,23
+
+Vemos que la proporción generada al movernos desde la Nota 2 a las Nota 4 (2 notas
+de distancia) es exactamente la misma que al movernos de la Nota 6 a la Nota 8 (de 
+nuevo a dos notas de distancia). El cerebro igualmente interpreta el salto
+desde la Nota 2 a la 4 como una versión musicalmente indéntica al salto de la 
+nota 6 a la 8, únicamente diferenciadas por ser uno más grave que el otro.
+
+¿Qué implicaciones tiene esto? Que podemos dejar de trabajar con frecuencias 
+y comenzar a trabajar con proporciones y distancias, ya que varios conjuntos de 
+notas siempre generarán el mismo efecto musical si mantienen una proporcionalidad 
+dada.
+
+!> En la música occidental no son importantes las notas sino las proporciones entre las mismas
+
 ### Tonos y Semitonos
 
+> Un semitono es la distancia entre dos notas consecutivas.
+
+¿Qué dos notas? Da igual, como hemos visto, musicalmente solo importa que 
+sean consecutivas. Por ejemplo, la distancia de Nota 3 a Nota 4 es de un semitono,
+como también lo es la de Nota 8 a Nota 9.
+
+> Un tono es la distancia de dos semitonos.
+
+Por ejemplo, la distancia de Nota 3 a Nota 5 es de un tono o dos semitonos.
+
+?> Ahora también puedes interpretar una octava como dos notas que se encuentran a
+exactamente 13 semitonos de distancia. Hurra! 
+
+### Sostenidos y Bemoles
+Se trata de una forma de referirse a una nota en base a su inmediatamente 
+anterior o posterior.
+
+> Un bemol (♭) es una nota un semitono por detrás de la nota referida. Se 
+designa colocándo el símbolo ♭ o la palabra bemol inmediatamente después de 
+la nota referenciada. En inglés se conoce como _flat_.
+
+Por ejemplo, Nota 5 bemol hace referencia a Nota 4. Nota2♭ = Nota1;
+
+> Un sostenido (#) es una nota un semitono por delante de la nota referida.Se 
+designa colocándo el símbolo # o la palabra sostenido inmediatamente después de 
+la nota referenciada. En inglés se conoce como _sharp_.
+
+Por ejemplo, Nota 5 sostenido hace referencia a Nota 6. Nota2# = Nota3.
+
+!>Fíjate que Nota5 es al mismo tiempo Nota4# y Nota6♭. Dependiendo de la ocasión
+resultará más práctico llamarlo de una manera o de otra.
+
+## Notas del Sistema Occidental
+Expliquemos finalmente que pasa con las 7 notas que en realidad son 12. 
+Simplemente, solo tienen nombre 7 notas y el resto se designan referenciándolas
+como sostenidos o bemoles de las anteriores.
+
+Hagamos una equivalencia con nuestro sistema de notas inventado para visaulizar
+las distancias en semitonoes entre las notas y las dos formas de denominar las notas.
+
+|  | Nota 1 | Nota 2 | Nota 3 | Nota 4 | Nota 5 | Nota 6 | Nota 7 | Nota 8 | Nota 9 | Nota 10 | Nota 11 | Nota 12 | Nota 13 |
+| - | - | -| - | - | - | - | - | - | - | - | - | - | - |
+| Como sostenido  | Do | Do#| Re | Re# | Mi | Fa | Fa# | Sol | Sol# | La | La# | Si | Do |
+| Como bemol  | Do | Re♭ | Re | Mi♭ | Mi | Fa | Sol♭ | Sol | La♭ | La | Si♭ | Si | Do | 
+
+?> Aquellas notas que ya poseen nombre de por si es inusual denominarlas como 
+sostenidos o bemoles. Fíjate por ejemplo en el caso de Fa. Se encuentra a un semitono 
+de distancia de Mi, pero no se le llama Mi#. El mismo caso ocurre con Si y Do
+
+Y ahora que sabemos generar todas las notas musicales del sistema occidental así como
+sus octavas, solos nos queda saber una cosa: ¿Con qué frecuencia empezamos? Como vimos,
+es necesario partir de una frecuencia inicial, para poder generar el resto.
+
+Para nuestro ejemplo, fue 100Hz, en la vida real, se utiliza 440Hz como valor estándar
+de la 4a octava de La, es decir, La4 = 440Hz.
+
+!> Este valor es completamente arbitrario. Existen canciones populares cuyo La4 
+tiene una frecuencia distinta. Uno de los casos más populares es la canción Highway to Hell.
+De hecho, reproducir música a mayor velocidad implica que cambien todas las frecuencias
+y no por eso se pierden las características musicales de la pieza.
+
+?> Aquí encontrarás una tabla con todas las notas y frecuencias que pueden tocarse
+en un piano  https://es.wikipedia.org/wiki/Frecuencias_de_afinaci%C3%B3n_del_piano
+
+## Nomenclatura Americana
+En la forma europea de denominar la musica, consideramos Do
+como la primera nota. No obstante, nada nos impide empezar 
+a contar a partir de otra. El sistema americano comienza a contar a partir de la nota La y asigna letras del alfabeto consecutivas como nombres de las notas.
+
+Equivalencia como sostenido
+
+| A | A# | B | C | C# | D | D# | E | F | F# | G | G# | A |
+| - |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-   | - |
+| La | La# | Si | Do | Do# | Re | Re# | Mi | Fa| Fa# | Sol | Sol# | La |
 
 
 
+Equivalencia como bemol
 
+| A | B♭  | B | C | D♭ | D | E♭ | E | F | G♭ | G | A♭ | A |
+| - |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-   | - |
+| La | Si♭ | Si | Do | Re♭ | Re | Mi♭ | Mi | Fa | Sol♭ | Sol | La♭ | La |
 
-### 
+Nótese como solo cambia los nombres de las notas que también tienen  nombre propio en el sistema al que estamos acostumbrado, de forma que sigue sin existir casos como B# (Si sostenido).
 
+Es muy recomendable acostumbrarse a trabajar con este sistema dado que la mayoría de recursos educativos lo emplean, independientemente del idioma utilizado.
 
-. Ahora que volvemos a tener 11 notas musicales diferentes
-
-Empieza a ser claro que hay una importancia en las distancias entre las frecuencias
-para generar el sistema musical. 
-
-
-Esto se construye seleccionando una frecuencia arbitraria y obteniendo nuevas frencuencias como múltiplos de la primera. Para ello se emplea una relación -razón- de _raiz doceaba de dos_, es decir, 1.0594630943592953... 
-
-## Construyendo la escala
-
-Tomemos por ejemplo como frecuencia inicial 100 Hz. A partir de aquí habremos de obtener las 10 frecuencias (notas) restantes.
-
-Haremos esto según la siguiente fórmula
-
-Nota Final = Frecuencia Inicial x Número de nota buscada x Razón
-
-| Número de Nota |Frecuencia Inicial| Razón | Frecuencia Resultante |
-|-|-|-|-|
-| 1  | 100  |   |   |
-| 2  | 100  |   |   |
-| 3  | 100  |   |   |
-| 4  | 100  |   |   |
-| 5  | 100  |   |   |
-| 6  | 100  |   |   |
-| 7  | 100  |   |   |
-| 8  | 100  |   |   |
-| 9  | 100  |   |   |
-| 10 | 100  |   |   |
-| 11 | 100  |   |   |
-
-Qué pasa con la doceaba?
-
-
-| 11 |   |   |   |
- 
