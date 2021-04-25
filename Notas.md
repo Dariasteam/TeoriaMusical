@@ -1,7 +1,8 @@
 # Notas
-El sistema de música occidental se base en la selección de entre todas las frecuencias posibles de solo 11 frecuencias únicas, relacionadas entre sí de forma que presentan 
-una serie de propiedades matemáticas interesantes. En este capítulo generaremos dichas
-notas. 
+El sistema de música occidental se base en la selección de entre todas las 
+frecuencias posibles de solo 12 frecuencias únicas, relacionadas entre sí de forma 
+que presentan una serie de propiedades matemáticas interesantes. En este capítulo
+generaremos dichas notas. 
 
 ## Notas Musicales
 Cada una de las 12 frecuencias anteriormente mencionadas constituye una **Nota**. 
@@ -11,7 +12,7 @@ musicales que conocemos popularmente:
 
 > Do, Re, Mi, Fa, Sol, La, Si
 
-Olvidemos momentáneamente la existencia de las 4 notas sin nombre que restan para completar las 11 totales y prosigamos la explicación como si verdaderamente sólo existiesen 7 notas.
+Olvidemos momentáneamente la existencia de las 4 notas sin nombre que restan para completar las 12 totales y prosigamos la explicación como si verdaderamente sólo existiesen 7 notas.
 
 ## Octavas
 Es ingenuo pensar que la música se compone estrictamente de solo 7 frecuencias 
@@ -31,12 +32,12 @@ las distancias entre dos ocurrencias de la nota Do
 | | __Do__ | Re | Mi | Fa | Sol | La | Si | *__Do__* | _Re_ | _Mi_ |...|
 
 > El concepto de octava es aplicable a cualquier nota, por ejemplo, vemos
-que tras la segunda ocurrencia de la nota Do, surgen repeticiones de Re y Mi.
+que tras la segunda ocurrencia de la nota Do, surgen también repeticiones de Re y Mi.
 
 Ahora bien, con esto únicamente hemos definidio el comportamiento qué tienen las notas, pero no hemos explicado por qué sucede esto.
 
 Una definición más formal de octava sería "aquella nota cuya frecuencia es el doble 
-de otra nota inmediatamente anterior". Es decir, para una nota X de 100Hz, obtendríamos una octava en una frecuencia de 200Hz. Si continuamos la secuencia, la siguietne octava aparecería en 400Hz (pues es el doble de la octava previa, 200Hz).
+de otra nota inmediatamente anterior". Es decir, para una nota X de 100Hz, obtendríamos una octava en una frecuencia de 200Hz. Si continuamos la secuencia, la siguiente octava aparecería en 400Hz (pues es el doble de la octava previa, 200Hz).
 
 Esto se debe a que el cerebro interpreta las frecuencias con dicha relación como con
 _características musicales_ similares, considerándolas como versiones cada vez más 
@@ -64,7 +65,7 @@ Entendiendo pues que las octavas se comportan siguiendo una progresión geométr
 
 De aquí podemos extraer que para esta nota X1 a 100Hz, la octava máxima audible es 
 la 8 (X8), puesto que X9 implica una oscilación a 25.600Hz, la cual es mayor
-al límite supeior del oido humano (20.000Hz).
+al límite superior del oido humano (20.000Hz).
 
 Vemos también que se pueden generar octavas por debajo de nuestra octava inicial X1,
 obteniendo X0 = 50Hz y X-1 = 25Hz. Igual que en el caso anterior, X-2 = 12,5Hz queda
@@ -96,7 +97,7 @@ es crucial y se sigue un sistema denominado **Temperamento Igual**, donde la
 palabra _temperamento_ hace referencia a la relación existente entre notas.
 
 ### Temperamento igual
-Recuperemos ahora las 4 nota decidimos apartar temporalmente en el apartado 
+Recuperemos ahora las 4 notas que decidimos apartar temporalmente en el apartado 
 [Notas Musicales](Notas). Como ya hemos adelantado, nuestro sistema musical 
 únicamente emplea 12 notas (junto a sus respectivas octavas). 
 La forma en que las frecuencias de estas 12 notas son seleccionadas **no** es 
@@ -124,7 +125,7 @@ respectivas notas inmediatamente anteriores, independientemente de qué dos
 notas escojamos.
 
 Parémonos a pensar en esta afirmación utilizando el ejemplo de notas generadas
-anteriormente. Comprobemos la distancia en frecuencia y en proporción
+en el apartado previo. Comprobemos la distancia en frecuencia y en proporción
 entre varios pares de notas. 
 
 - Calculamos la distancia como frecuencia mayor - frecuencia menor
@@ -168,13 +169,13 @@ exactamente 13 semitonos de distancia. Hurra!
 Se trata de una forma de referirse a una nota en base a su inmediatamente 
 anterior o posterior.
 
-> Un bemol (♭) es una nota un semitono por detrás de la nota referida. Se 
+> Un bemol (♭) es una nota situada un semitono por detrás de la nota referida. Se 
 designa colocándo el símbolo ♭ o la palabra bemol inmediatamente después de 
 la nota referenciada. En inglés se conoce como _flat_.
 
 Por ejemplo, Nota 5 bemol hace referencia a Nota 4. Nota2♭ = Nota1;
 
-> Un sostenido (#) es una nota un semitono por delante de la nota referida.Se 
+> Un sostenido (#) es una nota situada un semitono por delante de la nota referida.Se 
 designa colocándo el símbolo # o la palabra sostenido inmediatamente después de 
 la nota referenciada. En inglés se conoce como _sharp_.
 
@@ -189,7 +190,8 @@ Simplemente, solo tienen nombre 7 notas y el resto se designan referenciándolas
 como sostenidos o bemoles de las anteriores.
 
 Hagamos una equivalencia con nuestro sistema de notas inventado para visaulizar
-las distancias en semitonoes entre las notas y las dos formas de denominar las notas.
+las distancias en semitonoes entre las notas y las dos formas de denominar las notas
+sin nombre propio.
 
 |  | Nota 1 | Nota 2 | Nota 3 | Nota 4 | Nota 5 | Nota 6 | Nota 7 | Nota 8 | Nota 9 | Nota 10 | Nota 11 | Nota 12 | Nota 13 |
 | - | - | -| - | - | - | - | - | - | - | - | - | - | - |
@@ -204,8 +206,7 @@ Y ahora que sabemos generar todas las notas musicales del sistema occidental as�
 sus octavas, solos nos queda saber una cosa: ¿Con qué frecuencia empezamos? Como vimos,
 es necesario partir de una frecuencia inicial, para poder generar el resto.
 
-Para nuestro ejemplo, fue 100Hz, en la vida real, se utiliza 440Hz como valor estándar
-de la 4a octava de La, es decir, La4 = 440Hz.
+Para nuestro ejemplo, el valor de X1 fue 100Hz, en la vida real, se utiliza 440Hz como valor estándar de la 4a octava de La, es decir, La4 = 440Hz.
 
 !> Este valor es completamente arbitrario. Existen canciones populares cuyo La4 
 tiene una frecuencia distinta. Uno de los casos más populares es la canción Highway to Hell.
@@ -225,8 +226,6 @@ Equivalencia como sostenido
 | A | A# | B | C | C# | D | D# | E | F | F# | G | G# | A |
 | - |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-   | - |
 | La | La# | Si | Do | Do# | Re | Re# | Mi | Fa| Fa# | Sol | Sol# | La |
-
-
 
 Equivalencia como bemol
 

@@ -10,7 +10,7 @@ Por ejemplo, si hacemos vibrar una cuerda de un instrumento musical, esta vibrac
 
 - Frecuencia (f): Cantidad de oscilaciones por segundo. Su unidad de medida es el Hertzio (Hz). A mayor número de oscilaciones más _agudo_ percibimos el sonido.
 
-?> El oído humano de un recién nacido es capaz de percibir un rango de frencias de 20 a 20.000 _Hz_.
+?> El oído humano de un recién nacido es capaz de percibir un rango de frequencias de 20 a 20.000 _Hz_.
 
 - Amplitud (a) : Distancia entre las dos posiciones de mayor separación en el espacio en las que se sitúa el cuerpo oscilante. Siguiendo el ejemplo anterior, el sonido de una cuerda que al vibrar se mueva unos milímetros se escuchará más bajo que el de otra que se desplace unos centímetros. Podemos tomarlo como sinónimo de _volumen_.
 
@@ -18,7 +18,7 @@ Por ejemplo, si hacemos vibrar una cuerda de un instrumento musical, esta vibrac
 
 ## Ondas producidas por instrumentos
 
-Los ejemplos de onda mostrados anteriormente son oscilanciones "matemáticamente perfectas" (ondas sinusoidales) que, en la práctica, solo pueden ser producidas mediante sistemas computerizados. Por el contrario, las vibraciones generadas por el resto de instrumentos son mucho mñas complejas al verse influenciadas por las características físicas del propio material en sí.
+Los ejemplos de onda mostrados anteriormente son oscilanciones "matemáticamente perfectas" (ondas sinusoidales) que, en la práctica, solo pueden ser producidas mediante sistemas computerizados. Por el contrario, las vibraciones generadas por el resto de instrumentos son mucho más complejas al verse influenciadas por las características físicas del propio material en sí.
 
 Pensemos por ejemplo en una guitarra. Al pulsar una cuerda y esta comenzar a vibrar, el propio material del que está hecha así como las imperfecciones en su construcción provocarán que esta no vibre a **exactamente una única frecuencia**, sino que emitirá varias. De igual forma, al transmitirse esta vibración por el cuerpo de madera del instrumetno, algunas frecuencias serán absorbidas o atenuadas. Todo esto da como resultado que el sonido final sea una onda compuesta por múltiples frecuencias distintas, todas ellas superpuestas en torno a la **frecuencia base** (nota) que está generando el instrumento. 
 
@@ -28,6 +28,6 @@ Ejemplo de ondas aquí
 
 # Definiciones musicales
 
-- Timbre: Imperfecciones de la onda producida por un instrumento debidas a los materiales que lo constituyen y que le dan el sonido particular al mismo.
+- **Timbre**: Imperfecciones de la onda producida por un instrumento debidas a los materiales que lo constituyen y que le dan el sonido particular al mismo.
 
-- Tono: Frecuencia base de un sonido producido por una instrumento musical.
+- **Tono**: Frecuencia base de un sonido producido por una instrumento musical.
