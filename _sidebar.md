@@ -1,8 +1,8 @@
 <!-- docs/_sidebar.md -->
 
 * [Introducción](/)
-* [Física](Física.md)
-* [Notas y nomenclatura](aa.md)
+* [Un poco de física](Física.md)
+* [Notas y nomenclatura](Notas.md)
 * [Combinaciones de dos notas](aa.md)
 * [Acordes](Chords/chords.md)        
     * [Triadas]()
