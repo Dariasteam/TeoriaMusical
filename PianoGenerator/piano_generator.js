@@ -28,7 +28,7 @@ let names = [
     "7M"
 ]
 
-function getName (index) {
+function getIntervalName (index) {
     return names[index % 12];
 }
 
@@ -95,9 +95,7 @@ function blackKeysArrayToHtml (blackKeys) {
 }
 
 function handleConfig (noteName, config, note_ac) {
-    let obj = {
-        name: noteName,
-    };
+    let obj = {};
 
     let pressed = false;
     if (config.pressed.length > 0) {
@@ -114,20 +112,35 @@ function handleConfig (noteName, config, note_ac) {
         if (pos.color)
             obj["background"] = pos.color;
         if(pos.text)
-            obj["text"] = pos.number;
+            obj["text"] = pos.text;
     }
 
     switch (config.number) {
         case "all":
-            obj["text"] = getName(note_ac);
+            obj["text"] = getIntervalName(note_ac);
             break;
         case "pressed":
             if (pressed)
-                obj["text"] = getName(note_ac);
+                obj["text"] = getIntervalName(note_ac);
             break;
         case "relevant":
             if (Object.keys(config.relevant).includes(noteName))
-                obj["text"] = getName(note_ac);
+                obj["text"] = getIntervalName(note_ac);
+        case "none":
+            break;
+    }
+
+    switch (config.names) {
+        case "all":
+            obj["name"] = noteName;
+            break;
+        case "pressed":
+            if (pressed)
+                obj["name"] = noteName;
+            break;
+        case "relevant":
+            if (Object.keys(config.relevant).includes(noteName))
+                obj["name"] = noteName;
         case "none":
             break;
     }
@@ -144,9 +157,10 @@ function setTonicOffset(tonic) {
     }
 }
 
-function generate (parameters) {
+function piano (parameters) {
     let config = {
         tag: "",
+        names: "relevant",
         octaves: 1,
         number: "none",
         tonic: "C",

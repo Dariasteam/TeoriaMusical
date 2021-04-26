@@ -81,6 +81,9 @@ de octavas es la misma: 11.
 una octava por encima de otra vibración de frecuencia (α/2) Hz y octava inferior a
 otra vibración de frecuencia (2 *α) Hz
 
+!> Dependiendo del contexto Octava también se utiliza para definir un rango de notas, si un isntrumento tiene 3 octavas significa que puede producir hasta
+3 octavas distintas de una misma nota.
+
 ## Distancias y Temperamento
 El concepto de octava nos ha permitido generar a partir de cualquier frecuencia (nota)
 las consecuentes versiones más agudas de la misma nota. Por ejemplo, podemos
