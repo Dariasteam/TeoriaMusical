@@ -19,9 +19,9 @@ Recordemos del capítuloa anterior como los saltos entre notas a mismas distanci
 Cada intervalo tiene un nombre propio así como características
 musicales particulares, si bien no son todos de la misma relevancia. Mediante la combinación de intervalos seremos capaces de producir Acordes, Escalas y Tonalidades en capítulos posteriores.
 
-!> La palabra intervalo no tiene implicaciones sobre la forma en que deben ser tocadas las notas. Tanto si se toca una después de la otra como ambas a la vez, se hablará siempre de un mismo intervalo.
+!> La palabra intervalo a secas no tiene implicaciones sobre la forma en que deben ser tocadas las notas. Tanto si se toca una después de la otra como ambas a la vez, se hablará siempre de un mismo intervalo.
 
-<h2> Notas en el piano </h2>
+<h2 id="notas_piano"> Notas en el piano </h2>
 
 Situemos en primer lugar cada una de las notas en un piano.
 
@@ -41,6 +41,7 @@ Dado que este diagrama aparecerá frecuentemente a lo largo del documento, convi
 ---
 
 <h4> Notas pulsadas </h4>
+
 Señalaremos en color rojo por defecto aquellas teclas que deban ser pulsadas para producir aquello que se esté explicando.
 
 <div id ="piano_tutorial_1" class="piano_container">
@@ -71,7 +72,9 @@ Cuando sea necesario, se añadirá el identificador del intervalo en la tecla co
 
 ---
 
-<h2> Intervalo de Primera o Unísono </h2>
+<h1 id="lista_intervalos"> Lista de Intervalos </h1>
+
+<h2> Primera o Unísono </h2>
 
 > Intervalo producido entre una nota y la misma repetida, estén o no en la misma octava. Se simboliza con el número **"1"**
 
@@ -80,36 +83,36 @@ Tocado simultáneamente no produce un gran efecto musical, tan solo realza liger
 <div id ="piano_2" class="piano_container">
 </div>
 
-?> Intervalo de primera de Re
+?> primera de Re
 
-<h2> Intervalo de Segunda Menor </h2>
+<h2> Segunda Menor </h2>
 
 > Intervalo producido entre una nota y aquella situada a 1 semitono de distancia. Se simboliza con el número 2 seguido de una **m minúscula** : **"2m"**
 
 <div id ="piano_3" class="piano_container">
 </div>
 
-?> Intervalo de segunda menor de Sol
+?> segunda menor de Sol
 
-<h2> Intervalo de Segunda Mayor </h2>
+<h2> Segunda Mayor </h2>
 
 > Intervalo producido entre una nota y aquella situada a 2 semitonos de distancia. Se simboliza con el número 2 seguido de una **M Mayúscula** : **"2M"**
 
 <div id ="piano_4" class="piano_container">
 </div>
 
-?> Intervalo de segunda menor de Si
+?> segunda menor de Si
 
-<h2> Intervalo de Tercera Menor </h2>
+<h2> Tercera Menor </h2>
 
 > Intervalo producido entre una nota y aquella situada a 3 semitonos de distancia. Se simboliza con el número 3 seguido de una **m minúscula** : **"3m"**
 
 <div id ="piano_5" class="piano_container">
 </div>
 
-?> Intervalo de segunda menor de Fa
+?> segunda menor de Fa
 
-<h2> Intervalo de Tercera Mayor </h2>
+<h2> Tercera Mayor </h2>
 
 > Intervalo producido entre una nota y aquella situada a 4 semitonos de distancia. Se simboliza con el número 3 seguido de una **M Mayúscula** : **"3M"**
 
@@ -118,9 +121,9 @@ Tocado simultáneamente no produce un gran efecto musical, tan solo realza liger
 <div id ="piano_6" class="piano_container">
 </div>
 
-?> Intervalo de tercera mayor de Si
+?> tercera mayor de Si
 
-<h2> Intervalo de Cuarta</h2>
+<h2> Cuarta</h2>
 
 > Intervalo producido entre una nota y aquella situada a 5 semitonos de distancia. Se simboliza con el número **"4"**
 
@@ -129,10 +132,10 @@ Tocado simultáneamente no produce un gran efecto musical, tan solo realza liger
 <div id ="piano_7" class="piano_container">
 </div>
 
-?> Intervalo de cuarta de F#
+?> cuarta de Fa Sostenido
 
 
-<h2> Intervalo de Cuarta Aumentada</h2>
+<h2> Cuarta Aumentada</h2>
 
 > Intervalo producido entre una nota y aquella situada a 6 semitonos de distancia. Se simboliza con el símbolo **"4a"** o **"4+"**.
 
@@ -141,10 +144,10 @@ Tocado simultáneamente no produce un gran efecto musical, tan solo realza liger
 <div id ="piano_8" class="piano_container">
 </div>
 
-?> Intervalo de cuarta aumentada de E
+?> cuarta aumentada de Mi
 
 
-<h2> Intervalo de Quinta </h2>
+<h2> Quinta </h2>
 
 > Intervalo producido entre una nota y aquella situada a 7 semitonos de distancia. Se simboliza con el símbolo **"5"**.
 
@@ -153,47 +156,47 @@ Tocado simultáneamente no produce un gran efecto musical, tan solo realza liger
 <div id ="piano_9" class="piano_container">
 </div>
 
-?> Intervalo de quinta de A
+?> quinta de La
 
 
-<h2> Intervalo de Quinta Aumentada </h2>
+<h2> Quinta Aumentada </h2>
 
 > Intervalo producido entre una nota y aquella situada a 8 semitonos de distancia. Se simboliza con el símbolo **"5a"** o **"5+"**.
 
 <div id ="piano_10" class="piano_container">
 </div>
 
-?> Intervalo de quinta aumentada de G#
+?> quinta aumentada de Sol Sostenido
 
 
-<h2> Intervalo de Sexta </h2>
+<h2> Sexta </h2>
 
 > Intervalo producido entre una nota y aquella situada a 9 semitonos de distancia. Se simboliza con el símbolo **"6"**.
 
 <div id ="piano_11" class="piano_container">
 </div>
 
-?> Intervalo de sexta de D#
+?> sexta de Re Sostenido
 
 
-<h2> Intervalo de Séptima Menor </h2>
+<h2> Séptima Menor </h2>
 
 > Intervalo producido entre una nota y aquella situada a 10 semitonos de distancia. Se simboliza con el número 7 seguido de una **m minúscula** : **"7m"**
 
 <div id ="piano_12" class="piano_container">
 </div>
 
-?> Intervalo de séptima menor de C
+?> séptima menor de Do
 
 
-<h2> Intervalo de Séptima Mayor </h2>
+<h2> Séptima Mayor </h2>
 
 > Intervalo producido entre una nota y aquella situada a 11 semitonos de distancia. Se simboliza con el número 7 seguido de una **M Mayúscula** : **"7M"**
 
 <div id ="piano_13" class="piano_container">
 </div>
 
-?> Intervalo de séptima mayor de F
+?> séptima mayor de Fa
 
 
 

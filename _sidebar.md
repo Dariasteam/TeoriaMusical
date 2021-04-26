@@ -4,6 +4,8 @@
 * [Un poco de física](Física.md)
 * [Notas y nomenclatura](Notas.md)
 * [Intervalos](Intervalos.md)
+    * [Notas en el piano](#notas_piano)
+    * [Lista de Intervalos](#lista_intervalos)
 * [Combinaciones de dos notas](Combinaciones.md)
 * [Acordes](Chords/chords.md)
     * [Triadas]()
