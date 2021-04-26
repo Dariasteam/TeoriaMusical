@@ -3,7 +3,14 @@
 Para hacer musica rapidito, entender la jerga que usan los que sí saben
 y no volverse muy loco por el camino.
 
-## Consideraciones previas
+## Consideraciones Previas
+Conviene tener acceso a un piano / teclado musical o programa que lo imite.
+A lo largo de los apartados aquí descritos se utilizarán diagramas de un teclado
+para explicar algunos conceptos. Existen multitud de aplicaciones móviles, programas
+de escritorio e incluso páginas web que nos muestran la teclas de un piano y nos
+permiten interactuar con ellas. A título personal, yo utilizo [Semitone](ttps://f-droid.org/es/packages/mn.tck.semitone/) en mi móvil.
+
+## Prefacio
 La teoría musical es desastrosa. No es mi culpa. Está llena de redundancias,
 reutilizaciones de términos con significados completamente dispares y decisiones
 ilógicas que no se sostienen tras una pensada rápida. Sin embargo, mientras no 
@@ -23,12 +30,22 @@ seguir, y prácticamente todo puede (y debería en algún momento) ser incumplid
 por el lector. Incidimos una vez más en el aspecto de la experimentación.
 
 ## ¿Qué no es esta guía?
-Un recurso académico en ningún grado. El contenido de esta guía es el 
+- Un recurso académico en ningún grado. El contenido de esta guía es el 
 producto de mi aprendizaje a través de multitud de fuentes, practicamente 
 ninguna de las cuales puede considerarse "formal" y bajo el prisma de mi 
 interpretación y aplicación personal. Este documento no busca ser un manual 
 extensivo sino una referencia rápida a distintos conceptos para que el lector 
 experimente luego.
+
+- Una guía sobre notación musical. No sé leer una partitura y no tengo intención
+de hacerlo pronto. Si bien se incluyen algunos apartados que hablan de notación,
+la información no es suficiente como para comprender o escribir una partitura y
+se limita únicamente a lo mínimo necesario para entender conceptos que sí
+considero relevantes.
+
+- Un manual para un instrumento concreto. Si bien se utiliza el piano como 
+instrumento base para mostrar algunos conceptos, no pertencen a este ámbito
+explicaciones sobre digitación, técnica, etc.
 
 ## ¿Qué sí es esta guía?
 La forma en que yo hubiese querido adquirir conocimiento sobre teoría musical. 
@@ -37,4 +54,5 @@ recibir un conocimiento una vez este ya se posee. En cualquier caso, sí pretend
 tratar los temas en un orden y grado de complejidad que considero adecuados
 según mi experiencia personal.
 
-> Licencia: [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+## Licencia
+> [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)

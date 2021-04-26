@@ -1,5 +1,5 @@
 # Notas
-El sistema de música occidental se base en la selección de entre todas las 
+El sistema de música occidental se basa en la selección de entre todas las 
 frecuencias posibles de solo 12 frecuencias únicas, relacionadas entre sí de forma 
 que presentan una serie de propiedades matemáticas interesantes. En este capítulo
 generaremos dichas notas. 
@@ -215,6 +215,18 @@ y no por eso se pierden las características musicales de la pieza.
 
 ?> Aquí encontrarás una tabla con todas las notas y frecuencias que pueden tocarse
 en un piano  https://es.wikipedia.org/wiki/Frecuencias_de_afinaci%C3%B3n_del_piano
+
+Significa esto que solo se pueden utilizar las frecuencias exactas que hemos generado?
+En líneas generales, **sí**. De hecho una gran cantidad de instrumentos ni 
+siquiera permiten tocar frecuencias intermedias. Por ejemplo, un piano afinado 
+solo nos dará las frecuencias de las 12 notas y sus octavas. Por contra, un instrumento
+como el violín cuyas notas dependen del punto exacto en el que pulse la cuerda el
+instrumentista, permiten crear cualquier frecuencia entre dos notas dadas. Sin 
+embargo, el uso de estas "notas intermedias" queda restringido normalmente a 
+efectos momentáneos como formas de cambiar suavemente de una nota a otra.
+Un caso curioso es el de la guitarra, en la cual las notas están restringidas por 
+los trastes del mástil, pero se puede conseguir notas intermedias estirando
+las cuerdas con el dedo en una técnica conocida como [bending](https://es.wikipedia.org/wiki/Bend)
 
 ## Nomenclatura Americana
 En la forma europea de denominar la musica, consideramos Do
