@@ -13,6 +13,25 @@ let notes = {
     "B"  : true
 }
 
+let names = [
+    "1",
+    "2m",
+    "2M",
+    "3m",
+    "3M",
+    "4",
+    "4A",
+    "5",
+    "5A",
+    "6",
+    "7m",
+    "7M"
+]
+
+function getName (index) {
+    return names[index % 12];
+}
+
 function handleObjectWithOptionals (obj, defaultObj) {
     for (const [key, value] of Object.entries(defaultObj)) {
         let p = obj[key]
@@ -26,7 +45,7 @@ function generateKey (parameters, isWhite) {
         name: "",
         background: isWhite ? "white" : "black",
         color: isWhite ? "black" : "white",
-        number: "",
+        text: "",
         keyType: isWhite ? "white" : "black"
     };
 
@@ -38,7 +57,7 @@ function generateKey (parameters, isWhite) {
                 color: ${obj.color};
          ">
         <span>
-            ${obj.number}
+            ${obj.text}
             <br>
             ${obj.name}
         </span>
@@ -75,55 +94,85 @@ function blackKeysArrayToHtml (blackKeys) {
     return html;
 }
 
-function handleConfig (noteName, config) {
+function handleConfig (noteName, config, note_ac) {
     let obj = {
         name: noteName,
     };
 
-    if (config.pressed_notes.length > 0) {
-        let candidate = config.pressed_notes[0];
+    let pressed = false;
+    if (config.pressed.length > 0) {
+        let candidate = config.pressed[0];
         if (candidate == noteName) {
-            config.pressed_notes.shift();
+            pressed = true;
+            config.pressed.shift();
             obj["background"] = "red";
         }
     }
 
-    let pos = config.relevant_notes[noteName];
+    let pos = config.relevant[noteName];
     if (pos != undefined) {
         if (pos.color)
             obj["background"] = pos.color;
-        if(pos.number)
-            obj["number"] = pos.number;
+        if(pos.text)
+            obj["text"] = pos.number;
+    }
+
+    switch (config.number) {
+        case "all":
+            obj["text"] = getName(note_ac);
+            break;
+        case "pressed":
+            if (pressed)
+                obj["text"] = getName(note_ac);
+            break;
+        case "relevant":
+            if (Object.keys(config.relevant).includes(noteName))
+                obj["text"] = getName(note_ac);
+        case "none":
+            break;
     }
 
     return obj;
 }
 
+function setTonicOffset(tonic) {
+    let i = 0;
+    for (const [noteName, isWhite] of Object.entries(notes)) {
+        if (tonic == noteName)
+            return 12-i;
+        i++;
+    }
+}
+
 function generate (parameters) {
     let config = {
+        tag: "",
         octaves: 1,
-        relevant_notes: {},
-        pressed_notes: []
+        number: "none",
+        tonic: "C",
+        relevant: {},
+        pressed: []
     };
 
     handleObjectWithOptionals(parameters, config)
 
     let whiteKeys = [];
     let blackKeys = [];
-
+    let note_ac = setTonicOffset(config.tonic);
     let n_keys = config.octaves;
     for (let i = 0; i < n_keys; i++) {
         for (const [noteName, isWhite] of Object.entries(notes)) {
-            let obj = handleConfig(noteName, config);
+            let obj = handleConfig(noteName, config, note_ac);
             let key = generateKey(obj, isWhite);
             if (isWhite)
                 whiteKeys.push(key)
             else
                 blackKeys.push(key)
+            note_ac++;
         }
     }
 
-    document.getElementById("container").innerHTML += `
+    document.getElementById(config.tag).innerHTML += `
     <div id="octave">
         <div class="blacks">
             ${blackKeysArrayToHtml(blackKeys)}
@@ -135,25 +184,3 @@ function generate (parameters) {
     </div>
     `
 }
-
-document.addEventListener("DOMContentLoaded", function(event) {
-    generate({
-        octaves: 1,
-        pressed_notes: ["C", "E", "G"],
-        relevant_notes: {
-            "C" : {
-                number: 1,
-                color: "yellow"
-            },
-            "E" : {
-                number: 3,
-                color: "blue"
-            },
-            "G" : {
-                number: 5,
-                color: "green"
-            }
-        }
-    })
-});
-
