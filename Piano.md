@@ -112,7 +112,6 @@ piano({
     tag: "piano_tutorial_3",
     octaves: 2,
     names: "all",
-    tonic: "C",
     pressed: ["C", "C"],
     relevant: {
         "A" : {
@@ -124,7 +123,6 @@ piano({
     tag: "piano_tutorial_4",
     octaves: 2,
     names: "all",
-    tonic: "C",
     relevant: {
         "C" : {
             color: "Green",
