@@ -49,8 +49,8 @@ explicaciones sobre digitación, técnica, etc.
 
 ## ¿Qué sí es esta guía?
 La forma en que yo hubiese querido adquirir conocimiento sobre teoría musical. 
-O no. No lo sé. Es difícil considerar cuál es la forma más adecuada a uno para 
-recibir un conocimiento una vez este ya se posee. En cualquier caso, sí pretende 
+O no. No lo sé. Es difícil considerar cuál es la forma más adecuada para 
+recibir una información una vez que esta ya se posee. En cualquier caso, sí pretende 
 tratar los temas en un orden y grado de complejidad que considero adecuados
 según mi experiencia personal.
 
