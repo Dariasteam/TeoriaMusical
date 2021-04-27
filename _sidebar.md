@@ -3,6 +3,7 @@
 * [Introducción](/)
 * [Un poco de física](Física.md)
 * [Notas y nomenclatura](Notas.md)
+* [Piano](Piano.md)
 * [Intervalos](Intervalos.md)
     * [Notas en el piano](#notas_piano)
     * [Lista de Intervalos](#lista_intervalos)

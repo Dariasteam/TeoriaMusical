@@ -150,7 +150,8 @@ entre varios pares de notas.
 | Nota 4 | 118,816Hz    | Nota 6 | 133,249Hz    | 14,433            | 9,23       |
 | Nota 6 | 133,249Hz    | Nota 8 | 149,435Hz    | 16,195            | 9,23       |
 
-Vemos que la proporción generada al movernos desde la Nota 2 a las Nota 4 (2 notas
+Vemos que a pesar de las distancias ser distintas,
+la proporción generada al movernos desde la Nota 2 a las Nota 4 (2 notas
 de distancia) es exactamente la misma que al movernos de la Nota 6 a la Nota 8 (de
 nuevo a dos notas de distancia). El cerebro igualmente interpreta el salto
 desde la Nota 2 a la 4 como una versión musicalmente indéntica al salto de la
@@ -240,9 +241,14 @@ solo nos dará las frecuencias de las 12 notas y sus octavas. Por contra, un ins
 como el violín cuyas notas dependen del punto exacto en el que pulse la cuerda el
 instrumentista, permiten crear cualquier frecuencia entre dos notas dadas. El
 uso de estas "notas intermedias" queda restringido normalmente a efectos
-momentáneos, como por ejemplo, frecuencias intermedias durante el desplazamiento suave
-de una nota a otra. Esto es así debido a la __disonancia__ que producen,
-concepto que se verá más adelante.
+momentáneos, como por ejemplo, las frecuencias intermedias que puedan sonar
+durante el desplazamiento suave de una nota a otra.
+Esto es así debido a la gran __disonancia__ que producen.
+
+> Entendemos por Disonancia o Tensión como la "incomodidad" que genera musicalmente
+la combinación de dos o más frecuencias. A mayor incomodidad, mayor disonancia.
+El aprovechamiento de la disonancia es fundamental para producir efectos
+musicales concretos.
 
 Un caso curioso es el de la guitarra, en la cual las notas
 están restringidas por los trastes del mástil, pero se puede conseguir notas intermedias estirando

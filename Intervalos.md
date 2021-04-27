@@ -2,7 +2,11 @@
 
 > Denominamos intervalo a una distancia medida en semitonos entre dos notas cualesquiera.
 
-Un intervalo es simplemente la relación de distancia que existe entre dos notas, con lo que, se definen en base a una nota inicial a partir de la cual nos desplazamos la cantidad adecuada para encontrar la segunda nota. Por ejemplo, un intervalo de 3 semitonos desde La significa que hablamos de las notas La y Do (puesto que Do se encuentra a 3 semitonos de distancia de La)
+Un intervalo es simplemente la relación de distancia que existe entre dos notas,
+con lo que, estos se definen en base a una nota inicial a partir de la cual nos
+desplazamos la cantidad adecuada para encontrar la segunda nota. Por ejemplo,
+un intervalo de 3 semitonos desde La significa que hablamos de las notas La y Do
+(puesto que Do se encuentra a 3 semitonos de distancia de La)
 
 | 1      | 2   | 3   | 4      | 5   | 6   | 7   | 8   | 9   | 10  | 11  | 12   |
 | ------ | --- | --- | ------ | --- | --- | --- | --- | --- | --- | --- | ---- |
@@ -14,63 +18,18 @@ Este otro ejemplo muestra un caso de intervalo de también 3 semitonos de distan
 | --- | --- | --- | --- | --- | ------ | --- | --- | ------ | --- | --- | ---- |
 | La  | La# | Si  | Do  | Do# | **Re** | Re# | Mi  | **Fa** | Fa# | Sol | Sol# |
 
-Recordemos del capítuloa anterior como los saltos entre notas a mismas distancias producían el mismo efecto musical. Podemos entonces reformular esta afirmación como "intervalos de misma amplitud producen un efecto musical similar".
+Recordemos del capítuloa anterior como los saltos entre notas a mismas distancias
+producían el mismo efecto musical. Podemos entonces reformular esta afirmación
+como "intervalos de misma amplitud producen un efecto musical similar".
 
 Cada intervalo tiene un nombre propio así como características
-musicales particulares, si bien no son todos de la misma relevancia. Mediante la combinación de intervalos seremos capaces de producir Acordes, Escalas y Tonalidades en capítulos posteriores.
+musicales particulares, si bien no son todos de la misma relevancia.
+Mediante la combinación de intervalos seremos capaces de producir Acordes,
+Escalas y Tonalidades en capítulos posteriores.
 
-!> La palabra intervalo a secas no tiene implicaciones sobre la forma en que deben ser tocadas las notas. Tanto si se toca una después de la otra como ambas a la vez, se hablará siempre de un mismo intervalo.
-
-<h2 id="notas_piano"> Notas en el piano </h2>
-
-Situemos en primer lugar cada una de las notas en un piano.
-
-<div id ="piano_1" class="piano_container">
-</div>
-
-En este caso estamos utilizando ambas notaciones al mismo tiempo, pero de ahora en adelante emplearemos exclusivamente la
-notación Americana.
-
-Resulta obvio que todas las notas con nombren propio tienen reservada una
-tecla de color blanco, mientras que las engras son para sostenidos / bemoles.
-Esta diferenciación tan notoria es casi exclusiva de los instrumentos similares
-al piano y la razón de su existencia se explicará más adelante.
-
-Dado que este diagrama aparecerá frecuentemente a lo largo del documento, conviene familiarizarse con él.
-
----
-
-<h4> Notas pulsadas </h4>
-
-Señalaremos en color rojo por defecto aquellas teclas que deban ser pulsadas para producir aquello que se esté explicando.
-
-<div id ="piano_tutorial_1" class="piano_container">
-</div>
-
-?> Ambos La y Do deben ser pulsados para producir este intervalo
-
----
-
-<h4> Notas relevantes </h4>
-En casos que así lo requieran, se marcarán con otros colores diferentes a rojo
-las teclas que produzcan notas de interés para la explicación, se deban o no pulsar.
-
-<div id ="piano_tutorial_2" class="piano_container">
-</div>
-
-?> Do debe ser pulsado y La es una tecla relevante en este contexto.
-
----
-
-<h4> Intervalos </h4>
-Cuando sea necesario, se añadirá el identificador del intervalo en la tecla correspondiente como un número o letra adicional.
-
-<div id ="piano_tutorial_3" class="piano_container">
-</div>
-
-?> La se encuentra a seis semitonos de distancia de Do. La es la nota 1 del intervalo y Do la 6.
-
----
+!> La palabra intervalo a secas no tiene implicaciones sobre la forma en que deben
+ser tocadas las notas. Tanto si se toca una después de la otra como ambas a la vez,
+se hablará siempre de un mismo intervalo.
 
 <h1 id="lista_intervalos"> Lista de Intervalos </h1>
 
