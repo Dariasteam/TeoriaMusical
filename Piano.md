@@ -117,18 +117,19 @@ piano({
     relevant: {
         "A" : {
             color: "Magenta",
-            text: "6"
         }
     }
 });
 piano({
     tag: "piano_tutorial_4",
     octaves: 2,
-    number: "pressed",
     names: "all",
     tonic: "C",
-    pressed: ["C"],
     relevant: {
+        "C" : {
+            color: "Green",
+            text: "1"
+        }
         "A" : {
             color: "Magenta",
             text: "9"
