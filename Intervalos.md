@@ -3,10 +3,9 @@
 > Denominamos intervalo a una distancia medida en semitonos entre dos notas cualesquiera.
 
 Un intervalo es simplemente la relación de distancia que existe entre dos notas,
-con lo que, estos se definen en base a una nota inicial a partir de la cual nos
-desplazamos la cantidad adecuada para encontrar la segunda nota. Por ejemplo,
-un intervalo de 3 semitonos desde La significa que hablamos de las notas La y Do
-(puesto que Do se encuentra a 3 semitonos de distancia de La)
+con lo que estos se definen en base a una nota inicial y a partir de la cual nos
+desplazamos un número de semitonos para encontrar la segunda nota. Por ejemplo,
+un intervalo de 3 semitonos desde La significa que hablamos de las notas La y Do.
 
 | 1      | 2   | 3   | 4      | 5   | 6   | 7   | 8   | 9   | 10  | 11  | 12   |
 | ------ | --- | --- | ------ | --- | --- | --- | --- | --- | --- | --- | ---- |
@@ -18,12 +17,13 @@ Este otro ejemplo muestra un caso de intervalo de también 3 semitonos de distan
 | --- | --- | --- | --- | --- | ------ | --- | --- | ------ | --- | --- | ---- |
 | La  | La# | Si  | Do  | Do# | **Re** | Re# | Mi  | **Fa** | Fa# | Sol | Sol# |
 
-Recordemos del capítuloa anterior como los saltos entre notas a mismas distancias
+Recordemos del capítulo anterior como los saltos entre notas a mismas distancias
 producían el mismo efecto musical. Podemos entonces reformular esta afirmación
 como "intervalos de misma amplitud producen un efecto musical similar".
 
 Cada intervalo tiene un nombre propio así como características
-musicales particulares, si bien no son todos de la misma relevancia.
+musicales particulares. En concreto, provocan _disonancias_ distintas,
+por lo que su relevancia varía según el contexto.
 Mediante la combinación de intervalos seremos capaces de producir Acordes,
 Escalas y Tonalidades en capítulos posteriores.
 
@@ -31,7 +31,23 @@ Escalas y Tonalidades en capítulos posteriores.
 ser tocadas las notas. Tanto si se toca una después de la otra como ambas a la vez,
 se hablará siempre de un mismo intervalo.
 
-<h1> Lista de Intervalos </h1>
+<h2> Jerga </h2>
+Antes de continuar introduzcamos brevemente una serie de palabras que aparecen
+recurrentemente para describir conceptos musicales. Estas son utilizadas con
+significados dependientes del contexto, y **no siempre aparecen o se usan como uno espera**.
+Aún asi, siguen una cierta lógica.
+
+- Mayor / Menor.
+- Aumentado / Disminudo: Se utiliza como sinónimo de posterior y anterior respectivamente.
+- Justo: Se utiliza como referencia para poder aplicar las palabras aumentado o disminuido.
+
+En líneas generales:
+
+- Si existe algo mayor existe a su vez un versión menor menor de eso mismo y viceversa.
+- Si existe algo justo existe a su vez una versión aumentada y otra disminuida de eso mismo.
+- Menor precede a Mayor
+
+<h2> Lista de Intervalos </h2>
 
 <h2> Primera o Unísono </h2>
 

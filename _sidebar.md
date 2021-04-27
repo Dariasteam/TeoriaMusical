@@ -5,7 +5,6 @@
 * [Notas y nomenclatura](Notas.md)
 * [Piano](Piano.md)
 * [Intervalos](Intervalos.md)
-* [Combinaciones de dos notas](Combinaciones.md)
 * [Acordes](Chords/chords.md)
     * [Triadas]()
         * [Mayor]()
