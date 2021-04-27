@@ -119,4 +119,19 @@ piano({
         }
     }
 });
+piano({
+    tag: "piano_tutorial_4",
+    octaves: 2,
+    names: "all",
+    relevant: {
+        "C" : {
+            color: "Green",
+            text: "0"
+        },
+        "A" : {
+            color: "Magenta",
+            text: "9"
+        }
+    }
+});
 </script>
