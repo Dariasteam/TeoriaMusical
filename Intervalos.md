@@ -32,10 +32,9 @@ ser tocadas las notas. Tanto si se toca una después de la otra como ambas a la 
 se hablará siempre de un mismo intervalo.
 
 <h2> Jerga </h2>
-Antes de continuar introduzcamos brevemente una serie de palabras que aparecen
-recurrentemente para describir conceptos musicales. Estas son utilizadas con
-significados dependientes del contexto, y **no siempre aparecen o se usan como uno espera**.
-Aún asi, siguen una cierta lógica.
+Antes de continuar introduzcamos brevemente una serie de palabras que veremos usarse
+para nombrar los intervalos. Estas palabras aparecen recurrentemente para describir conceptos musicales. aunque son usadas con significados dependientes del contexto, y **no siempre figuran o se usan de la manera espera**.
+Aún asi, siguen una cierta lógica y pueden esquematizarse como:
 
 - Mayor / Menor.
 - Aumentado / Disminudo: Se utiliza como sinónimo de posterior y anterior respectivamente.
@@ -47,6 +46,10 @@ En líneas generales:
 - Si existe algo justo existe a su vez una versión aumentada y otra disminuida de eso mismo.
 - Menor precede a Mayor
 
+---
+
+Por otra parte,
+
 <h2> Lista de Intervalos </h2>
 
 <h2> Primera o Unísono </h2>
@@ -55,6 +58,8 @@ En líneas generales:
 
 Tocado simultáneamente no produce un gran efecto musical, tan solo realza ligeramente la nota y eleva el volúmen.
 
+Tocado simultáneamente no provoca disonancia.
+
 <div id ="piano_2" class="piano_container">
 </div>
 
@@ -62,7 +67,9 @@ Tocado simultáneamente no produce un gran efecto musical, tan solo realza liger
 
 <h2> Segunda Menor </h2>
 
-> Intervalo producido entre una nota y aquella situada a 1 semitono de distancia. Se simboliza con el número 2 seguido de una **m minúscula** : **"2m"**
+> Intervalo producido entre una nota y aquella situada a 1 semitono de distancia. Se simboliza con el número 2 seguido de una **m minúscula** : **"2m"**.
+
+Tocado simultáneamente se considera provoca una disonancia alta.
 
 <div id ="piano_3" class="piano_container">
 </div>
@@ -71,7 +78,9 @@ Tocado simultáneamente no produce un gran efecto musical, tan solo realza liger
 
 <h2> Segunda Mayor </h2>
 
-> Intervalo producido entre una nota y aquella situada a 2 semitonos de distancia. Se simboliza con el número 2 seguido de una **M Mayúscula** : **"2M"**
+> Intervalo producido entre una nota y aquella situada a 2 semitonos de distancia. Se simboliza con el número 2 seguido de una **M Mayúscula** : **"2M"**.
+
+Tocado simultáneamente se considera que no provoca apenas disonancia.
 
 <div id ="piano_4" class="piano_container">
 </div>
@@ -81,6 +90,8 @@ Tocado simultáneamente no produce un gran efecto musical, tan solo realza liger
 <h2> Tercera Menor </h2>
 
 > Intervalo producido entre una nota y aquella situada a 3 semitonos de distancia. Se simboliza con el número 3 seguido de una **m minúscula** : **"3m"**
+
+Tocado simultáneamente se considera que no provoca apenas disonancia.
 
 <div id ="piano_5" class="piano_container">
 </div>
@@ -93,6 +104,8 @@ Tocado simultáneamente no produce un gran efecto musical, tan solo realza liger
 
 - Otros nombres: Cuarta disminuida
 
+Tocado simultáneamente se considera que no provoca disonancia.
+
 <div id ="piano_6" class="piano_container">
 </div>
 
@@ -103,6 +116,8 @@ Tocado simultáneamente no produce un gran efecto musical, tan solo realza liger
 > Intervalo producido entre una nota y aquella situada a 5 semitonos de distancia. Se simboliza con el número **"4"**
 
 - Otros nombres: Cuarta Justa
+
+Tocado simultáneamente se considera que no provoca apenas disonancia.
 
 <div id ="piano_7" class="piano_container">
 </div>
@@ -115,6 +130,11 @@ Tocado simultáneamente no produce un gran efecto musical, tan solo realza liger
 > Intervalo producido entre una nota y aquella situada a 6 semitonos de distancia. Se simboliza con el símbolo **"4a"** o **"4+"**.
 
 - Otros nombres: Quinta Disminuida, **Tritono**.
+
+Tocado simultáneamente se considera que provoca la mayor de las disonancias,
+por ello llegó a ser denominado [Diabolus in Musica](https://es.wikipedia.org/wiki/Tritono#Importancia_hist%C3%B3rica_del_tritono_en_la_m%C3%BAsica_occidental)
+
+
 
 <div id ="piano_8" class="piano_container">
 </div>

@@ -243,12 +243,12 @@ instrumentista, permiten crear cualquier frecuencia entre dos notas dadas. El
 uso de estas "notas intermedias" queda restringido normalmente a efectos
 momentáneos, como por ejemplo, las frecuencias intermedias que puedan sonar
 durante el desplazamiento suave de una nota a otra.
-Esto es así debido a la gran __disonancia__ que producen.
+Esto es así debido a la gran __disonancia__ que produce tocar simultáneamente dos
+frecuencias demasiado cercanas.
 
 > Entendemos por Disonancia o Tensión como la "incomodidad" que genera musicalmente
-la combinación de dos o más frecuencias. A mayor incomodidad, mayor disonancia.
-El aprovechamiento de la disonancia es fundamental para producir efectos
-musicales concretos.
+la combinación de dos o más frecuencias. A mayor incomodidad o "desagrado al oído",
+mayor disonancia. El aprovechamiento consciente de la disonancia es fundamental para producir efectos musicales concretos.
 
 Un caso curioso es el de la guitarra, en la cual las notas
 están restringidas por los trastes del mástil, pero se puede conseguir notas intermedias estirando
