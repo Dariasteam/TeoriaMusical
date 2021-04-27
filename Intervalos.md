@@ -4,15 +4,15 @@
 
 Un intervalo es simplemente la relación de distancia que existe entre dos notas, con lo que, se definen en base a una nota inicial a partir de la cual nos desplazamos la cantidad adecuada para encontrar la segunda nota. Por ejemplo, un intervalo de 3 semitonos desde La significa que hablamos de las notas La y Do (puesto que Do se encuentra a 3 semitonos de distancia de La)
 
-| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
-| - |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-   |
-| **La** | La# | Si | **Do** | Do# | Re | Re# | Mi | Fa| Fa# | Sol | Sol# |
+| 1      | 2   | 3   | 4      | 5   | 6   | 7   | 8   | 9   | 10  | 11  | 12   |
+| ------ | --- | --- | ------ | --- | --- | --- | --- | --- | --- | --- | ---- |
+| **La** | La# | Si  | **Do** | Do# | Re  | Re# | Mi  | Fa  | Fa# | Sol | Sol# |
 
 Este otro ejemplo muestra un caso de intervalo de también 3 semitonos de distancia entre Re y Fa.
 
-| 8 | 9 | 10 | 11 | 12 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-| - |-   |-  |-  |-   |-  |-  |-  |-  |-   |-  |-
-| La | La# | Si | Do | Do# |**Re** | Re# | Mi | **Fa** | Fa# | Sol | Sol#
+| 8   | 9   | 10  | 11  | 12  | 1      | 2   | 3   | 4      | 5   | 6   | 7    |
+| --- | --- | --- | --- | --- | ------ | --- | --- | ------ | --- | --- | ---- |
+| La  | La# | Si  | Do  | Do# | **Re** | Re# | Mi  | **Fa** | Fa# | Sol | Sol# |
 
 Recordemos del capítuloa anterior como los saltos entre notas a mismas distancias producían el mismo efecto musical. Podemos entonces reformular esta afirmación como "intervalos de misma amplitud producen un efecto musical similar".
 
