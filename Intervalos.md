@@ -35,9 +35,9 @@ se hablará siempre de un mismo intervalo.
 Antes de continuar, introduzcamos brevemente una serie de palabras que veremos usarse
 para nombrar los intervalos. Estas palabras aparecen recurrentemente para describir conceptos musicales. aunque son usadas con significados dependientes del contexto, y **no siempre figuran o se usan de la manera que uno espera**. Estas son:
 
-- Mayor / Menor.
-- Aumentado / Disminudo: Se utiliza como sinónimo de posterior y anterior respectivamente.
-- Justo: Se utiliza como referencia para poder aplicar las palabras aumentado o disminuido.
+- Mayor(M) y Menor(m).
+- Aumentado y Disminudo: Se utiliza como sinónimo de posterior y anterior respectivamente.
+- Justo: Se utiliza como punto de referencia para poder aplicar las palabras aumentado o disminuido.
 
 En líneas generales, siguen al siguiente lógica:
 
@@ -47,15 +47,11 @@ En líneas generales, siguen al siguiente lógica:
 
 ---
 
-Por otra parte, recordemos el concepto ya introducido de _tensión_ ó _disonancia_.
-Multitud de ídeas en música no son sino un simil o aproximación a una sensación
-subjetiva de como percibe cada uno la música. Encontraremos de ahora en adelante
-con frecuencia expresiones como "estas notas tienden a esta otra" o
+Por otra parte, recordemos el concepto ya introducido de _tensión_  (sinónimos: _disonancia_, _inestabilidad_). Multitud de ídeas en música no son sino un simil o aproximación a una sensación subjetiva de como percibe cada uno la música. Encontraremos de ahora en adelante con frecuencia expresiones como "estas notas tienden a esta otra" o
 "estas notas cierran o resuelven en esta otra". Se trata de ideas que resultan mucho
 más fáciles de asimilar y utilizar una vez se ha escuchado el motivo musical
 del que se está hablando, por eso es conveniente seguir la guía replicando
-lo aprendido sobre un isntrumento.
-
+lo aprendido sobre un instrumento.
 
 <h2> Lista de Intervalos </h2>
 
@@ -63,7 +59,7 @@ lo aprendido sobre un isntrumento.
 
 > Intervalo producido entre una nota y la misma repetida, estén o no en la misma octava. Se simboliza con el número **"1"**
 
-Tocado simultáneamente no produce un gran efecto musical, tan solo realza ligeramente la nota y eleva el volúmen. Tampoco provoca disonancia.
+Tocado simultáneamente no produce practicamente ningún efecto musical, tan solo realza ligeramente la nota y eleva el volúmen. POr razones obvias, no provoca disonancia.
 
 <div id ="piano_2" class="piano_container">
 </div>

@@ -5,14 +5,7 @@
 * [Notas y nomenclatura](Notas.md)
 * [Piano](Piano.md)
 * [Intervalos](Intervalos.md)
-* [Acordes](Chords/chords.md)
-    * [Triadas]()
-        * [Mayor]()
-        * [Menor]()
-        * [Suspendido 2]()
-        * [Suspendido 4]()
-    * [Séptima]()
-    * [Novena]()
-    * [Onceaba]()
-* [Escalas]()
+* [Introducción a las Escalas](Intro_Escalas.md)
 
+
+* [Glosario](Glosario.md)
