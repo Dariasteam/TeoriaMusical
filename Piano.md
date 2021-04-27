@@ -27,7 +27,7 @@ para producir aquel efecto musical que se esté explicando.
 <div id ="piano_tutorial_1" class="piano_container">
 </div>
 
-?> Ambos teclas Do y La siendo pulsadas
+?> Ambas teclas Do y La siendo pulsadas
 
 ---
 
@@ -63,7 +63,7 @@ en semitonos entre Do y La.
 <div id ="piano_tutorial_4" class="piano_container">
 </div>
 
-?> La se encuentra a seis semitonos de distancia de Do.
+?> La se encuentra a nueve semitonos de distancia de Do.
 
 ---
 
@@ -111,7 +111,6 @@ piano({
 piano({
     tag: "piano_tutorial_3",
     octaves: 2,
-    number: "pressed",
     names: "all",
     tonic: "C",
     pressed: ["C", "C"],
@@ -124,7 +123,7 @@ piano({
 });
 piano({
     tag: "piano_tutorial_4",
-    octaves: 1,
+    octaves: 2,
     number: "pressed",
     names: "all",
     tonic: "C",
@@ -132,7 +131,7 @@ piano({
     relevant: {
         "A" : {
             color: "Magenta",
-            text: "6"
+            text: "9"
         }
     }
 });
