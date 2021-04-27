@@ -129,7 +129,7 @@ piano({
         "C" : {
             color: "Green",
             text: "1"
-        }
+        },
         "A" : {
             color: "Magenta",
             text: "9"
