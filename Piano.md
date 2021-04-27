@@ -1,4 +1,4 @@
-<h2 id="notas_piano"> Notas en el piano </h2>
+<h2> Notas en el piano </h2>
 
 Situemos a continuacion cada una de las 12 notas sobre un piano.
 

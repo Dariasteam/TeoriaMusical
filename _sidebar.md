@@ -5,8 +5,6 @@
 * [Notas y nomenclatura](Notas.md)
 * [Piano](Piano.md)
 * [Intervalos](Intervalos.md)
-    * [Notas en el piano](#notas_piano)
-    * [Lista de Intervalos](#lista_intervalos)
 * [Combinaciones de dos notas](Combinaciones.md)
 * [Acordes](Chords/chords.md)
     * [Triadas]()

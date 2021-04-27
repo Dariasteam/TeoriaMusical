@@ -31,7 +31,7 @@ Escalas y Tonalidades en capítulos posteriores.
 ser tocadas las notas. Tanto si se toca una después de la otra como ambas a la vez,
 se hablará siempre de un mismo intervalo.
 
-<h1 id="lista_intervalos"> Lista de Intervalos </h1>
+<h1> Lista de Intervalos </h1>
 
 <h2> Primera o Unísono </h2>
 
