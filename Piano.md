@@ -45,13 +45,14 @@ se explicará si la tecla relevante debe ser o no pulsada.
 
 <h4> Octavas </h4>
 En la mayoría de ocasiones se mostrará un piano con una amplitud de 2 octavas
-mínimo. Ten en cuenta si lees esto desde un dispositivo móvil para hacer scroll
+mínimo. Ten en cuenta esto si estás usando un dispositivo móvil para hacer scroll
 horizontalmente.
 
 <div id ="piano_tutorial_3" class="piano_container">
 </div>
 
-?> Dos teclas de Do son pulsadas y La es una nota relevante
+?> Dos teclas de Do son pulsadas y La es una nota relevante. Prueba a deslizar el
+teclado si no se ven todas las teclas.
 
 ---
 
