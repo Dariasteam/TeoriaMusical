@@ -6,6 +6,4 @@
 * [Piano](Piano.md)
 * [Intervalos](Intervalos.md)
 * [Introducción a las Escalas](Intro_Escalas.md)
-
-
 * [Glosario](Glosario.md)

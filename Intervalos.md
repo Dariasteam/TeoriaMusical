@@ -92,7 +92,8 @@ Tocado simultáneamente se considera que no provoca apenas disonancia.
 
 > Intervalo producido entre una nota y aquella situada a 3 semitonos de distancia. Se simboliza con el número 3 seguido de una **m minúscula** : **"3m"**
 
-Junto a la tercera Mayor, es uno de los intervalos más importantes.
+Junto a la tercera Mayor, es uno de los intervalos más importantes y aporta la
+sonoridad de "menor".
 
 Tocado simultáneamente se considera que no provoca apenas disonancia.
 
@@ -107,7 +108,8 @@ Tocado simultáneamente se considera que no provoca apenas disonancia.
 
 - Otros nombres: Cuarta disminuida
 
-Junto a la tercera Menor, es uno de los intervalos más importantes.
+Junto a la tercera Menor, es uno de los intervalos más importantes y aporta la
+sonoridad de "Mayor".
 
 Tocado simultáneamente se considera que no provoca disonancia.
 
