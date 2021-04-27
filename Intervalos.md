@@ -273,37 +273,4 @@ piano({
     tonic: "F",
     pressed: ["F", "E"],
 });
-piano({
-    tag: "piano_tutorial_1",
-    octaves: 1,
-    names: "all",
-    tonic: "C",
-    pressed: ["C", "A"],
-});
-piano({
-    tag: "piano_tutorial_2",
-    octaves: 1,
-    names: "all",
-    tonic: "C",
-    pressed: ["C"],
-    relevant: {
-        "A" : {
-            color: "Magenta"
-        }
-    }
-});
-piano({
-    tag: "piano_tutorial_3",
-    octaves: 1,
-    number: "pressed",
-    names: "all",
-    tonic: "C",
-    pressed: ["C"],
-    relevant: {
-        "A" : {
-            color: "Magenta",
-            text: "6"
-        }
-    }
-});
 </script>
