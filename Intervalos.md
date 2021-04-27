@@ -178,26 +178,6 @@ Tocado simultáneamente no produce un gran efecto musical, tan solo realza liger
 <link rel="stylesheet" href="PianoGenerator/style.css">
 <script>
 piano({
-    tag: "piano_1",
-    octaves: 1,
-    names: "all",
-    tonic: "E",
-    relevant: {
-        "C"  : { text: "Do" },
-        "C#" : { text: "Do#" },
-        "D"  : { text: "Re" },
-        "D#" : { text: "Re#" },
-        "E"  : { text: "Mi" },
-        "F"  : { text: "Fa" },
-        "F#" : { text: "Fa#" },
-        "G"  : { text: "Sol" },
-        "G#" : { text: "Sol#" },
-        "A"  : { text: "La" },
-        "A#" : { text: "La#" },
-        "B"  : { text: "Si" }
-    }
-});
-piano({
     tag: "piano_2",
     octaves: 2,
     names: "all",
