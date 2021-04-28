@@ -44,7 +44,7 @@ Normalmente la forma de expresar una escala no es haciendo referencia todo el ra
 
     - Tónica
     - 3     <- Hay 3 semitonos de distancia con su nota anterior.
-    - 1     <- Hay 1 semitono de distancia con su nota anterior.
+    - 1     <- Hay 1 semitonos de distancia con su nota anterior.
     - 3     <- Hay 3 semitonos de distancia con su nota anterior.
     - 5     <- Hay 5 semitonos de distancia con su nota anterior
 
