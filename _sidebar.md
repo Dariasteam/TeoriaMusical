@@ -1,9 +1,9 @@
 <!-- docs/_sidebar.md -->
 
 * [Introducción](/)
-* [Un poco de física](Física.md)
-* [Notas y nomenclatura](Notas.md)
-* [Piano](Piano.md)
-* [Intervalos](Intervalos.md)
-* [Introducción a las Escalas](Intro_Escalas.md)
-* [Glosario](Glosario.md)
+* [Un poco de física](Content/Física.md)
+* [Notas y nomenclatura](Content/Notas.md)
+* [Piano](Content/Piano.md)
+* [Intervalos](Content/Intervalos.md)
+* [Introducción a las Escalas](Content/Intro_Escalas.md)
+* [Glosario](Content/Glosario.md)

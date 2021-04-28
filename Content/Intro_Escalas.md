@@ -1,14 +1,12 @@
 <h1> Introducción a las escalas </h1>
 
-> Una escala es un conjunto de intervalos y una nota raíz o **tónica**. Con estos
-elementeos podemos obtener una serie de notas concretas a las que restringirnos para usar en una melodía.
+> Una escala es un conjunto de intervalos y una nota raíz o **tónica** a partir de la cual podemos obtener una serie de notas concretas a las que restringirnos para usar en una melodía.
 
 Cada escala posee unas características musicales propias. Conocerlas nos ayudará
 a componer música con un cierto grado de conciencia, permitiéndonos conseguir piezas que _"suenen a"_  (un estilo concreto, una banda...) o _"suenen como"_ (un concepto, otra obra...) en lugar de vernos limitados a un sistema de prueba y error a ciegas.
 
 Por ejemplo, una escala inventada podría ser aquella que contiene una tónica, su intervalo de tercera menor, su intervalo de tercera mayor y su intervalo de quinta.
-Si llamamos a esta escala, "_Escala Icónica_", al utilizar Do como tónica obtendremos
-la "_Escala Icónica" de Do_
+Si llamamos a esta escala, "_Escala Icónica_", al utilizar Do como tónica obtendremos la "_Escala Icónica" de Do_.
 
 <div id ="piano_0" class="piano_container"></div>
 
@@ -85,7 +83,7 @@ detalladamente el por qué de esto.
 
 Esta escala posee la siguiente relación de intervalos: `Tónica - 2 - 2 - 1 - 2 - 2 - 2 - 1`. Dado que el intervalo de mayor tamaño es de un tono, se puede escribir también con abreviaturas para tono y semitono: `Tónica - T - T - st - T - T - T - st`.
 
-Escala Diatónica de Do:
+Escala Do Mayor:
 
 
     C D E F G A B C
@@ -98,9 +96,22 @@ Escala Diatónica de Do:
 
 ?> Vemos que las notas que tienen nombre propio (y por ende tecla blanca en el piano) son justo las de la escala de de Do Mayor. Esto nos da una idea de la importancia de esta escala.
 
-No incidiremos mucho aquí en la sonoridad musical de esta escala en su conjunto
-ya que es un tema que se tratará en profundiad en el apartado de modos. Basta decir
-que suena agradable al oído, feliz y predecible. Estamos muy acostumbrados a escucharla y sabemos cómo se comporta.
+Otro ejemplo de la misma escala pero esta vez con tónica en La.
+
+Escala de La Mayor:
+
+
+    A B C# D E F# G# A
+     U U  V U U  U  V
+
+
+<div id ="piano_3" class="piano_container"></div>
+
+> Escala de La mayor en el piano con amplitud de dos octavas
+
+No incidiremos mucho aquí en la sonoridad musical que proporciona
+ya que es un tema que se tratará en profundiad en el apartado de modos. Basta decir que suena agradable al oído, feliz y predecible.
+Estamos muy acostumbrados a escucharla y sabemos cómo se comporta.
 
 <link rel="stylesheet" href="PianoGenerator/style.css">
 <script>
@@ -125,8 +136,8 @@ piano({
     tonic: "D",
     relevant: {
         "D"  : { color: "orange" },
-        "F" : { color: "orange" },
-        "F#"  : { color: "orange" },
+        "F"  : { color: "orange" },
+        "F#" : { color: "orange" },
         "A"  : { color: "orange" },
     }
 });
@@ -136,13 +147,28 @@ piano({
     names: "relevant",
     tonic: "C",
     relevant: {
-        "C"  : { color: "orange" },
+        "C" : { color: "orange" },
         "D" : { color: "orange" },
-        "E"  : { color: "orange" },
-        "F"  : { color: "orange" },
-        "G"  : { color: "orange" },
-        "A"  : { color: "orange" },
-        "B"  : { color: "orange" },
+        "E" : { color: "orange" },
+        "F" : { color: "orange" },
+        "G" : { color: "orange" },
+        "A" : { color: "orange" },
+        "B" : { color: "orange" },
+    }
+});
+piano({
+    tag: "piano_3",
+    octaves: 2,
+    names: "relevant",
+    tonic: "C",
+    relevant: {
+        "A" : { color: "orange" },
+        "B" : { color: "orange" },
+        "C#" : { color: "orange" },
+        "D" : { color: "orange" },
+        "E" : { color: "orange" },
+        "F#" : { color: "orange" },
+        "G#" : { color: "orange" },
     }
 });
 </script>
