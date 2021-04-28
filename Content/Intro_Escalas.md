@@ -64,7 +64,7 @@ Escala Icónica colocando los nombres de los intervalos:
 - UV: Tono y medio = 3
 - UUV: Dos tonos y medio = 5
 
-Normalmente esta manera se utiliza como primer paso para calcular las notas de una  escala para una tónica en concreto, completando entre los símbolos de tono y semitono las notas que se corresponden cono dichas distancias.
+Normalmente esta manera se utiliza como primer paso para calcular las notas de una  escala para una tónica en concreto, completando entre los símbolos de tono y semitono las notas que se corresponden con dichas distancias.
 
 
 Escala Icónica de Re:
@@ -94,7 +94,7 @@ Escala Do Mayor:
 
 > Escala de Do mayor en el piano con amplitud de dos octavas
 
-?> Vemos que las notas que tienen nombre propio (y por ende tecla blanca en el piano) son justo las de la escala de de Do Mayor. Esto nos da una idea de la importancia de esta escala.
+?> Vemos que las notas que tienen nombre propio (y por ende tecla blanca en el piano) son justo las de la escala de Do Mayor. Esto nos da una idea de la importancia de esta escala.
 
 Otro ejemplo de la misma escala pero esta vez con tónica en La.
 
