@@ -47,7 +47,7 @@ piano({
     names: "all",
     tonic: "C",
     relevant: {
-        "C"   : { color:  "orange" },
+        "E"   : { color:  "orange" },
         "F#"  : { color:  "green" },
         "G#"  : { color:  "green" },
     }
