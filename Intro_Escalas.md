@@ -96,7 +96,7 @@ Escala Diatónica de Do:
 
 > Escala de Do mayor en el piano con amplitud de dos octavas
 
-?> Vemos que las notas que tienen nombre propio (y por ende tecla blanca en el piano) son justo las de la escala de de Do Mayor. Esto nos da una idea de la importancia de esta escala.
+?> Vemos que las notas que tienen nombre propio (y por ende tecla blanca en el piano) son justo las de la escala de Do Mayor. Esto nos da una idea de la importancia de esta escala.
 
 No incidiremos mucho aquí en la sonoridad musical de esta escala en su conjunto
 ya que es un tema que se tratará en profundiad en el apartado de modos. Basta decir
