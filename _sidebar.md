@@ -6,5 +6,5 @@
 * [Piano](Content/Piano.md)
 * [Intervalos](Content/Intervalos.md)
 * [Introducción a las Escalas](Content/Intro_Escalas.md)
-* [Introducción a los Acordes](Content/Intro_Acordes_.md)
+* [Introducción a los Acordes](Content/Intro_Acordes.md)
 * [Glosario](Content/Glosario.md)
