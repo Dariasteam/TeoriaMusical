@@ -205,20 +205,19 @@ function piano (parameters) {
 
 function getAudioFile(note) {
     note = note.replace("#", "sharp");
-    let file = "" + "Notes/" + note + ".ogg";
+    let file = "" + "PianoGenerator/Notes/" + note + ".ogg";
     return new Audio(file);
 }
 
 function playNote(note) {
     let audio = getAudioFile(note);
-    playSequential();
+    audio.play();
 }
 
 async function playPiano (timeOffset) {
     let audios = [];
     let ac = 0;
     pressed_notes.forEach(note =>  {
-        console.log(note);
         audios.push(getAudioFile(note));
     });
     audios.forEach(async audio => {
