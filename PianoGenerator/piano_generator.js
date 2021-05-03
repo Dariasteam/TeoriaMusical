@@ -28,6 +28,8 @@ let interval_names = [
     "7M"
 ]
 
+let audio_files = {}
+
 function getIntervalName (index) {
     return interval_names[index % 12];
 }
@@ -232,22 +234,15 @@ function generateControls (pressed_notes, controls) {
     return c;
 }
 
-function getAudioFile(note) {
-    note = note.replace("#", "sharp");
-    let file = "" + "PianoGenerator/Notes/" + note + ".ogg";
-    return new Audio(file);
-}
-
 function playNote(note) {
-    let audio = getAudioFile(note);
-    audio.play();
+    audio_files[note].play();
 }
 
 async function playPiano (notes, timeOffset) {
     let audios = [];
     let ac = 0;
     notes.forEach(note =>  {
-        audios.push(getAudioFile(note));
+        audios.push(audio_files[note]);
     });
     audios.forEach(async audio => {
         setTimeout(() => {audio.play();}, ac)
@@ -276,3 +271,15 @@ function playSpring (notes) {
 function playSync(notes) {
     playPiano(notes, 0);
 }
+
+function preloadAudioFiles() {
+    for (let i = 0; i < 2; i++) {
+        for (const [key, value] of Object.entries(notes)) {
+            let note = key.replace("#", "sharp");
+            let file = "PianoGenerator/Notes/" + note + i + ".ogg";
+            audio_files[key + i] =  new Audio(file);
+        }
+    }
+}
+
+preloadAudioFiles();
