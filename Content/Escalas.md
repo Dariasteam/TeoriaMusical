@@ -28,6 +28,11 @@ piano({
         "A"  : { color: "aqua" },
         "A#" : { color: "blue" },
         "B"  : { color: "navy" }
-    }
+    },
+    controls: [
+        "up",
+        "down",
+        "spring"
+    ]
 });
 </script>

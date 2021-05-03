@@ -219,6 +219,7 @@ piano({
     number: "pressed",
     tonic: "D",
     pressed: ["D", "D"],
+    controls: ["sync", "spring"]
 });
 piano({
     tag: "piano_3",
@@ -227,6 +228,7 @@ piano({
     number: "pressed",
     tonic: "G",
     pressed: ["G", "G#"],
+    controls: ["sync", "spring"]
 });
 piano({
     tag: "piano_4",
@@ -235,6 +237,7 @@ piano({
     number: "pressed",
     tonic: "B",
     pressed: ["B", "C#"],
+    controls: ["sync", "spring"]
 });
 piano({
     tag: "piano_5",
@@ -243,6 +246,7 @@ piano({
     number: "pressed",
     tonic: "F",
     pressed: ["F", "G#"],
+    controls: ["sync", "spring"]
 });
 piano({
     tag: "piano_6",
@@ -251,6 +255,7 @@ piano({
     number: "pressed",
     tonic: "B",
     pressed: ["B", "D#"],
+    controls: ["sync", "spring"]
 });
 piano({
     tag: "piano_7",
@@ -259,6 +264,7 @@ piano({
     number: "pressed",
     tonic: "F#",
     pressed: ["F#", "B"],
+    controls: ["sync", "spring"]
 });
 piano({
     tag: "piano_8",
@@ -267,6 +273,7 @@ piano({
     number: "pressed",
     tonic: "E",
     pressed: ["E", "A#"],
+    controls: ["sync", "spring"]
 });
 piano({
     tag: "piano_9",
@@ -275,6 +282,7 @@ piano({
     number: "pressed",
     tonic: "A",
     pressed: ["A", "E"],
+    controls: ["sync", "spring"]
 });
 piano({
     tag: "piano_10",
@@ -283,6 +291,7 @@ piano({
     number: "pressed",
     tonic: "G#",
     pressed: ["G#", "E"],
+    controls: ["sync", "spring"]
 });
 piano({
     tag: "piano_11",
@@ -291,6 +300,7 @@ piano({
     number: "pressed",
     tonic: "D#",
     pressed: ["D#", "C"],
+    controls: ["sync", "spring"]
 });
 piano({
     tag: "piano_12",
@@ -299,6 +309,7 @@ piano({
     number: "pressed",
     tonic: "C",
     pressed: ["C", "A#"],
+    controls: ["sync", "spring"]
 });
 piano({
     tag: "piano_13",
@@ -307,5 +318,6 @@ piano({
     number: "pressed",
     tonic: "F",
     pressed: ["F", "E"],
+    controls: ["sync", "spring"]
 });
 </script>

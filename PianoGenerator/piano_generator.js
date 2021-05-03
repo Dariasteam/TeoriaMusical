@@ -28,8 +28,6 @@ let interval_names = [
     "7M"
 ]
 
-let pressed_notes = [];
-
 function getIntervalName (index) {
     return interval_names[index % 12];
 }
@@ -96,7 +94,7 @@ function blackKeysArrayToHtml (blackKeys) {
     return html;
 }
 
-function handleConfig (noteName, config, note_ac) {
+function handleConfig (noteName, config, note_ac, pressed_notes, octave) {
     let obj = {};
 
     let pressed = false;
@@ -104,7 +102,7 @@ function handleConfig (noteName, config, note_ac) {
         let candidate = config.pressed[0];
         if (candidate == noteName) {
             pressed = true;
-            let fileName = config.pressed[0] + (Math.floor(note_ac / 12) - 1);
+            let fileName = "" + config.pressed[0] + octave;
             pressed_notes.push (fileName);
             config.pressed.shift();
             obj["background"] = "red";
@@ -169,10 +167,13 @@ function piano (parameters) {
         number: "none",
         tonic: "C",
         relevant: {},
-        pressed: []
+        pressed: [],
+        controls: ["sync", "spring"]
     };
 
     handleObjectWithOptionals(parameters, config)
+
+    let pressed_notes = [];
 
     let whiteKeys = [];
     let blackKeys = [];
@@ -180,7 +181,7 @@ function piano (parameters) {
     let n_keys = config.octaves;
     for (let i = 0; i < n_keys; i++) {
         for (const [noteName, isWhite] of Object.entries(notes)) {
-            let obj = handleConfig(noteName, config, note_ac);
+            let obj = handleConfig(noteName, config, note_ac, pressed_notes, i);
             let key = generateKey(obj, isWhite, noteName, i);
             if (isWhite)
                 whiteKeys.push(key)
@@ -200,7 +201,35 @@ function piano (parameters) {
             ${whiteKeys.join('')}
         </div>
     </div>
+
+    <div>
+        ${generateControls(pressed_notes, config.controls)}
+    </div>
     `
+}
+
+function generateControls (pressed_notes, controls) {
+    let c = ``;
+
+    if (pressed_notes.length > 0) {
+        let p_notes = "['" + pressed_notes[0] + "'";
+        pressed_notes.shift();
+        pressed_notes.forEach(noteName => {
+            p_notes += ",'" + noteName + "'";
+        })
+        p_notes += "]";
+
+
+        if (controls.includes("sync"))
+            c += `<button onclick="playSync(${p_notes});">Simultáneo</button>`
+        if (controls.includes("up"))
+            c += `<button onclick="playUp(${p_notes});">Ascendente</button>`
+        if (controls.includes("down"))
+            c += `<button onclick="playDown(${p_notes});">Descendente</button>`
+        if (controls.includes("spring"))
+            c += `<button onclick="playSpring(${p_notes});">Rebote</button>`
+    }
+    return c;
 }
 
 function getAudioFile(note) {
@@ -214,10 +243,10 @@ function playNote(note) {
     audio.play();
 }
 
-async function playPiano (timeOffset) {
+async function playPiano (notes, timeOffset) {
     let audios = [];
     let ac = 0;
-    pressed_notes.forEach(note =>  {
+    notes.forEach(note =>  {
         audios.push(getAudioFile(note));
     });
     audios.forEach(async audio => {
@@ -226,10 +255,24 @@ async function playPiano (timeOffset) {
     });
 }
 
-function playSequential () {
-    playPiano(500);
+function playUp (notes) {
+    playPiano(notes, 500);
 }
 
-function playSimultaneous() {
-    playPiano(0);
+function playDown (notes) {
+    playPiano(notes.reverse(), 500);
+}
+
+function playSpring (notes) {
+    let notes1 = [...notes];
+    let notes2 = notes.reverse();
+    notes2.shift();
+    notes2.forEach(note => {
+        notes1.push(note);
+    });
+    playPiano(notes1, 500);
+}
+
+function playSync(notes) {
+    playPiano(notes, 0);
 }
