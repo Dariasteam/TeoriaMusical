@@ -13,7 +13,7 @@ let notes = {
     "B"  : true
 }
 
-let names = [
+let interval_names = [
     "1",
     "2m",
     "2M",
@@ -28,8 +28,10 @@ let names = [
     "7M"
 ]
 
+let pressed_notes = [];
+
 function getIntervalName (index) {
-    return names[index % 12];
+    return interval_names[index % 12];
 }
 
 function handleObjectWithOptionals (obj, defaultObj) {
@@ -40,7 +42,7 @@ function handleObjectWithOptionals (obj, defaultObj) {
     }
 }
 
-function generateKey (parameters, isWhite) {
+function generateKey (parameters, isWhite, noteName, octave) {
     let obj = {
         name: "",
         background: isWhite ? "white" : "black",
@@ -53,9 +55,9 @@ function generateKey (parameters, isWhite) {
 
     return `
     <div class="${obj.keyType}-key"
-         style="background: ${obj.background};
-                color: ${obj.color};
-         ">
+         onclick="event.stopPropagation(); playNote('${noteName + octave}');"
+         style="background: ${obj.background}; color: ${obj.color};"
+        >
         <span>
             ${obj.text}
             <br>
@@ -102,6 +104,8 @@ function handleConfig (noteName, config, note_ac) {
         let candidate = config.pressed[0];
         if (candidate == noteName) {
             pressed = true;
+            let fileName = config.pressed[0] + (Math.floor(note_ac / 12) - 1);
+            pressed_notes.push (fileName);
             config.pressed.shift();
             obj["background"] = "red";
         }
@@ -177,7 +181,7 @@ function piano (parameters) {
     for (let i = 0; i < n_keys; i++) {
         for (const [noteName, isWhite] of Object.entries(notes)) {
             let obj = handleConfig(noteName, config, note_ac);
-            let key = generateKey(obj, isWhite);
+            let key = generateKey(obj, isWhite, noteName, i);
             if (isWhite)
                 whiteKeys.push(key)
             else
@@ -197,4 +201,36 @@ function piano (parameters) {
         </div>
     </div>
     `
+}
+
+function getAudioFile(note) {
+    note = note.replace("#", "sharp");
+    let file = "" + "Notes/" + note + ".ogg";
+    return new Audio(file);
+}
+
+function playNote(note) {
+    let audio = getAudioFile(note);
+    playSequential();
+}
+
+async function playPiano (timeOffset) {
+    let audios = [];
+    let ac = 0;
+    pressed_notes.forEach(note =>  {
+        console.log(note);
+        audios.push(getAudioFile(note));
+    });
+    audios.forEach(async audio => {
+        setTimeout(() => {audio.play();}, ac)
+        ac += timeOffset;
+    });
+}
+
+function playSequential () {
+    playPiano(500);
+}
+
+function playSimultaneous() {
+    playPiano(0);
 }

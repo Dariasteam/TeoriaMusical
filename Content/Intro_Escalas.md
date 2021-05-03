@@ -83,7 +83,7 @@ detalladamente el por qué de esto.
 
 Esta escala posee la siguiente relación de intervalos: `Tónica - 2 - 2 - 1 - 2 - 2 - 2 - 1`. Dado que el intervalo de mayor tamaño es de un tono, se puede escribir también con abreviaturas para tono y semitono: `Tónica - T - T - st - T - T - T - st`.
 
-Escala Do Mayor:
+Escala Do Mayor y sus intervalos:
 
 
     C D E F G A B C
@@ -98,7 +98,7 @@ Escala Do Mayor:
 
 Otro ejemplo de la misma escala pero esta vez con tónica en La.
 
-Escala de La Mayor:
+Escala de La Mayor y sus intervalos:
 
 
     A B C# D E F# G# A
