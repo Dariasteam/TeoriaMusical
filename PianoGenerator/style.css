@@ -1,5 +1,28 @@
 * {margin: 0; padding: 0;}
 
+i {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    color: red;
+}
+
+.bSync {
+    background: url('Icons/sync.svg');
+}
+
+.bUp {
+    background-image: url('Icons/up.svg');
+}
+
+.bDown {
+    background-image: url('Icons/up.svg');
+}
+
+.bSpring {
+    background-image: url('Icons/spring.svg');
+}
+
 .piano_container{
     margin-top: 1.5vh;
     margin-bottom: 1.5vh;

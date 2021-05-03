@@ -56,3 +56,6 @@ según mi experiencia personal.
 
 ## Licencia
 > [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+- [Hero Icons](https://heroicons.dev/)
+- [Docsify](https://github.com/docsifyjs/docsify/)

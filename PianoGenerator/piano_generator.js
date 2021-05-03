@@ -221,15 +221,22 @@ function generateControls (pressed_notes, controls) {
         })
         p_notes += "]";
 
-
         if (controls.includes("sync"))
-            c += `<button onclick="playSync(${p_notes});">Simultáneo</button>`
+            c += `
+                    <i class="bSync" onclick="playSync(${p_notes});"></i>
+                  `
         if (controls.includes("up"))
-            c += `<button onclick="playUp(${p_notes});">Ascendente</button>`
+            c += `
+                  <i class="bUp" onclick="playUp(${p_notes});"></i>
+                  `
         if (controls.includes("down"))
-            c += `<button onclick="playDown(${p_notes});">Descendente</button>`
+            c += `
+                    <i class="bDown" onclick="playDown(${p_notes});"></i>
+                  `
         if (controls.includes("spring"))
-            c += `<button onclick="playSpring(${p_notes});">Rebote</button>`
+            c += `
+                  <i class="bSpring" onclick="playSpring(${p_notes});"></i>
+                  `
     }
     return c;
 }
