@@ -13,9 +13,7 @@ tecla de blanca, mientras que las negras son para sostenidos / bemoles.
 Esta diferenciación tan notoria es casi exclusiva de los instrumentos semejantes
 al piano y la razón de su existencia se explicará más adelante.
 
-Utilizaremos este diagrama de un piano para explicar multitud de conceptos,
-hablando indistintamente de teclas y notas como si fuesen sinónimos, por lo que
-conviene familiarizarse con él.
+> ¡El piano es interactivo! Explicar conceptos musicales sin poder escucharlos es bastante poco furctífero. Si no tienes a mano un instrumento, puedes pulsar sobre las teclas de los pianos que veas y escucharás las correspondientes notas.
 
 ---
 
@@ -65,6 +63,22 @@ en semitonos entre Do y La.
 </div>
 
 ?> La se encuentra a nueve semitonos de distancia de Do.
+
+<h4> Autoreproductor </h4>
+Cuando sea relevante, aparecerá un botón de play que al pulsarlo
+reproducirá todas las notas señaladas en rojo al mismo tiempo.
+
+<div id ="piano_tutorial_5" class="piano_container">
+</div>
+
+?> Pulsa play para escuchar las notas simultáneas
+
+En otras ocasiones o como combinación a lo anterior, podrá aparecer también el icono con dos flechas que provoca la reproducción de las notas señaladas de forma secuencial, ascendiendo y descendiendo.
+
+<div id ="piano_tutorial_6" class="piano_container">
+</div>
+
+?> Pulsa las flechas para escuchar las notas en secuencia
 
 ---
 
@@ -134,5 +148,23 @@ piano({
             text: "9"
         }
     }
+});
+piano({
+    tag: "piano_tutorial_5",
+    octaves: 2,
+    names: "all",
+    pressed: [
+        "F#", "B", "D", "F#"
+    ],
+    controls: ["sync"]
+});
+piano({
+    tag: "piano_tutorial_6",
+    octaves: 2,
+    names: "all",
+    pressed: [
+        "F#", "B", "D", "F#"
+    ],
+    controls: ["spring"]
 });
 </script>

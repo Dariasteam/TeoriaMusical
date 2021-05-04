@@ -170,7 +170,7 @@ function piano (parameters) {
         tonic: "C",
         relevant: {},
         pressed: [],
-        controls: ["sync", "spring"]
+        controls: []
     };
 
     handleObjectWithOptionals(parameters, config)

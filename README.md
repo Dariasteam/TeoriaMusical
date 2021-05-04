@@ -5,10 +5,9 @@ y no volverse muy loco por el camino.
 
 ## Consideraciones Previas
 Conviene tener acceso a un piano / teclado musical o programa que lo imite.
-A lo largo de los apartados aquí descritos se utilizarán diagramas de un teclado
-para explicar algunos conceptos. Existen multitud de aplicaciones móviles, programas
-de escritorio e incluso páginas web que nos muestran la teclas de un piano y nos
-permiten interactuar con ellas. A título personal, yo utilizo [Semitone](ttps://f-droid.org/es/packages/mn.tck.semitone/) en mi móvil.
+Si bien esta guía incluye audio en las explicaciones, siempre es más conveniente tener un aparato o programa dedicado a esta tarea.
+
+A título personal, yo utilizo [Semitone](ttps://f-droid.org/es/packages/mn.tck.semitone/) en mi móvil.
 
 ## Prefacio
 La teoría musical es desastrosa. No es mi culpa. Está llena de redundancias,
