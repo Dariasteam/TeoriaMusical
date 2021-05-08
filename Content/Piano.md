@@ -73,9 +73,18 @@ reproducirá todas las notas señaladas en rojo al mismo tiempo.
 
 ?> Pulsa play para escuchar las notas simultáneas
 
-En otras ocasiones o como combinación a lo anterior, podrá aparecer también el icono con dos flechas que provoca la reproducción de las notas señaladas de forma secuencial, ascendiendo y descendiendo.
+Los botones con flechas ascedentes y descendentes permitirán
+reproducir las notas en secuencia de izquierda a derecha o de derecha a izquierda respectivamente
 
 <div id ="piano_tutorial_6" class="piano_container">
+</div>
+
+?> Pulsa las flechas para escuchar las notas en secuencia ascendente o descendente
+
+
+Por último, el icono con dos flechas provoca la reproducción de las notas señaladas de forma secuencial, ascendiendo y descendiendo pero sin repetir dos veces seguidas la nota más alta (nota situada más a la derecha).
+
+<div id ="piano_tutorial_7" class="piano_container">
 </div>
 
 ?> Pulsa las flechas para escuchar las notas en secuencia
@@ -160,6 +169,15 @@ piano({
 });
 piano({
     tag: "piano_tutorial_6",
+    octaves: 2,
+    names: "all",
+    pressed: [
+        "F#", "B", "D", "F#"
+    ],
+    controls: ["up", "down"]
+});
+piano({
+    tag: "piano_tutorial_7",
     octaves: 2,
     names: "all",
     pressed: [

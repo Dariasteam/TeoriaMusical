@@ -10,7 +10,7 @@ Si llamamos a esta escala, "_Escala Icónica_", al utilizar Do como tónica obte
 
 <div id ="piano_0" class="piano_container"></div>
 
-> "_Escala Icónica" de Do_. Para usar esta escala debemos restringirnos a tocar exclusivamente las teclas señaladas.
+> "_Escala Icónica" de Do_. Para usar esta escala debemos restringirnos a tocar exclusivamente las teclas señaladas. Hemos representado en rosa la tónica y el resto de notas en naranja.
 
 ---
 
@@ -50,28 +50,12 @@ Normalmente la forma de expresar una escala no es haciendo referencia todo el ra
 
 Colocándolo en una sola línea -> Escala Icónica: `Tónica - 3 - 1 - 3 - 5.`
 
-Otra forma de representarlas es utilizando símbolos que nos indiquen las distancias
-en semitonos. Nostros usaremos a lo largo de esta guía **V** como semitono y **U** como tono.
-
-Escala Icónica colocando los nombres de los intervalos:
-
-    Tónica   (3m) (3M)  (5)   (8)
-           VU    V    UV   UUV
-
-
-- VU: Tono y medio = 3
-- V: Medio tono    = 1
-- UV: Tono y medio = 3
-- UUV: Dos tonos y medio = 5
-
-Normalmente esta manera se utiliza como primer paso para calcular las notas de una  escala para una tónica en concreto, completando entre los símbolos de tono y semitono las notas que se corresponden con dichas distancias.
-
+Esta representación nos puede servir como primer paso para calcular las notas de una escala con una tónica en concreto, completando entre los números de semitonos las notas que se corresponden con dichas distancias.
 
 Escala Icónica de Re:
 
-    D  F  F#   A      D
-     VU  V  UV   UUUV
-
+    D  F   F#   A   D      <- Notas consdierando Re como la tónica
+     3   1    3   5        <- Número de semitonos entre cada nota y la siguiente
 
 ---
 
@@ -87,12 +71,16 @@ Escala Do Mayor y sus intervalos:
 
 
     C D E F G A B C
-     U U V U U U V
+     1 1 2 1 1 1 2
 
 
 <div id ="piano_2" class="piano_container"></div>
 
 > Escala de Do mayor en el piano con amplitud de dos octavas
+
+<div id ="piano_3" class="piano_container"></div>
+
+> Reproduce secuencialmente las notas para la escala mayor de Do y comprobarás que estas suenan como nos han enseñado tradicionalmente a "cantar" las notas.
 
 ?> Vemos que las notas que tienen nombre propio (y por ende tecla blanca en el piano) son justo las de la escala de Do Mayor. Esto nos da una idea de la importancia de esta escala.
 
@@ -102,15 +90,23 @@ Escala de La Mayor y sus intervalos:
 
 
     A B C# D E F# G# A
-     U U  V U U  U  V
+     1 1  2 1 1  1  2
 
 
-<div id ="piano_3" class="piano_container"></div>
+<div id ="piano_4" class="piano_container"></div>
 
 > Escala de La mayor en el piano con amplitud de dos octavas
 
-No incidiremos mucho aquí en la sonoridad musical que proporciona
-ya que es un tema que se tratará en profundiad en el apartado de modos. Basta decir que suena agradable al oído, feliz y predecible.
+<div id ="piano_5" class="piano_container"></div>
+
+> Reproduce secuencialmente las notas para la escala mayor de La y compárala
+con la sonordad de Do mayor. Como era de esperar, ambas tienen la misma musicalidad,
+simplemente la escala de La suena más aguda.
+
+
+Por lo pronto no incidiremos en las características sonoras de esta escala
+ya que es un tema que se tratará en profundiad en el apartado de modos. Basta decir
+que resulta agradable al oído, alegre y predecible.
 Estamos muy acostumbrados a escucharla y sabemos cómo se comporta.
 
 <link rel="stylesheet" href="PianoGenerator/style.css">
@@ -122,7 +118,7 @@ piano({
     names: "all",
     tonic: "C",
     relevant: {
-        "C"  : { color: "orange" },
+        "C"  : { color: "violet" },
         "D#" : { color: "orange" },
         "E"  : { color: "orange" },
         "G"  : { color: "orange" },
@@ -135,7 +131,7 @@ piano({
     names: "all",
     tonic: "D",
     relevant: {
-        "D"  : { color: "orange" },
+        "D"  : { color: "violet" },
         "F"  : { color: "orange" },
         "F#" : { color: "orange" },
         "A"  : { color: "orange" },
@@ -147,22 +143,30 @@ piano({
     names: "relevant",
     tonic: "C",
     relevant: {
-        "C" : { color: "orange" },
+        "C" : { color: "violet" },
         "D" : { color: "orange" },
         "E" : { color: "orange" },
         "F" : { color: "orange" },
         "G" : { color: "orange" },
         "A" : { color: "orange" },
         "B" : { color: "orange" },
-    }
+    },
 });
 piano({
     tag: "piano_3",
     octaves: 2,
+    names: "pressed",
+    tonic: "C",
+    pressed: ["C", "D", "E", "F", "G", "A", "B", "C"],
+    controls: ["up"]
+});
+piano({
+    tag: "piano_4",
+    octaves: 2,
     names: "relevant",
     tonic: "C",
     relevant: {
-        "A" : { color: "orange" },
+        "A" : { color: "violet" },
         "B" : { color: "orange" },
         "C#" : { color: "orange" },
         "D" : { color: "orange" },
@@ -170,5 +174,13 @@ piano({
         "F#" : { color: "orange" },
         "G#" : { color: "orange" },
     }
+});
+piano({
+    tag: "piano_5",
+    octaves: 2,
+    names: "pressed",
+    tonic: "A",
+    pressed: ["A", "B", "C#", "D", "E", "F#", "G#", "A"],
+    controls: ["up"]
 });
 </script>
