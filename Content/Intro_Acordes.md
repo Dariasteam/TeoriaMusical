@@ -51,7 +51,7 @@ Comenzando con Do como tónica, nos movemos a la posición tres y seleccionamos 
 
 Con estas tres notas habremos construido una triada.
 
-> Triada: Acorde de tres notas compuesto por Tónica, Tercera y Quinta.
+> Triada: Acorde de tres notas compuesto por Tónica, Tercera y Quinta. Estas notas pueen aparecer en cualquier orden y repetidas cualquier número de veces.
 
 <h2> Acordes Mayores </h2>
 
@@ -69,7 +69,8 @@ Escala Do Mayor y sus intervalos:
 Presta atención a lo que ha ocurrido con la tercera nota. Desde un punto de vista
 de escala, es simplemente la tercera nota desde la tónica, pero fijándonos en los intervalos
 comprendemos que se trata concretamente de una Tercera Mayor. Hemos creado pues
-el acorde de **Do Mayor**.
+el acorde de **Do Mayor**. Se representa simplemente con la letra de la tónica,
+aunque a veces se añade una M mayúsucla. oOr ejemplo, Do mayor es C ó CM. La distinición entre el acorde Do Mayor (C) y la nota Do (C) se realiza casi siempre por contexto.
 
 > Los acores Mayores suenan alegres
 
@@ -90,14 +91,15 @@ para la segunda, es decir, Re.
 
 <div id ="piano_4" class="piano_container"></div>
 
-Fijándonos en los inervalos:
+Fijándonos en los intervalos:
 
 - D: Tónica
 - Intervalo (D - F): **tres** semitonos. **Tercera Menor**
 - Intervalo (F - A): siete semitonos. **Quinta Justa**
 
 La tercera nota en este otro caso es una tercera menor, por tanto el acorde
-que hemos construido en este caso es un **Re Menor**.
+que hemos construido en este caso es un **Re Menor**. Se representa con la
+letra de la tónica y una m minúscula, por ejemplo, Dm para re menor.
 
 > Los acores menores suenan melancólicos
 
@@ -111,12 +113,63 @@ en la tónica Do y comparemos como suenan el acorde mayor y menor respectivament
 
 <div id ="piano_5" class="piano_container"></div>
 
-?> Do Mayor
+?> Do Mayor (C)
 
 <div id ="piano_6" class="piano_container"></div>
 
-?> Do menor
+?> Do menor (Cm)
 
+Estos dos acordes son los más importantes de toda la música occidental.
+Multitud de canciones populares utilizan únicamente combinaciones de acordes
+mayores y menores, a veces incluso con mismas tónicas y en el mismo orden.
+
+
+<h2> Triadas de la escala Mayor </h2>
+
+Completemos el ejercicio con todas
+las triadas posibles en la escala de do mayor. Como tenemos 7 notas, podremos
+conseguir 7 triadas.
+
+
+<h2> 1. Do Mayor (C) </h2>
+
+<div id ="piano_C" class="piano_container"></div>
+
+<h2> 2. Re menor (Dm) </h2>
+
+<div id ="piano_D" class="piano_container"></div>
+
+<h2> 3. Mi menor (Em) </h2>
+
+<div id ="piano_E" class="piano_container"></div>
+
+<h2> 4. Fa mayor (F) </h2>
+
+<div id ="piano_F" class="piano_container"></div>
+
+<h2> 5. Sol mayor (G)</h2>
+
+<div id ="piano_G" class="piano_container"></div>
+
+<h2> 6. La menor (Am) </h2>
+
+<div id ="piano_A" class="piano_container"></div>
+
+<h2> 7. Si disminuido (Bº) </h2>
+
+<div id ="piano_B" class="piano_container"></div>
+
+Se trata de una triada nueva. En este caso, la tercera es menor y la quinta disminuida (o la cuarta aumentada).
+Se denota con el nombre de la tónica y el símbolo º.
+
+> Fíjate como este acorde suena mucho más
+_inestable_ que los demás, al tocarlo arpegiado no da la sensación de que la
+melodía acabe tras la últiam nota de Si. Prueba a pulsar el botón de arpegiar y cuando
+termine pulsar sobre Do, verás que la melodía _cierra_ o _resuelve_ mucho mejor.
+
+
+!> Existen una cuarta triada: el acorde aumentado. Esta se forma con una tónica, su tercera mayor y su quinta aumentada. Este acorde no existe dentro de la escala mayor, puesto que su estructura de intervalos no aparece
+en esta escala.
 
 <link rel="stylesheet" href="PianoGenerator/style.css">
 <script>
@@ -184,6 +237,68 @@ piano({
     names: "all",
     tonic: "C",
     pressed: ["C", "D#", "G"],
+    controls: ["sync", "spring"]
+});
+piano({
+    tag: "piano_C",
+    octaves: 2,
+    names: "all",
+    tonic: "C",
+    pressed: ["C", "E", "G"],
+    controls: ["sync", "spring"]
+});
+piano({
+    tag: "piano_D",
+    octaves: 2,
+    number: "pressed",
+    names: "all",
+    tonic: "D",
+    pressed: ["D", "F", "A"],
+    controls: ["sync", "spring"]
+});
+piano({
+    tag: "piano_E",
+    octaves: 2,
+    number: "pressed",
+    names: "all",
+    tonic: "E",
+    pressed: ["E", "G", "B"],
+    controls: ["sync", "spring"]
+});
+piano({
+    tag: "piano_F",
+    octaves: 2,
+    number: "pressed",
+    names: "all",
+    tonic: "F",
+    pressed: ["F", "A", "C"],
+    controls: ["sync", "spring"]
+});
+piano({
+    tag: "piano_G",
+    octaves: 2,
+    number: "pressed",
+    names: "all",
+    tonic: "G",
+    pressed: ["G", "B", "D"],
+    controls: ["sync", "spring"]
+});
+piano({
+    tag: "piano_A",
+    octaves: 2,
+    number: "pressed",
+    names: "all",
+    tonic: "A",
+    pressed: ["A", "C", "E"],
+    controls: ["sync", "spring"]
+});
+piano({
+    tag: "piano_B",
+    octaves: 2,
+    number: "pressed",
+    names: "all",
+    tonic: "B",
+    pressed: ["B", "D", "F"],
     controls: ["sync", "spring"]
 });
 </script>

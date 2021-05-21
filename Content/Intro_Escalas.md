@@ -65,7 +65,7 @@ Aún existiendo tantas escalas como combinaciones posibles de las 12 notas hay, 
 como Escala Mayor durante algunas secciones hasta que podamos explicar más
 detalladamente el por qué de esto.
 
-Esta escala posee la siguiente relación de intervalos: `Tónica - 2 - 2 - 1 - 2 - 2 - 2 - 1`. Dado que el intervalo de mayor tamaño es de un tono, se puede escribir también con abreviaturas para tono y semitono: `Tónica - T - T - st - T - T - T - st`.
+Esta escala está compuesta por 7 notas y posee la siguiente relación de intervalos: `Tónica - 2 - 2 - 1 - 2 - 2 - 2 - 1`. Dado que el intervalo de mayor tamaño es de un tono, se puede escribir también con abreviaturas para tono y semitono: `Tónica - T - T - st - T - T - T - st`.
 
 Escala Do Mayor y sus intervalos:
 
@@ -80,7 +80,7 @@ Escala Do Mayor y sus intervalos:
 
 <div id ="piano_3" class="piano_container"></div>
 
-> Reproduce secuencialmente las notas para la escala mayor de Do y comprobarás que estas suenan como nos han enseñado tradicionalmente a "cantar" las notas.
+> Reproduce secuencialmente las notas de la escala mayor de Do y comprobarás que estas suenan como nos han enseñado tradicionalmente a "cantar" las notas.
 
 ?> Vemos que las notas que tienen nombre propio (y por ende tecla blanca en el piano) son justo las de la escala de Do Mayor. Esto nos da una idea de la importancia de esta escala.
 
@@ -99,9 +99,9 @@ Escala de La Mayor y sus intervalos:
 
 <div id ="piano_5" class="piano_container"></div>
 
-> Reproduce secuencialmente las notas para la escala mayor de La y compárala
-con la sonordad de Do mayor. Como era de esperar, ambas tienen la misma musicalidad,
-simplemente la escala de La suena más aguda.
+> Reproduce secuencialmente las notas de la escala mayor de La y compárala
+con la de Do mayor. Como era de esperar, ambas tienen la misma musicalidad,
+simplemente la escala de La mayor suena más aguda.
 
 
 Por lo pronto no incidiremos en las características sonoras de esta escala

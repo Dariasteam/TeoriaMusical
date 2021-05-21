@@ -7,4 +7,6 @@
 * [Intervalos](Content/Intervalos.md)
 * [Introducción a las Escalas](Content/Intro_Escalas.md)
 * [Introducción a los Acordes](Content/Intro_Acordes.md)
+* [Grados Musicales](Content/Grados.md)
+* [Tonalidades](Content/Tonalidades.md)
 * [Glosario](Content/Glosario.md)
