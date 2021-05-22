@@ -63,3 +63,25 @@ cualquiera dentro de la escala, en su lugar, sabemos de ante mano qué vamos a p
 | Nota | G# | A# | C | C# | D# | F | G |
 | Grados| I | ii | iii | IV | V | vi | VIIº
 | Triada | G# | A#m | Cm | C# | D# | Fm | Gº |
+
+## Nombres
+
+Tradicionalmente se le asignado un nombre a cada uno de los grados cuando
+estos son referidos a acordes. Estos son usados desde la perspectiva de la
+[armonía funcional](). Los nombres son:
+
+
+| Grado | Nombre |
+| - | - |
+| I | Tónica |
+| ii | Supertónica |
+| iii | Mediante |
+| IV  | Subdominante |
+| V | Dominante |
+| vi | Superdominante o Submediante |
+| viiº | Sensible |
+
+
+En mi opinión no tiene mucha relevancia aprenderlos y complica innecesariamente
+el aprendizaje (aparte de que los nombres no son nada descriptivos).
+En la guía usaremos siempre el número romano del grado acompañando el nombre cuando este aparezca.
