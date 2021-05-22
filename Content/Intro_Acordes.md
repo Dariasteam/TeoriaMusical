@@ -3,7 +3,7 @@
 > Un acorde es un conjunto de tres o más notas que al ser tocadas
 simultáneamente producen una sonoridad característica.
 
-Para generar un acorde necesitamos una nota inicial, a la que llamaremos *tónica* o *fundamental* y una serie de intervalos medidos desde la tónica
+Para generar un acorde necesitamos una nota inicial, a la que llamaremos **tónica** o *fundamental* y una serie de intervalos medidos desde la tónica
 que nos permitan obtener el resto de notas implicadas. El nombre del acorde será una combinación de la nota que actúe como tónica y los intervalos utilizados.
 
 Veamos un ejemplo con un acorde inventado, al que llamaremos acorde *icónico*:
@@ -14,15 +14,16 @@ Nuestro acorde estará compuesto por los siguientes elementos
 - Intervalo de cuarta justa con respecto a la tónica
 - Intervalos de quinta justa con respecto a la tónica
 
-Esta sería pues la definición del _acorde Icónico_, a partir de la cual generamos
-acordes para tónicas concretas, por ejemplo Re sostenido o Do.
+A partir de esta definición, podemos sustituir la tónica por una nota concreta
+y calcular el resto de notas usando los intervalos. Por ejemplo, con las tónicas
+de Re sostenido o Do.
 
 <div id ="iconic_0" class="piano_container"></div>
 
 > Acorde _icónico_ de Re sostenido con su tónica señalada en rosado
 
 <div id ="iconic_1" class="piano_container"></div>
-arpegio
+
 > Acorde _icónico_ de Do con su tónica señalada en rosado
 
 
@@ -46,6 +47,12 @@ En el apartado siguiente exploraremos el tipo
 de acorde más simple y a la vez más relevante: la triada. Tras ello proseguiremos
 con otros apartados, dejando una lista más extensa con otros tipos de acordes y sus explicaciones en el apartado [Acordes](s) para que el lector la consulte cuando considere.
 
+Es importante señalar que si bien la definición de los acordes se hace con intervalos
+en base a la tónica, musicalemnte influyen todas las combinaciones de intervalos
+contenidas. Por ejemplo, en el caso de nuestro acorde _icónico_, no hemos tenido
+en consideración para la definición el intervalo de segunda menor que ocurre entre
+las notas 2 y 3 (la cuarta y quinta justas respecto a la tónica)
+
 <h2> Triadas </h2>
 
 > Acorde de tres notas compuesto por Tónica, Tercera y Quinta.
@@ -63,10 +70,11 @@ aunque a veces se añade una M mayúscula. Por ejemplo, Do mayor es C ó CM. La 
 
 <div id ="piano_2" class="piano_container"></div>
 
-> Do Mayor o C
+> Do Mayor o C. Internamente contiene un itnervalo de tercera mayor y otro menor.
 
-?> Los acordes Mayores suenan alegres y agradables. Su uso es mayoritario en
-géneros como el pop, reggae o ska.
+?> Los acordes Mayores suenan alegres y agradables. Se pueden tocar durante un
+largo periodo de tiempo que no produce desagrado al oido. Existen multitud
+de piezas construidas en base a únicamente a dos acordes mayores.
 
 <h3> Acordes Menores </h3>
 
@@ -79,10 +87,11 @@ por ejemplo, Dm para Re menor.
 
 <div id ="piano_3" class="piano_container"></div>
 
-> Do Menor o Cm
+> Do Menor o Cm. Internamente contiene un intervalo de tercera menor (C - D#) y otro mayor (D# - G).
 
-?> Los acordes menores suenan melancólicos y oscuros. Son predominantes
-en baladas, hard rock y derivados.
+?> Los acordes menores suenan melancólicos y oscuros. Como los mayores, resultan
+igualmente cómodos de escuchar y son predominantes en muchos géneros musicales
+o piezas.
 
 <h3> Acordes Disminuidos </h3>
 
@@ -95,15 +104,17 @@ por ejemplo, Fº para Fa disminuido.
 
 <div id ="piano_4" class="piano_container"></div>
 
-> Do Disminuido o Cº
+> Do Disminuido o Cº. Internamente contiene dos itnervalso de tercera menor.
 
 ?> Los acordes disminuidos ya no son tan tan agradables al oido como los
-mayores y menores y su uso es considerablemente menos frecuente, además de que no
-suelen usarse de forma predominante sino como acordes de transición entre
+mayores y menores y su se usan con una frecuente considerablemente menor.
+Además, cuando aparecen en una pieza, no suelen emplearse de manera que destaquen
+especialmente sino como acordes de transición entre
 otros con una sonido más _estable_. Esto se debe a que contiene un _tritono_, el
-intervalo que según dijimos se considera de mayor disonancia. Prueba a tocar el
-acorde y a continuación pulsar la tecla de Mi (E). Verás como la melodía _cierra_
-de una forma agradable.
+intervalo que comentamos se considera de mayor disonancia. Prueba a tocar el
+acorde y a continuación pulsar la tecla de Mi (E). Verás como la melodía _cierra_ o
+_resuelve_ de una forma agradable que simplemente dejando un acorde disminuido como
+último sonido escuchado.
 
 <h3> Acordes Aumentados </h3>
 
@@ -116,10 +127,10 @@ por ejemplo, G#+ para Sol sostenido disminuido.
 
 <div id ="piano_5" class="piano_container"></div>
 
-> Do Aumentado o C+
+> Do Aumentado o C+. Internamente contiene dos intervalos de tercera mayor.
 
 ?> Con un efecto parecido a los disminuidos, estos acordes generan una tensión
-que resulta difícil mantener mucho tiempo sin resolver hacia otra nota o acorde.
+que resulta difícil mantener mucho tiempo sin querer resolver hacia otra nota o acorde.
 En este caso por ejemplo, la nota F tocada tras el acorde resulta agradable y
 aporta la sensación de clausura.
 
@@ -146,6 +157,8 @@ Ejemplo de varias versiones del acorde de Re menor
 > Aunque todas estas versiones producen la sonoridad menor característica,
 los arpegios no son igual de interesantes, así como el acento en
 el bajo varía.
+
+Un uso muy común es tocar un acorde alternando el bajo entre dos notas distintas.
 
 En el apartado inversiones de la sección [acordes]() se profundiza más en este
 concepto.
@@ -230,7 +243,7 @@ piano({
     octaves: 2,
     names: "all",
     tonic: "D",
-    pressed: ["F", "A", "D", "A"],
+    pressed: ["F", "D", "F", "A"],
     number: "pressed",
     controls: ["sync", "spring", "up", "down"]
 });
