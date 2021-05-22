@@ -131,8 +131,7 @@ por ejemplo, G#+ para Sol sostenido disminuido.
 
 ?> Con un efecto parecido a los disminuidos, estos acordes generan una tensión
 que resulta difícil mantener mucho tiempo sin querer resolver hacia otra nota o acorde.
-En este caso por ejemplo, la nota F tocada tras el acorde resulta agradable y
-aporta la sensación de clausura.
+Son incluso menos comunes que los disminuidos. En este caso por ejemplo, la nota F tocada tras el acorde de C+ resulta agradable y aporta la sensación de clausura.
 
 <h2> Orden de las notas </h2>
 En el ejemplo anterior hemos usado las notas en el mismo orden que las hemos generado

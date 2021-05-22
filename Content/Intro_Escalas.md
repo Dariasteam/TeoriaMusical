@@ -2,8 +2,14 @@
 
 > Una escala es un conjunto de intervalos y una nota raíz o **tónica** a partir de la cual podemos obtener una serie de notas concretas a las que restringirnos para usar en una melodía.
 
+La definición puede asemejarse un poco a la de los acordes y es que verdaderamente podríamos
+considerar las notas de una triada como una escala en si misma. Sin embargo, normalmente
+las escalas contemplan un número mayor de notas, usualmente 7 o más. Además una escala no
+nos habla de cómo debemos tocar las notas (un acorde implica simultaneidad), tan solo
+nos limita las que tenemos disponibles.
+
 Cada escala posee unas características musicales propias. Conocerlas nos ayudará
-a componer música con un cierto grado de conciencia, permitiéndonos conseguir piezas que _"suenen a"_  (un estilo concreto, una banda...) o _"suenen como"_ (un concepto, otra obra...) en lugar de vernos limitados a un sistema de prueba y error a ciegas.
+a componer música con un cierto grado de objetividad, permitiéndonos conseguir piezas que _"suenen a"_  (un estilo concreto, una banda...) o _"suenen como"_ (un concepto, otra obra...) en lugar de vernos limitados a un sistema de prueba y error a ciegas.
 
 Por ejemplo, una escala inventada podría ser aquella que contiene una tónica, su intervalo de tercera menor, su intervalo de tercera mayor y su intervalo de quinta.
 Si llamamos a esta escala, "_Escala Icónica_", al utilizar Do como tónica obtendremos la "_Escala Icónica" de Do_.
@@ -12,25 +18,20 @@ Si llamamos a esta escala, "_Escala Icónica_", al utilizar Do como tónica obte
 
 > "_Escala Icónica" de Do_. Para usar esta escala debemos restringirnos a tocar exclusivamente las teclas señaladas. Hemos representado en rosa la tónica y el resto de notas en naranja.
 
----
-
-Tengamos en mente que una escala (al tratarse de una serie de intervalos) nos habla de propociones y no de notas per se. Por tanto, cambiando la **tónica** obtendremos
-notas diferentes pero seguirá tratándose de la misma escala.
-
+De forma análoga a lo aprendido en los acordes, si cambiamos la tónica a, por ejemplo Re,
+obtendremos la escala icónica de Re, la cual tendrá las mismas propiedades musicales
+pero sonará más aguda.
 
 <div id ="piano_1" class="piano_container"></div>
 
 > "_Escala Icónica" de Re_
 
-Si el lector prueba a tocar melodías ascendentes y descendentes en ambas escalas
-podrá comprobar como el efecto musical es el mismo, simplemente la segunda suena
-más agudo.
-
 ---
 
-Normalmente la forma de expresar una escala no es haciendo referencia todo el rato a la tónica como acabamos de hacer. En su lugar, describimos el número de semitonos con respecto al intervalo anterior en cada momento. Además, se incluye siempre una octava por enciam de la tónica. Veamos un ejemplo.
+A diferencia de los acordes, donde la definición venía expresada con todos los intervalos
+en función de la tónica, en las escalas describimos el número de semitonos con respecto al intervalo anterior en cada momento. Además, casi siempre se incluye una octava por enciam de la tónica. Veamos un ejemplo.
 
-- Escala Icónica definida desde la tónica:
+- Escala Icónica definida desde la tónica (como un acorde):
 
 
     - Tónica
@@ -39,7 +40,7 @@ Normalmente la forma de expresar una escala no es haciendo referencia todo el ra
     - 5     <- Hay 5 semitonos de distancia con respecto a la tónica (quinta justa)
     - 8     <- Hay 12 semitonos de distancia con respecto a la tónica (octava)
 
-- Escala Icónica definida con número de semitonos:
+- Escala Icónica definida con número de semitonos (forma correcta):
 
 
     - Tónica
@@ -58,6 +59,14 @@ Escala Icónica de Re:
      3   1    3   5        <- Número de semitonos entre cada nota y la siguiente
 
 ---
+
+<h2> Relación entre Acordes y Escalas </h2>
+
+Un acorde pertenece a una escala (y por lo tanto es válido utilizarlo dentro
+de dicha escala) cuando todas sus notas pertenezcan a la escala. Por ejemplo,
+nuestra escala _icónica_ de Do vemos que contiene todas las notas necesarias
+para formar Do Mayor
+
 
 <h2> La Escala Diatónica o escala Mayor </h2>
 

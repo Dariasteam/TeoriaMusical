@@ -48,8 +48,7 @@ Por último, establezcamos una codificación según el tipo de triada.
 | Grados| I | ii | iii | IV | V | vi | VIIº
 
 ?> Gracias a esta codificación, ahora tan solo debemos aprendernos los 7 grados
-(cuáles son mayúsculas y cuáles minúsculas) y podremos generar todos los acordes
-de cualquier tónica de la escala Mayor. No es necesario por tanto "contar" intervalos para averiguar qué tipo de acorde hemos conseguido para una nota
+(cuáles son mayúsculas y cuáles minúsculas y disminuida) y podremos generar todos los acordes de cualquier tónica de la escala Mayor. No es necesario por tanto "contar" intervalos para averiguar qué tipo de acorde tenemos para una nota
 cualquiera dentro de la escala, en su lugar, sabemos de ante mano qué vamos a producir. Además, la utilidad de esto se verá expandida a medida que introduzcamos nuevos conceptos.
 
 ## Ejemplo para G# Mayor
