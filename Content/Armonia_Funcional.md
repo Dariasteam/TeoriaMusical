@@ -111,19 +111,85 @@ resulta difícil de usar y en muchos casos es simplemente ignorado, realizádose
 
 ---
 
-!> Hay MUCHO MÁS que esto. Hemos explicado tan solo las relaciones con respecto a la tónica para una escala en concreto. Los grados de otras escalas se comportan de maneras diferentes y dentro de una misma escala
+!> Hay MUCHO MÁS que esto. Hemos explicado tan solo las relaciones con respecto a la tónica para una escala en concreto (Escala Diatónica o Mayor). Los grados de otras escalas se comportan de maneras diferentes y dentro de una misma escala
 importan las relaciones entre cualesquiera dos grados, no solo con respecto a la tónica. Sea como fuere, estos conceptos no dejan de ser
 efectos musicales que ocurren y se descubren de forma orgánica simplemente
 creando y escuchando progresiones.
 
-<h2> Contruyendo progresiones </h2>
+<h2> Relatividad </h2>
 
-Revisitemos la progresión utilizada por Journey.
+Como vimos con el grado V (Dominante), el acorde de sol se comportó como
+grado V únicamente por el hecho de estar en el contexto adecuado. Guardando una estrecha relación con la idea de tonalidad, un acorde cumple
+una función en la medida en que se ubica en una tonalidad concreta.
 
-    I V vi IV
+Hagamos un ejercicio interesante para mostrar más claramente esto y su gran utilidad para movernos por tonalidades. Comencemos por escoger una progresión de la forma `I iii IV`. Si bien sabemos que el grado IV (subdominante) resuelve con cierta gracia en I, vamos a enfocar desde
+otro punto de vista su función. Sabemos que IV se trata de un acorde Mayor
+(puesto que está escrito en mayúsculas). Igualmente, sabemos que el grado
+Dominante (V) de una escala mayor debe ser así mismo mayor. ¿Por qué no utilizamos nuestro acorde IV como V de otra escala distinta y resolvemos sobre un cuarto
+acorde que esa una tónica nueva?
 
-Con la nueva información que tenemos podemos identificar como, a pesar
-de tener como segundo acorde un Dominante no lo utiliza para resolver sino que continua
+Veamos un ejemplo:
+
+- Acorde I:  C
+- Acorde iii:  E
+- Acorde IV: F
+
+Estos acordes pertenecen a la escala de Do mayor. Encontremos ahora qué escala existe cuyo grado V es el mismo que el IV de la escala de Do, es decir, Fa Mayor. Sabemos que el grado V tiene por tónica la quinta nota de la escala a la que se refiera, por tanto un posible método
+es escribir los intervalos que componen la escala mayor y colocar la nota F
+en la quinta posición. De ahí en adelante, basta con seguir los intervalos
+para averiguar el resto de notas.
+
+    Intrervalos de la escala mayor y posiciones de las notas aún desconocidas
+
+       1 2 3 4 5 6 7 8
+       ¿ ? ? ? ? ? ? ¿
+        2 2 1 2 2 2 1
+
+    Sustitución de la nota A
+
+       1 2 3 4 5 6 7 8
+       ¿ ? ? ? F ? ? ¿
+        2 2 1 2 2 2 1
+
+    Cálculo de notas de la escala desconocida
+
+
+       1  2 3  4 5 6 7 8
+       A# C D D# F G A A#
+         2 2 1  2 2 2 1
+
+Encontramos que el acorde Fa mayor es el quinto grado (ó Dominante) de la escala de La sostenido mayor. Probemos entonces a hacer la progresión `C - E - F` y terminar en `A#`.
+Los dos primeros acordes pertenecen a Do mayor, el último a La sostenido mayor y el 3º a ambas escalas.
+
+
+<h4>C (I de C)</h4>
+<div id ="piano_12" class="piano_container"></div>
+
+<h4>E (iii de C)</h4>
+<div id ="piano_13" class="piano_container"></div>
+
+<h4>F (IV de C y V de A#)</h4>
+<div id ="piano_14" class="piano_container"></div>
+
+<h4>A# (I de A#)</h4>
+<div id ="piano_15" class="piano_container"></div>
+
+Este uso estratégico de los acordes nos ha permitido
+introducir la nota A#, la cual no pertenece a la escala inicial
+sin aparentes colisiones de tonalidad. No obstante, no resulta
+especialmente disonante regresar a Do mayor tras A#.
+Si añadimos más acordes de la escala A# arraigaremos esta
+nueva tonalidad y se hará más dificil regresar.
+
+Los dos acordes que mostramos acontinuación, tocados despues de los cuatro previos, se comportarían como IV y vi de A#. Intenta
+tocar los 6 seguidos y regresar a C y A# alternativamente, verás
+como ahora solo resuelve de forma agradable en A#.
+
+<h4>D (IV de A#)</h4>
+<div id ="piano_16" class="piano_container"></div>
+
+<h4>G (vi de A#)</h4>
+<div id ="piano_17" class="piano_container"></div>
 
 <link rel="stylesheet" href="PianoGenerator/style.css">
 <script>
@@ -197,6 +263,42 @@ piano({
     tag: "piano_11",
     octaves: 2,
     pressed: ["C", "E", "G"],
+    controls: ["sync"]
+});
+piano({
+    tag: "piano_12",
+    octaves: 2,
+    pressed: ["C", "E", "G", "C"],
+    controls: ["sync"]
+});
+piano({
+    tag: "piano_13",
+    octaves: 2,
+    pressed: ["E", "G", "B", "E"],
+    controls: ["sync"]
+});
+piano({
+    tag: "piano_14",
+    octaves: 2,
+    pressed: ["F", "A", "C", "F"],
+    controls: ["sync"]
+});
+piano({
+    tag: "piano_15",
+    octaves: 2,
+    pressed: ["D", "F", "A#", "D"],
+    controls: ["sync"]
+});
+piano({
+    tag: "piano_16",
+    octaves: 2,
+    pressed: ["D#", "G", "A#", "D#"],
+    controls: ["sync"]
+});
+piano({
+    tag: "piano_17",
+    octaves: 2,
+    pressed: ["G", "A#", "D", "G"],
     controls: ["sync"]
 });
 </script>

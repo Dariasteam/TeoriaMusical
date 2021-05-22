@@ -66,11 +66,11 @@ Existen cuatro tipos diferenciados
 - Quinta Justa
 
 Se representa simplemente con la letra de la tónica,
-aunque a veces se añade una M mayúscula. Por ejemplo, Do mayor es C ó CM. La distinición entre el acorde Do Mayor (C) y la nota aislada Do (C) se realiza por contexto.
+aunque a veces se añade una M mayúscula o el sufijo _Maj_. Por ejemplo, Do mayor es C, CM ó CMaj. La distinición entre el acorde Do Mayor (C) y la nota aislada Do (C) se realiza por contexto.
 
 <div id ="piano_2" class="piano_container"></div>
 
-> Do Mayor o C. Internamente contiene un itnervalo de tercera mayor y otro menor.
+> Do Mayor o C. Internamente contiene un intervalo de tercera mayor y otro menor.
 
 ?> Los acordes Mayores suenan alegres y agradables. Se pueden tocar durante un
 largo periodo de tiempo que no produce desagrado al oido. Existen multitud
@@ -82,8 +82,8 @@ de piezas construidas en base a únicamente a dos acordes mayores.
 - **Tercera Menor**
 - Quinta Justa
 
-Se representa con la letra de la tónica y una m minúscula,
-por ejemplo, Dm para Re menor.
+Se representa con la letra de la tónica y una m minúscula o el sufijo _min_,
+por ejemplo, Dm o Dmin para Re menor.
 
 <div id ="piano_3" class="piano_container"></div>
 

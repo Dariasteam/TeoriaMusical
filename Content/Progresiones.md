@@ -94,6 +94,9 @@ el lector podrá cantar encima la melodái de la voz sin dificultad.
 La resolución o cierre es un concepto que ha ido apareciendo esporádicamente en los apartados previos sin prestarle toda la atención que se merece. En la progresión previa, para ambas canciones podemos ver que lo natural tras llegar al cuarto acorde es regresar al primero como forma de finalizar. De hecho, si se toca varias veces seguidas el segundo acorde (V) para a continuación hacer sonar el primero (I), vemos que este efecto es todavía más marcado. Lo más natural es que nuestras progresiones cierren sobre
 el primer acorde de la escala, pues su tónica será la tónica de la escala en sí.
 
+La sensación de cierre puede acentuarse a través de melodías que acompañen o "guíen" el oido hacia el acorde final. Otra posibilidad es utilizar en el acorde de cierre
+un bajo más grave que en su acorde inmediatamente anterior.
+
 <link rel="stylesheet" href="PianoGenerator/style.css">
 <script>
 piano({
