@@ -23,6 +23,17 @@ dos y cuatro posiciones por delante, obtendremos la triada asociada. Escojamos c
 
 El resultado es la triada de Do Mayor.
 
+<h2> Índices y Contexto </h2>
+Una vez estamos restringidos a las notas de una escala (lo que ocurrirá
+prácticamente siempre), trabajamos en base a posiciones de las notas
+en lugar de intervalos concretos. Fíjate en el procedimiento que acabamos de seguir,
+en el contexto de la escala, lo que estamos diciendo es que para generar una
+triada escogeremos una tónica como posición 1 y a partir de ahí las notas que se encuentren
+en la tercera y quinta __posición__.
+Luego esto se traducirá en una tercera mayor o menor (y una quinta justa o disminuida)
+en función de la nota concreta situada en cada posición, pero en todos los casos
+son terceras y quintas, puesto que el índice hace referencia a posiciones en la escala.
+
 Completemos el ejercicio con todas
 las triadas posibles en la escala de do mayor. Como tenemos 7 notas, podremos
 conseguir 7 triadas.
