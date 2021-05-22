@@ -35,8 +35,7 @@ en función de la nota concreta situada en cada posición, pero en todos los cas
 son terceras y quintas, puesto que el índice hace referencia a posiciones en la escala.
 
 Completemos el ejercicio con todas
-las triadas posibles en la escala de do mayor. Como tenemos 7 notas, podremos
-conseguir 7 triadas.
+las triadas posibles en la escala de do mayor. Como tenemos 7 notas, podremos conseguir 7 triadas.
 
 <h2> 1. Do Mayor (C) </h2>
 
@@ -65,6 +64,10 @@ conseguir 7 triadas.
 <h2> 7. Si disminuido (Bº) </h2>
 
 <div id ="piano_B" class="piano_container"></div>
+
+!> Nota como al llegar a una tónica muy próxima a la última nota de la escala (B), el procedimietno continua "dando la vuelta" y recogiendo notas situadas
+en una posición anterior. Esto se debe a que la escala
+incluye infinitas repeticioens de la secuencia de notas que contiene.
 
 <link rel="stylesheet" href="PianoGenerator/style.css">
 <script>

@@ -9,5 +9,7 @@
 * [Introducción a las Escalas](Content/Intro_Escalas.md)
 * [Acordes de la escala Mayor](Content/Acordes_Do_Mayor.md)
 * [Grados Musicales](Content/Grados.md)
+* [Progresiones](Content/Progresiones.md)
 * [Tonalidades](Content/Tonalidades.md)
+* [Armonía Funcional](Content/Armonia_Funcional.md)
 * [Glosario](Content/Glosario.md)

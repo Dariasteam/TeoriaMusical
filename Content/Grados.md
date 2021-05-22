@@ -1,4 +1,4 @@
-# Grado musical </h1>
+# Grado musical
 
 El significado exacto del término grado parece estar en disputa, unas veces se aplica a notas individuales y otras a acordes. En nuestro caso, lo utilizaremos referido a acordes dado que la nomenclatura que nos provee es útil para nosotros. Así, diremos que:
 
@@ -49,7 +49,10 @@ Por último, establezcamos una codificación según el tipo de triada.
 
 ?> Gracias a esta codificación, ahora tan solo debemos aprendernos los 7 grados
 (cuáles son mayúsculas y cuáles minúsculas y disminuida) y podremos generar todos los acordes de cualquier tónica de la escala Mayor. No es necesario por tanto "contar" intervalos para averiguar qué tipo de acorde tenemos para una nota
-cualquiera dentro de la escala, en su lugar, sabemos de ante mano qué vamos a producir. Además, la utilidad de esto se verá expandida a medida que introduzcamos nuevos conceptos.
+cualquiera dentro de la escala, en su lugar, sabemos de ante mano qué vamos a producir.
+
+!> Además, la idea de representar en mayúsculas y minúsculas o usar símbolos extra como º no está restringida a esta escala: En una escala cuya segunda
+nota sirviese de tónica de un acorde mayor expresaríamos su segundo grado como II.
 
 ## Ejemplo para G# Mayor
 
@@ -67,9 +70,7 @@ cualquiera dentro de la escala, en su lugar, sabemos de ante mano qué vamos a p
 ## Nombres
 
 Tradicionalmente se le asignado un nombre a cada uno de los grados cuando
-estos son referidos a acordes. Estos son usados desde la perspectiva de la
-[armonía funcional](). Los nombres son:
-
+estos son referidos a acordes. Los nombres son:
 
 | Grado | Nombre |
 | - | - |

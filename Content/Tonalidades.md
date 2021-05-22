@@ -25,7 +25,7 @@ Vemos que cada una sonará de una forma particular, pero no ocurre nada demasiad
 destacable. Al tener muy pocas notas, ninguna nos ha dado demasiada información
 para que nuestro cerebro establezca la tonalidad.
 
-Incorporemos algunas notas nuevas a continuación. Al aportar más información el cerebro va estableciendo progresivamente qué relaciones existen entre las notas y se acostumbra a ellas. A esto ayuda también la repetición de notas.
+Incorporemos algunas notas nuevas a continuación. Al aportar más información el cerebro va registrando progresivamente qué relaciones existen entre las notas y se acostumbra a ellas. A esto ayuda también la repetición de notas.
 
 <div id ="piano_5" class="piano_container"></div>
 
@@ -37,8 +37,8 @@ Aumentemos a una segunda octava la melodía para potenciar el efecto
 
 > Melodía anterior con una expansión de dos octavas
 
-Ahora aprovechemos esta segunda octava para mover hacer uan pequeña variación,
-cambiaremos el Fa sostenido por una Fa natural.
+Ahora aprovechemos esta segunda octava para hacer una pequeña variación,
+cambiando el Fa sostenido por una Fa natural.
 
 <div id ="piano_7" class="piano_container"></div>
 
@@ -58,14 +58,13 @@ segunda octava de la anterior y no es desagradable.
 
 > Melodía similar pero con Fa natural en todos los casos
 
-
 !> La sensación de tonalidad se desarrolla a medida que escuchamos notas
 en una melodía y una vez nos encontramos en una es difícil cambiar a otra
 con suavidad.
 
 <h2> Relación entre Tonalidad y Escalas </h2>
-Al tocar notas de una escala inevitablemente se genera la sensación de tonalidad
-de dicha escala. Esto resulta obvio, si tocamos una serie de notas restringidas
+
+Al tocar notas de una escala inevitablemente se genera la sensación de tonalidad de dicha escala. Esto resulta obvio, si tocamos una serie de notas restringidas
 esta claro que nos acostumbraremos a las mismas. Tocar notas la escala de Do mayor hace que se genere la tonalidad de Do Mayor. Sin embargo, ¿Qué pasa si no
 tocamos _todas_ las notas de la escala? Acabamos de ver que la tonalidad fue
 desarrollándose con más fuerza a medida que incorporábamos notas. Si utilizamos
@@ -98,6 +97,17 @@ no se apreciará un efecto tan brusco como ocurrió anteriormente.
 <div id ="piano_10" class="piano_container"></div>
 
 > Melodía que se inclina hacia Sol Mayor
+
+Al reproducir ambas melodías una tras otra nos daremos cuenta de que
+ha ocurrido un efecto musical _extraño_, pero no será tan desagradable como en el caso previo.
+
+<h2> Relación entre Tonalidad y Acordes </h2>
+
+Dado que los acordes presentan al menos 3 notas, un único acorde ya
+establece en cierta medida una tonalidad. A medida que incorporamos
+más acordes a una progresión restringimos cada vez más la tonalidad
+que estamos escuchando. Progresiones con acordes pertenecientes a una misma escala sonarán por regla general "bien", con cierta independencia del orden en que se toquen, puesto que mantendrán (y reforzarán) la misma tonalidad. En cambio, tocar un acorde que no pertenece a una escala dentro de una progresión compuesta por acordes que sí pertenecen puede tener efectos imprevistos, dependiendo de la sensación de tonalidad que se haya generado hasta el momento así como la cantidad de notas
+fuera de la escala que incorpore el acorde.
 
 <h2> Uso de cambios de tonalidad </h2>
 
