@@ -84,7 +84,7 @@ el lector podrá cantar encima la melodái de la voz sin dificultad.
 <h3>V F#</h3>
 <div id ="piano_5" class="piano_container"></div>
 
-<h3>iv G#</h3>
+<h3>vi G#</h3>
 <div id ="piano_6" class="piano_container"></div>
 
 <h3>IV E</h3>

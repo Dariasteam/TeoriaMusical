@@ -24,6 +24,7 @@ dos y cuatro posiciones por delante, obtendremos la triada asociada. Escojamos c
 El resultado es la triada de Do Mayor.
 
 <h2> Índices y Contexto </h2>
+
 Una vez estamos restringidos a las notas de una escala (lo que ocurrirá
 prácticamente siempre), trabajamos en base a posiciones de las notas
 en lugar de intervalos concretos. Fíjate en el procedimiento que acabamos de seguir,

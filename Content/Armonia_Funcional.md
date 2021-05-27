@@ -119,10 +119,10 @@ creando y escuchando progresiones.
 <h2> Relatividad </h2>
 
 Como vimos con el grado V (Dominante), el acorde de sol se comportó como
-grado V únicamente por el hecho de estar en el contexto adecuado. Guardando una estrecha relación con la idea de tonalidad, un acorde cumple
-una función en la medida en que se ubica en una tonalidad concreta.
+grado V únicamente por el hecho de estar en el contexto adecuado.
+DIremos pues que un acorde cumple una función en la medida en que es tocado dentro de una tonalidad concreta.
 
-Hagamos un ejercicio interesante para mostrar más claramente esto y su gran utilidad para movernos por tonalidades. Comencemos por escoger una progresión de la forma `I iii IV`. Si bien sabemos que el grado IV (subdominante) resuelve con cierta gracia en I, vamos a enfocar desde
+Hagamos un ejercicio interesante para mostrar más claramente esto y su gran utilidad para movernos entre escalas / tonalidades. Comencemos por escoger una progresión de la forma `I iii IV`. Si bien sabemos que el grado IV (subdominante) resuelve con cierta gracia en I, vamos a enfocar desde
 otro punto de vista su función. Sabemos que IV se trata de un acorde Mayor
 (puesto que está escrito en mayúsculas). Igualmente, sabemos que el grado
 Dominante (V) de una escala mayor debe ser así mismo mayor. ¿Por qué no utilizamos nuestro acorde IV como V de otra escala distinta y resolvemos sobre un cuarto
@@ -190,6 +190,9 @@ como ahora solo resuelve de forma agradable en A#.
 
 <h4>G (vi de A#)</h4>
 <div id ="piano_17" class="piano_container"></div>
+
+!> Como es obvio, esto se cumple para cualquier grado, no solo para el V. Simplemente al ser este el que "tira" con mayor fuerza hacia
+la tónica es el más sencillo de usar para este propósito.
 
 <link rel="stylesheet" href="PianoGenerator/style.css">
 <script>
