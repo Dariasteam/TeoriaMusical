@@ -76,21 +76,21 @@ Veamos un ejemplo para la escala mayor.
 
 | Posición | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 |-|-|-|-|-|-|-|-|
-| Grados| I | ii | iii | IV | V | vi | VIIº
+| Grados| I | ii | iii | IV | V | vi | viiº
 
 Sabemos que la localización de cada tipo de triada siempre se cumple para cualquiera
 que sea la tónica usada en una misma escala. Por ejemplo, veamos Do y G# Mayor.
 
-| Posición | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| Do Mayor | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 |-|-|-|-|-|-|-|-|
 | Nota |C | D | E | F | G | A | B |
-| Grados| I | ii | iii | IV | V | vi | VIIº
+| Grados| I | ii | iii | IV | V | vi | viiº
 | Triada |C | Dm | E | F | G | Am | Bº |
 
-| Posición | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| Sol# Mayor | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 |-|-|-|-|-|-|-|-|
 | Nota | G# | A# | C | C# | D# | F | G |
-| Grados| I | ii | iii | IV | V | vi | VIIº
+| Grados| I | ii | iii | IV | V | vi | viiº
 | Triada | G# | A#m | Cm | C# | D# | Fm | Gº |
 
 ?> Gracias a esta codificación, ahora tan solo debemos aprendernos los 7 grados

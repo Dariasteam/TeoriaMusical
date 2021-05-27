@@ -47,10 +47,7 @@ En el apartado siguiente exploraremos el tipo
 de acorde más simple y a la vez más relevante: la triada. Tras ello proseguiremos
 con otros apartados, dejando una lista más extensa con otros tipos de acordes y sus explicaciones en el apartado [Acordes](s) para que el lector la consulte cuando considere.
 
-Es importante señalar que si bien la definición de los acordes se hace con intervalos
-en base a la tónica, musicalemnte influyen todas las combinaciones de intervalos
-contenidas. Por ejemplo, en el caso de nuestro acorde _icónico_, no hemos tenido
-en consideración para la definición el intervalo de segunda menor que ocurre entre
+Es importante señalar que, a pesar de que la definición de un acordes se hace con intervalos en base a la tónica, musicalemnte influyen todas las combinaciones de intervalos contenidas. Por ejemplo, en el caso de nuestro acorde _icónico_, no hemos tenido en consideración para la definición el intervalo de segunda menor que ocurre entre
 las notas 2 y 3 (la cuarta y quinta justas respecto a la tónica)
 
 <h2> Triadas </h2>
@@ -65,6 +62,8 @@ Existen cuatro tipos diferenciados
 - **Tercera Mayor**
 - Quinta Justa
 
+Internamente está compuesto de dos intervalos de tercera, una mayor y otra menor __en ese orden__. (Desde una tercera mayor a una quinta justa hay una tercera menor)
+
 Se representa simplemente con la letra de la tónica,
 aunque a veces se añade una M mayúscula o el sufijo _Maj_. Por ejemplo, Do mayor es C, CM ó CMaj. La distinición entre el acorde Do Mayor (C) y la nota aislada Do (C) se realiza por contexto.
 
@@ -73,14 +72,16 @@ aunque a veces se añade una M mayúscula o el sufijo _Maj_. Por ejemplo, Do may
 > Do Mayor o C. Internamente contiene un intervalo de tercera mayor y otro menor.
 
 ?> Los acordes Mayores suenan alegres y agradables. Se pueden tocar durante un
-largo periodo de tiempo que no produce desagrado al oido. Existen multitud
-de piezas construidas en base a únicamente a dos acordes mayores.
+largo periodo de tiempo que no producen desagrado al oido. Existen multitud
+de piezas construidas únicamente en base a uno o dos acordes mayores.
 
 <h3> Acordes Menores </h3>
 
 - Tónica
 - **Tercera Menor**
 - Quinta Justa
+
+Internamente está compuesto de dos intervalos de tercera, una menor y otra mayor __en ese orden__.
 
 Se representa con la letra de la tónica y una m minúscula o el sufijo _min_,
 por ejemplo, Dm o Dmin para Re menor.
@@ -98,6 +99,8 @@ o piezas.
 - Tónica
 - **Tercera Menor**
 - **Quinta Disminuida** / **Cuarta Aumentada**
+
+Internamente está compuesto de dos intervalos de tercera menor.
 
 Se representa con la letra de la tónica y el símbolo º,
 por ejemplo, Fº para Fa disminuido.
@@ -121,6 +124,8 @@ _resuelve_ de una forma agradable que simplemente dejando un acorde disminuido c
 - Tónica
 - **Tercera Mayor**
 - **Quinta Aumentada**
+
+Internamente está compuesto de dos intervalos de tercera mayor.
 
 Se representa con la letra de la tónica y el símbolo +,
 por ejemplo, G#+ para Sol sostenido disminuido.
