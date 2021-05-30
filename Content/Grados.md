@@ -116,6 +116,5 @@ estos son referidos a acordes. Los nombres son:
 | viiº | Sensible |
 
 
-En mi opinión no tiene mucha relevancia aprenderlos y complica innecesariamente
-el aprendizaje (aparte de que los nombres no son nada descriptivos).
-En la guía usaremos siempre el número romano del grado acompañando el nombre cuando este aparezca.
+En mi opinión no es imprescindible aprender los nombres, pero resulta útil para diferenciar rápidamente entre grados referidos a notas
+individuales o a acordes.

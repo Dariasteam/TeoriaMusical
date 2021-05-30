@@ -1,18 +1,76 @@
 <h1> Armonía Funcional </h1>
 
-La característica de "Resolución" vista en el apartado _Progresiones_ y que muestra como los acordes de "quieren" desplazarse de unos a otros la podemos aprovechar en nuestro beneficio para obtener progresiones interesantes o que produzcan efectos concretos. La armonía funcional pretende clasificar los acordes pertenecientes a una escala en base a su tendencia inherente a resolver en otros.
+La característica de "Resolución" vista en el apartado _Progresiones_ que muestra como los acordes de "quieren" desplazarse de unos a otros la podemos aprovechar en nuestro beneficio para obtener progresiones interesantes o que produzcan efectos concretos. La armonía funcional pretende clasificar los grados (tanto en forma de nota como de acorde) pertenecientes a una escala en base a su tendencia inherente a resolver en otros.
 
-Ya hemos visto como hay acordes que de base presentan tensión en su sonoridad, por ejemplo, los acordes disminuidos. Estos acordes buscan naturalmente resolver en otros más estables, pero, además de este fenómeno, acordes poco disonantes pueden provocar tensión en nuestra progresión simplemente por su situación. Aprender a aprovechar estas
-tensiones es tarea fundamental para componer progresiones buenas y
-acordes al propósito de la obra.
+Ya hemos visto como hay acordes que de base presentan tensión en su sonoridad, por ejemplo, los acordes disminuidos. Estos acordes buscan naturalmente resolver en otros más estables, pero, además de este fenómeno, acordes poco disonantes pueden provocar tensión en nuestra progresión simplemente por su situación (a qué grado correspondan). Aprender a aprovechar estas tensiones es tarea fundamental para componer progresiones buenas y
+acordes al propósito de la obra. Usamos un ejemplo en la escala de Do mayor.
+
+La armonía funcional plantea la **tónica como el centro _tonal_** de la pieza. Esto se refiere tanto a la nota tónica de la escala como al acorde Tónica (I). Lo más natural entonces es comenzar y cerrar una obra en I. Lo que ocurra en medio podrá ayudarnos o no a que la progresión se desarrolle de forma más o menos tensa.
 
 !> No hay que perder de vista que no hay una forma _correcta_ de hacer música. No es necesario respetar las "reglas" de
 la armonía funcional para hacer buenas progresiones y en muchos
 casos es desesable romperlas.
 
+<h2>Notas individuales y Direccionalidad</h2>
+
+Para cualquier escala, se puede tratar de analizar cómo se comportan cualquier grado
+en relación a sus grados colindantes. Ocurre que en muchos casos existe una sensación
+de inestabilidad con un componente direcional: un grado al escucharlo parece querer
+moverse hacia uno de los dos grados contiguos. Una vez hemos tocado el grado
+contiguo, se produce una sensación de cierre o estabilidad. El caso paradigmático
+es, en la escala mayor, el paso de grado vii al viii (grado i una octava más aguda).
+
+<div id ="piano_grado_1" class="piano_container"></div>
+
+> Toca alguna notas en la escala (teclas blancas) para desarrollar la sensación de tonalidad y a continuación pulsa el botón de melodía ascendente. También puede ser útil pulsar varias veces B y luego C.
+
+Se debería notar como el grado vii no es estable en esta escala, podemos pasar por él durante una melodía sin ningún problema, pero a la hora de terminarla, es más agradable
+subir un semitono más. Vemos entonces que existen dos tipos
+de grados, unos estables y otros intestables o _activos_,
+
+
+- Grado (o tono) Activo: Aquel que busca resolver en otra nota
+- Grado (o tono) Estable: Aquel en el que buscan resolver
+los grados activos.
+
 <h2>Armonía Funcional y Escala Mayor</h2>
 
-Recordemos los grados y sus nombres asociados.
+Identifiquemos a continuación todos los grados activos y estables de la escala mayor. Para esta escala, las notas
+pertenecientes a la triada de la tónica son
+estables y todas los demás son activas. Sigamos el ejemplo con Do Mayor. Marcaremos las notas estables con el símbolo `o` mientras que a las inestables les colocaremos una flecha
+indicando el grado contiguo hacia el que quieren resolver.
+
+
+|Nota Individual| Do | Re | Mi | Fa | Sol | La | Si |
+|-| - | - | - | - | - | -| - |
+|Grado de la nota| i | ii | iii | iv | v | vi | vii |
+|Direccionalidad| o | ←→ | o | ← | o | ← | → |
+
+Reflejemos en un teclado este mismo esquema, hemos señalado las notas estables
+en rosado y las activas en naranja. Nota como el segundo grado es un caso particular
+que puede resolver tanto en el grado posterior como en el anterior.
+
+<div id ="piano_grado_2" class="piano_container"></div>
+
+> Toca alguna notas en la escala (teclas blancas) para desarrollar la sensación de tonalidad y a continuación trata de termianr la melodía en uuna nota
+activa, verás que como resuelve mejor si acto seguido tocas la nota estable
+indicada por la flecha. Si una vez en
+una nota estable se intenta resovler a una inestable se aprecia un efecto de
+incompletitud o falta de cierre.
+
+!> Recuerda, esta característica de direccionaldiad es en base a un __grado__, no
+una nota. Una misma nota puede ser activa en una escala y estable en otra, dado
+que su grado será distinto.
+
+<h2>Acordes y direccionalidad</h2>
+
+Estando los acordes de una escala compuestos por notas de la misma, es obvio
+que el sonido producido presentará unas características direccionales
+resultado de la combinación de las de cada una de sus notas. Es por ello
+que los acordes se pueden clasificar según se _función_ dentro de una progresión,
+o lo que es lo mismo, hacia que otros acordes nos llevan.
+
+Recordemos los grados (vistos como acordes) de la escala Mayor y sus nombres asociados.
 
 | Grado | Nombre |
 | - | - |
@@ -24,41 +82,139 @@ Recordemos los grados y sus nombres asociados.
 | vi | Superdominante o Submediante |
 | viiº | Sensible |
 
-Ahora estamos en condición de explicar un poco más sobre estos el por qué de los nombres.
+Ahora estamos en condiciones de explicar un poco más sobre las
+propiedades de cada una de estas triadas.
 
-La armonía funcional plantea la **tónica como el centro _tonal_** de la pieza. Esto se refiere tanto a la nota tónica de la escala como al acorde Tónica (I). Lo más natural entonces es comenzar y cerrar una obra en I. Lo que ocurra en medio podrá ayudarnos o no a que la progresión se desarrolle de forma más o menos tensa. Según este criterio, veamos las relaciones entre la tónica y el resto de acordes **por orden de importancia** usando la escala de Do Mayor.
+<h3>I - Tónica</h3>
 
----
+- Grados (notas) que conforman la triada: (i, iii, iv)
 
-<h3>I - V | Tónica - Dominante</h3>
+|Grado de la nota| i | ii | iii | iv | v | vi | vii |
+|-| - | - | - | - | - | -| - |
+|Direccionalidad| o | ←→ | o | ← | o | ← | → |
 
-Es la relación que mayor "fuerza" tiene a la hora de intentar cerrar, o, dicho de otro modo, el que mejor resuelve hacia la tónica. Se utiliza regularmente por tanto como último acorde de una progresión. Se supone que su nombre hace referencia a esta característica.
-
-<h4>G (V)</h4>
-<div id ="piano_0" class="piano_container"></div>
-
-
-<h4>C (I)</h4>
-<div id ="piano_1" class="piano_container"></div>
-
-> Toca varias veces seguidas el acorde V y posteriormente cierra tocando I
-
-!> Fíjate como ambos acordes son mayores, así que esta tensión no se puede explicar por la inestabilidad del acorde en sí, sino por la relación existente entre ambos. Inicialmente Sol mayor podría estar actuando como Tónica de su propia tonalidad, pero al seguirlo de Do pasa a cumplir la función de Dominante. Si comenzamos la progresión en Do y hacemos por ejemplo I V V I, Sol actúa desde el primer momento como Dominante y aumenta la tensión por cerrar.
+Como se ve en la tabla, esta triada está compuesta por los 3 grados estables
+de la escala. Es por tanto, la triada de mayor estabilidad de toda la escala mayor.
 
 ---
 
-<h3>I - IV | Tónica - Subdominante</h3>
+<h3>ii - Supertónica</h3>
 
-Es una relación que si bien presenta cierta tendencia a resolver en la tónica, lo hace con una intensidad menor a la del acorde dominante, de ahí su nombre. Si nos mantenemos mucho tiempo en este acorde no se produce una sensación tan "urgente" de cerrar.
+- Grados (notas) que conforman la triada: (ii, iv, vi)
 
-<h4>F (IV)</h4>
+|Grado de la nota| i | ii | iii | iv | v | vi | vii |
+|-| - | - | - | - | - | -| - |
+|Direccionalidad| o | ←→ | o | ← | o | ← | → |
+
+Esta triada contiene, en primer lugar un grado ii, que busca resolver o bien en i o en iii, luego un grado iv que nos mueve a iii y por último un grado vi que pretende resolver en v. Por
+tanto, su direccionalidad nos mueve hacia las siguiente posibilidades:
+
+- Triada (i, iii, v)  → Acorde Tónica
+- Triada (iii, iii, v) → Intervalo de tercera menor (iii, v) contenido en el propio acorde Tónica.
+
+La direccionalidad o inestabilidad del acorde es muy fuerte, dado que
+todas sus notas son activas.
+
+?>Prueba a moverte desde la Supertónica a la Tónica de Do Mayor
+
+<h4>D (ii) Supertónica</h4>
+<div id ="piano_8" class="piano_container"></div>
+
+<h4>C (I) Tónica</h4>
+<div id ="piano_9" class="piano_container"></div>
+
+---
+
+<h3>iii - Mediante</h3>
+
+- Grados (notas) que conforman la triada: (iii, v, vii)
+
+|Grado de la nota| i | ii | iii | iv | v | vi | vii |
+|-| - | - | - | - | - | -| - |
+|Direccionalidad| o | ←→ | o | ← | o | ← | → |
+
+Esta triada contiene, en primer lugar un grado iii estable, a continuación
+un grado v igualmente estable y por útilmo un grado vii activo que nos
+mueve hacia viii (i). La resolución más lógica sería:
+
+- Triada (iii, v, i) → reordenado (i, iii, v) → Acorde Tónica
+
+La inestabilidad en este caso es ligera, pues solo una de sus notas es activa.
+
+?>Prueba a moverte desde la Mediante a la Tónica de Do Mayor
+
+<h4>E (iii) Mediante</h4>
+<div id ="piano_6" class="piano_container"></div>
+
+<h4>C (I) Tónica</h4>
+<div id ="piano_7" class="piano_container"></div>
+
+---
+
+<h3>IV - Subdominante </h3>
+
+- Grados (notas) que conforman la triada: (iv, vi, viii ó i )
+
+|Grado de la nota| i | ii | iii | iv | v | vi | vii |
+|-| - | - | - | - | - | -| - |
+|Direccionalidad| o | ←→ | o | ← | o | ← | → |
+
+La triada presenta los grados activos iv y vi, los cuales direccionalemnte
+nos mueven hacia sus respectivos grados anteriores. El grado i es estable.
+La triada hacia la que ocurre el desplazamiento es:
+
+- Triada (iii, v, i) → Reordenado (i, iii, v) → Acorde Tónica
+
+La inestabilidad es mayor que en la mediante pero menor que en la supertónica.
+
+?>Prueba a moverte desde la Subdominante a la Tónica de Do Mayor
+
+<h4>F (IV) SUbdominante</h4>
 <div id ="piano_2" class="piano_container"></div>
 
 
-<h4>C (I)</h4>
+<h4>C (I) Tónica</h4>
 <div id ="piano_3" class="piano_container"></div>
 
 ---
+
+<h3>V - Dominante </h3>
+
+- Grados (notas) que conforman la triada: (v, vii, ii)
+
+|Grado de la nota| i | ii | iii | iv | v | vi | vii |
+|-| - | - | - | - | - | -| - |
+|Direccionalidad| o | ←→ | o | ← | o | ← | → |
+
+En este caso, el grado v es estable y lso grados vii y ii activos, con la particularidad de que el grado ii peue resolver en dos direcciones. Las posibles triadas de resolución son:
+
+- Triada (v, i, iii) → Reordenado (i, iii, v) → Acorde Tónica
+- Triada (v, i, i)   → Intervalo de quinta (i, v) contenido en el propio acorde Tónica.
+
+Este acorde se considera que es el que retorna con más fuerza hacia la tónica.
+
+?>Prueba a moverte desde la Dominante a la Tónica de Do Mayor
+
+<h4>G (V) Dominante</h4>
+<div id ="piano_0" class="piano_container"></div>
+
+
+<h4>C (I) Tónica</h4>
+<div id ="piano_1" class="piano_container"></div>
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
 
 <h3>I - vi | Tónica - Superdominante o submediante</h3>
 
@@ -72,29 +228,7 @@ Parecido al caso anterior, su tensión por cerrar es aún menor que el de la sub
 
 ---
 
-<h3>I - iii | Tónica - Mediante</h3>
 
-En esta progresión ya no se identifica claramente esa inercia por cerrar en la tónica y se antoja más adecuado usarlo para ascender (de I a iii) que al contrario. El nombre pretende reflejar ese carácter de acorde "de paso".
-
-<h4>E (iii)</h4>
-<div id ="piano_6" class="piano_container"></div>
-
-<h4>C (I)</h4>
-<div id ="piano_7" class="piano_container"></div>
-
----
-
-<h3>I - ii | Tónica - Supertónica</h3>
-
-A mi juicio, igual de polivalente para movernos desde o hacia la tónica.
-
-<h4>D (ii)</h4>
-<div id ="piano_8" class="piano_container"></div>
-
-<h4>C (I)</h4>
-<div id ="piano_9" class="piano_container"></div>
-
----
 
 <h3>I - viiº | Tónica - Sensible</h3>
 
@@ -303,5 +437,34 @@ piano({
     octaves: 2,
     pressed: ["G", "A#", "D", "G"],
     controls: ["sync"]
+});
+piano({
+    tag: "piano_grado_1",
+    octaves: 2,
+    pressed: ["B", "C"],
+    controls: ["up"],
+    relevant: {
+        "C"  : { text: "i" },
+        "D"  : { text: "ii" },
+        "E"  : { text: "iii" },
+        "F"  : { text: "iv" },
+        "G"  : { text: "v" },
+        "A"  : { text: "vi" },
+        "B"  : { text: "vi" }
+    }
+});
+piano({
+    tag: "piano_grado_2",
+    octaves: 2,
+    controls: ["up"],
+    relevant: {
+        "C"  : { text: "o" , color: "violet"},
+        "D"  : { text: "←→", color: "orange"},
+        "E"  : { text: "o", color: "violet"},
+        "F"  : { text: "←", color: "orange"},
+        "G"  : { text: "o"  , color: "violet"},
+        "A"  : { text: "←", color: "orange"},
+        "B"  : { text: "→", color: "orange"}
+    }
 });
 </script>

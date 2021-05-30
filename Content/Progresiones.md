@@ -5,15 +5,14 @@ casos alude a la forma en que están organizados alguno de estos elementos a lo 
 
 Hablamos de una progresión ascendente si tenemos una sucesión de notas cada vez más agudas y descendente para el caso contrario. Nosotros utilizaremos exclusivamente la acepción referida a acordes.
 
-El término progresión es **ajeno a notas concretas**. De la misma manera en que
-escalas y acordes son conjuntos de intervalos y no se convierten efectivamente en notas determinadas hasta que seleccionamos una tónica, una progresión contempla tipos de acordes y las distancias entre los mismos. Si los intervalos servían para hablar de distancia o proporciones entre notas, las progresiones describen distancia o proporción entre acordes completos.
+Como ya empieza a ser habitrual, el término progresión es **ajeno a notas concretas**. Si los intervalos servían para hablar de distancia o proporciones entre notas, las progresiones describen distancia entre grados (referidos a acordes).
 
 <h2> Progresiones de acordes </h2>
 Podemos expresar las progresiones de acordes mediante la nomenclatura de grados que acabamos de aprender. Un ejemplo de progresión ampliamente utilizada es la siguiente:
 
     I V vi IV
 
-Esta progresión aparece en infinidad de canciones, aunque estén en escalas diferentes. Algunos ejemplos son.
+Esta progresión aparece en infinidad de canciones, aunque se usen tónicas diferentes para la escala. Algunos ejemplos son.
 
 <h3> Don't Stop Believing - Journey </h3>
 El estribillo e introducción están hechos sobre esta progresión
@@ -76,7 +75,7 @@ La estrofa y el estribillo funcionan igualmente sobre esta progresión.
 | B | F# | G# | E |
 
 Acordes de la canción. Si se pulsan con la cadencia adecuada
-el lector podrá cantar encima la melodái de la voz sin dificultad.
+el lector podrá cantar encima la melodía de la voz sin dificultad.
 
 <h3>I B</h3>
 <div id ="piano_4" class="piano_container"></div>
