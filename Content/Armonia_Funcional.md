@@ -87,7 +87,7 @@ propiedades de cada una de estas triadas.
 
 <h3>I - Tónica</h3>
 
-- Grados (notas) que conforman la triada: (i, iii, iv)
+- Grados (notas) que conforman la triada: (i, iii, v)
 
 |Grado de la nota| i | ii | iii | iv | v | vi | vii |
 |-| - | - | - | - | - | -| - |
@@ -204,57 +204,62 @@ Este acorde se considera que es el que retorna con más fuerza hacia la tónica.
 
 ---
 
+<h3>vi - Superdominante o Submediante </h3>
 
+- Grados (notas) que conforman la triada: (vi, i, iii)
 
+|Grado de la nota| i | ii | iii | iv | v | vi | vii |
+|-| - | - | - | - | - | -| - |
+|Direccionalidad| o | ←→ | o | ← | o | ← | → |
 
+Para esta triada, los grados i y iii son estables, mientras que el grado
+vi añade una pequeña inestabilidad que quiere desplazar iii. Se trata de un
+caso en el que una triada no nos mueve hacia otra, sino simplemente hacia un intervalo.
 
+- Triada (i, iii, iii) → Intervalo de tercera mayor incluido en la Tónica.
 
+?>Prueba a moverte desde la Superdominante a la Tónica de Do Mayor
 
-
-
-
-
-
-
-<h3>I - vi | Tónica - Superdominante o submediante</h3>
-
-Parecido al caso anterior, su tensión por cerrar es aún menor que el de la subdominante. De hecho, quizá resulta más natural el paso de I a vi que de vi I.
-
-<h4>Am (vi)</h4>
+<h4>Am (vi) Superdominante</h4>
 <div id ="piano_4" class="piano_container"></div>
 
-<h4>C (I)</h4>
+<h4>C (I) Tónica</h4>
 <div id ="piano_5" class="piano_container"></div>
 
 ---
 
+<h3>vii - Sensible </h3>
+
+- Grados (notas) que conforman la triada: (vii, ii, iv)
+
+|Grado de la nota| i | ii | iii | iv | v | vi | vii |
+|-| - | - | - | - | - | -| - |
+|Direccionalidad| o | ←→ | o | ← | o | ← | → |
+
+Todos sus grados son activos, además de que el acorde de por si, al tratarse de uno disminuido, es inestable. Resuelve cómodamente sobre un intervalo de la Tónica.
+
+- Triada (i, i, iii) → (i, iii) → Intervalo de tercera mayor incluido en la Tónica.
+- Triada (i, iii, iii) → (i, iii) → Intervalo de tercera mayor incluido en la Tónica.
 
 
-<h3>I - viiº | Tónica - Sensible</h3>
+?>Prueba a moverte desde la Sensible a la Tónica de Do Mayor
 
-Este es un caso particular, al tratarse de un acorde disminuido ya es
-intrínsicamente inestable, por lo que busca resolver no tanto por posición
-como por las caracterśiticas de sus intervalos. Y sin embargo, no resuelve tan bien como el Dominante (V) o subdominante (IV). Este grado
-resulta difícil de usar y en muchos casos es simplemente ignorado, realizádose las progresiones considerando solo los otros 6 grados restantes.
-
-<h4>D (ii)</h4>
+<h4>B (vii) Sensible</h4>
 <div id ="piano_10" class="piano_container"></div>
 
-<h4>C (I)</h4>
+<h4>C (I) Tónica</h4>
 <div id ="piano_11" class="piano_container"></div>
 
 ---
 
-!> Hay MUCHO MÁS que esto. Hemos explicado tan solo las relaciones con respecto a la tónica para una escala en concreto (Escala Diatónica o Mayor). Los grados de otras escalas se comportan de maneras diferentes y dentro de una misma escala
-importan las relaciones entre cualesquiera dos grados, no solo con respecto a la tónica. Sea como fuere, estos conceptos no dejan de ser
-efectos musicales que ocurren y se descubren de forma orgánica simplemente
+!> Hay MUCHO MÁS que esto. Hemos explicado tan solo las relaciones de las triadas fundamentales para una escala en concreto (Escala Diatónica o Mayor). Los grados de otras escalas se comportan de maneras diferentes y existe una mayor variedad de acordes que aún no hemos explicado y tendrán su comportamiento particular. Además, no siempre es conveniente en una progresión de acordes moverse de grados inestables a otros más estables, a veces interesa encadenar inestabilidad para dar ciertos efectos o se puede resolver de otras maneras, como usando cambios de tonalidad. Sea como fuere, estos conceptos no dejan de ser efectos musicales que ocurren y se descubren de forma orgánica simplemente
 creando y escuchando progresiones.
 
 <h2> Relatividad </h2>
 
 Como vimos con el grado V (Dominante), el acorde de sol se comportó como
 grado V únicamente por el hecho de estar en el contexto adecuado.
-DIremos pues que un acorde cumple una función en la medida en que es tocado dentro de una tonalidad concreta.
+Diremos pues que un acorde cumple una función en la medida en que es tocado dentro de una tonalidad concreta.
 
 Hagamos un ejercicio interesante para mostrar más claramente esto y su gran utilidad para movernos entre escalas / tonalidades. Comencemos por escoger una progresión de la forma `I iii IV`. Si bien sabemos que el grado IV (subdominante) resuelve con cierta gracia en I, vamos a enfocar desde
 otro punto de vista su función. Sabemos que IV se trata de un acorde Mayor
