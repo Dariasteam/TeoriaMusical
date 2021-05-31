@@ -288,7 +288,7 @@ un arpegio del acorde tónica: La menor. Para el segundo se enfatizan movimiento
 desde los grados colindantes a la tónica, sonoridad característica de la música
 _"oriental"_.
 
-?> No existe una regla universal para averiguar / calcular la tonalidad exacta
+!> No existe una regla universal para averiguar / calcular la tonalidad exacta
 de una melodía. No obstante, el primer acorde y/o el más repetido de la progresión acostumbra a ser el acorde tónica de la escala/modo que se utilice.
 
 
@@ -389,7 +389,7 @@ piano({
     names: "pressed",
     tonic: "A",
     pressed: ["A", "C", "E", "A", "B"],
-    controls: ["up"]
+    controls: ["spring"]
 });
 piano({
     tag: "piano_8",
