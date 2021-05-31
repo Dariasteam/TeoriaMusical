@@ -85,7 +85,7 @@ Los modos son simples pero se explican mal.
 
 <h2> Modos de la escala Diatónica </h2>
 
-Cada uno de los modos tiene una sonoridad distintiva y en muchos casos extraordinariamente marcada. Además, cada modo presenta sus propios grados (en el sentido de que un grado ii de un modo A tiene propiedades distintas al grado ii de otro modo B). Esto abre un abanico inmenso de posibilidades musicales que el lector hará bien en explorar con detenimiento. Por lo pronto, daremos una información general sobre los mismos. En todos los casos usaremos Do como tónica para acentuar las diferencias estrictamente achacabales a los modos.
+Cada uno de los modos tiene una sonoridad distintiva y en muchos casos extraordinariamente marcada. Además, cada modo presenta sus propios grados, esto es, tanto el orden en el que aparecen las triadas como la función que cumplen las triadas / notas individuales con respecto a otros modos. Esto abre un abanico inmenso de posibilidades musicales que el lector hará bien en explorar con detenimiento. Por lo pronto, daremos una información general sobre los mismos. En todos los casos usaremos Do como tónica para acentuar las diferencias estrictamente achacabales a los modos.
 
 <h3> Modo 1: Ionian, Jónico o Mayor </h3>
 
@@ -101,6 +101,9 @@ El que llevamos utilizando durante toda la guía, el más común y archipresente
         C D E F G A B C
          2 2 1 2 2 2 1
 
+| Grados del modo Mayor| I | ii | iii | IV | V | vi | viiº
+|-|-|-|-|-|-|-|-|
+| Triadas de Do Mayor| C | Dm | Em | F| G | Am| B |
 
 
 <div id ="piano_0" class="piano_container"></div>
@@ -120,6 +123,11 @@ Tiene un sonido más oscuro y taciturno. A veces se le considera como una versi�
         C D D# F G A A# C
          2 1  2 2 2 1  2
 
+| Grados del modo Dórico| i | ii | III | IV | v | viº | VII
+|-|-|-|-|-|-|-|-|
+| Triadas de Do Dórico| C | Dm | D# | F | Gm | Aº | A# |
+
+> Fíjate como, al igual que los intervalos se ha _desfasado_ una posición con respecto a los del modo mayor, las triadas también lo han hecho. Las triadas i y ii son menores ya que se corresponden con las triadas ii y iii del modo Mayor.
 
 <div id ="piano_1" class="piano_container"></div>
 
@@ -138,6 +146,10 @@ Arquetipo de música de medio oriente. Si no se tiene cuidado cualquier cosa que
         C C# D# F G G# A# C
          1  2  2 2 1  2  2
 
+| Grados del modo Frigio| i | II | III | iv | vº | VI | vii
+|-|-|-|-|-|-|-|-|
+| Triadas de Do Frigio| Cm | C# | D# | Fm | Gº | G# | A#m |
+
 <div id ="piano_2" class="piano_container"></div>
 
 ---
@@ -155,6 +167,11 @@ Este modo suena como etéreo, espacial, celestial, o en definitiva, más maś de
         C D E F# G A B C
          2 2 2  1 2 2 1
 
+
+| Grados del modo Lidio| I | II | iii | ivº | V | vi | vii
+|-|-|-|-|-|-|-|-|
+| Triadas de Do Lidio| C | D | Em | F#º | G | Am | Bm |
+
 <div id ="piano_3" class="piano_container"></div>
 
 ---
@@ -171,6 +188,10 @@ Energético y con toques celtas, en este modo está compuesta la mitad de la dis
 
         C D E F G A A# C
          2 2 1 2 2 1  2
+
+| Grados del modo Mixolidio| i | ii | iiiº | IV | v | vi | VII
+|-|-|-|-|-|-|-|-|
+| Triadas de Do Mixolidio| Cm | Dm | Eº | F | G | Am | A# |
 
 <div id ="piano_4" class="piano_container"></div>
 
@@ -190,13 +211,17 @@ Melancolía, desgarro, pero de alguna manera, montón de energía. Prácticament
         C D D# F G G# A# C
          2 1  2 2 1  2  2
 
+| Grados del modo Menor| i | iiº | III | iv | v | VII | VIII
+|-|-|-|-|-|-|-|-|
+| Triadas de Do Menor| Cm | Dº | D# | Fm | Gm | G# | A# |
+
 <div id ="piano_5" class="piano_container"></div>
 
 ---
 
 <h3> Modo 7: Locrian o Locrio</h3>
 
-La oveja negra. El rarito. No hay mucho más que decir, este modo suena espantoso y prácticamente no exsiten ejemplos de canciones que lo usen. Porque ciertamente, es horrible.
+La oveja negra. El rarito. No hay mucho más que decir, este modo suena espantoso y prácticamente no exsiten ejemplos de canciones que lo usen. Porque ciertamente, es horrible. ¿Cómo se supone que usas como acorde fundamental y de resolución una triada disminuida?
 
 
         Modo Locrio
@@ -207,6 +232,10 @@ La oveja negra. El rarito. No hay mucho más que decir, este modo suena espantos
 
         C C# D# F F# G# A# C
          1  2  2 1  2  2  2
+
+| Grados del modo Locrio| iº | II | iii | iv | V | VII | viii
+|-|-|-|-|-|-|-|-|
+| Triadas de Do Locrio| C | Dm | Em | F| G | Am| B |
 
 <div id ="piano_6" class="piano_container"></div>
 
