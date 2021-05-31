@@ -92,7 +92,7 @@ Cada uno de los modos tiene una sonoridad distintiva y en muchos casos extraordi
 El que llevamos utilizando durante toda la guía, el más común y archipresente en la música. Ya poco queda por explicar de él, ya hemos dicho que suena muy alegre y feliz, en ocasiones hasta rozar lo ridículo. Coloquemos por deferencia su fórmula una vez más:
 
 
-        Modo Mayor de la escala Diatónica
+        Modo Mayor
 
         2 2 1 2 2 2 1
 
@@ -111,7 +111,7 @@ El que llevamos utilizando durante toda la guía, el más común y archipresente
 
 Tiene un sonido más oscuro y taciturno. A veces se le considera como una versión menos _extra_ del modo mayor. No muy triste pero sí mucho menos esplendoroso. Un ejemplo de uso es la música de Carlos Santana, quien lo emplea en casi todas sus composiciones.
 
-        Modo Dórico de la escala Diatónica
+        Modo Dórico
 
         2 1 2 2 2 1 2
 
@@ -129,7 +129,7 @@ Tiene un sonido más oscuro y taciturno. A veces se le considera como una versi�
 
 Arquetipo de música de medio oriente. Si no se tiene cuidado cualquier cosa que use este modo acaba inevitablemente sonando a desierto, camellos, oasis y palmeras. En la música popular, cuando no se busca ese efecto exótico explicitamente, se utiliza asiduamente tanto en rap, trap y los inicios del reggaeton (empleando solo las notas 1 y 2) como en composiciones grandilocuentes de géneros como el power metal.
 
-        Modo Frigio de la escala Diatónica
+        Modo Frigio
 
         1 2 2 2 1 2 2
 
@@ -146,7 +146,7 @@ Arquetipo de música de medio oriente. Si no se tiene cuidado cualquier cosa que
 
 Este modo suena como etéreo, espacial, celestial, o en definitiva, más maś desconectado que los demás. De hecho, resulta algo difícil realizar una progresión de varios acordes distintos en este modo porque enseguida tienden a resolver solos al modo mayor, perdiéndose el efecto de esta tonalidad. Jonh Williams lo utiliza mucho en sus bandas sonoras, el ejemplo paradigmático es el [Flying Theme de E.T.](https://www.youtube.com/watch?v=2-qrMz-JAzo)
 
-        Modo Lidio de la escala Diatónica
+        Modo Lidio
 
         2 2 2 1 2 2 1
 
@@ -163,7 +163,7 @@ Este modo suena como etéreo, espacial, celestial, o en definitiva, más maś de
 
 Energético y con toques celtas, en este modo está compuesta la mitad de la discografía de AC/DC. Mantiene una sensación de alegría y desenfado como el Mayor pero con un sonido más dinámico y motivante. [Born This Way de Lady Gaga lo utiliza](https://www.youtube.com/watch?v=wV1FrqwZyKw)
 
-        Modo Mixolidio de la escala Diatónica
+        Modo Mixolidio
 
         2 2 1 2 2 1 2
 
@@ -181,11 +181,11 @@ Energético y con toques celtas, en este modo está compuesta la mitad de la dis
 Melancolía, desgarro, pero de alguna manera, montón de energía. Prácticamente todas las baladas que existen se han hecho en este modo. Si el modo Dórico bajaba un poco el ánimo del modo Mayor, este ya lo termina de dejar por los suelos. El Hard Rock y Heavy Metal esta construido prácticamente en exclusiva sobre este modo, compitiendo con el modo Mayor en difusión y acostumbramiento del oido. Un ejemplo que combina los aspectos de balada y sensación de enrgía es [Don't Talk To Strangers de Dio](https://www.youtube.com/watch?v=15hYMIPQw84)
 
 
-        Modo Mixolidio de la escala Diatónica
+        Modo Menor
 
         2 1 2 2 1 2 2
 
-        Do Mixolidio
+        Do Menor
 
         C D D# F G G# A# C
          2 1  2 2 1  2  2
@@ -196,14 +196,14 @@ Melancolía, desgarro, pero de alguna manera, montón de energía. Prácticament
 
 <h3> Modo 7: Locrian o Locrio</h3>
 
-La oveja negra. El rarito. No hay mucho más que decir, este modo suena espantoso y prácticamente no exsiten ejemplso de canciones que lo usen. Porque ciertamente, es horrible.
+La oveja negra. El rarito. No hay mucho más que decir, este modo suena espantoso y prácticamente no exsiten ejemplos de canciones que lo usen. Porque ciertamente, es horrible.
 
 
-        Modo Mixolidio de la escala Diatónica
+        Modo Locrio
 
         1 2 2 1 2 2 2
 
-        Do Mixolidio
+        Do Locrio
 
         C C# D# F F# G# A# C
          1  2  2 1  2  2  2
