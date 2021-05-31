@@ -56,7 +56,7 @@ Dado que la fórmula es periódica, representemos sólo lo mínimo necsario, es 
 
 
 Sin embargo, aún siendo esto correcto, ya nos hemos acostumbrado a tener en la primera posición la tónica, y la verdad resulta muy conveniente para el uso de grados y demás. Lo mejor será reordenar
-la secuencia colocando el elemento 2 en la posición 1 y el 1 en la 7 (puesto que pasría a considerarse el último)
+la secuencia colocando el primer elemento al final, para que la tónica quede al comienzo.
 
 
         Diátonica
@@ -290,7 +290,6 @@ _"oriental"_.
 
 !> No existe una regla universal para averiguar / calcular la tonalidad exacta
 de una melodía. No obstante, el primer acorde y/o el más repetido de la progresión acostumbra a ser el acorde tónica de la escala/modo que se utilice.
-
 
 
 

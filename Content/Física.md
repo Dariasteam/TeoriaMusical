@@ -4,7 +4,7 @@ Atendiendo a la todopoderosa [wikipedia:](https://es.wikipedia.org/wiki/Sonido)
 
 > El sonido [...] es cualquier fenómeno que involucre la propagación de ondas mecánicas (sean audibles o no), a través de un medio (fluido o sólido) que esté generando el movimiento vibratorio de un cuerpo.
 
-Por ejemplo, si hacemos vibrar una cuerda de un instrumento musical, esta vibración se transmitirá por el aire hasta que es percibida por nuestros oidos. VEamos a continuación las dos características de una onda más relevantes.
+Por ejemplo, si hacemos vibrar una cuerda de un instrumento músical, esta vibración se transmitirá por el aire hasta que es percibida por nuestros oidos. VEamos a continuación las dos características de una onda más relevantes.
 
 ## Definiciones físicas
 
@@ -26,8 +26,8 @@ A esta característica del sonido por el cual en un sonido podemos identificar u
 
 Ejemplo de ondas aquí
 
-# Definiciones musicales
+# Definiciones músicales
 
 - **Timbre**: Imperfecciones de la onda producida por un instrumento debidas a los materiales que lo constituyen y que le dan el sonido particular al mismo.
 
-- **Tono**: Frecuencia base de un sonido producido por una instrumento musical.
+- **Tono**: Frecuencia base de un sonido producido por una instrumento músical.
