@@ -141,7 +141,7 @@ Arquetipo de música de medio oriente. Si no se tiene cuidado cualquier cosa que
 
         1 2 2 2 1 2 2
 
-        Do Dórico
+        Do Frigio
 
         C C# D# F G G# A# C
          1  2  2 2 1  2  2
@@ -239,6 +239,63 @@ La oveja negra. El rarito. No hay mucho más que decir, este modo suena espantos
 
 <div id ="piano_6" class="piano_container"></div>
 
+<h2> Relatividad </h2>
+
+Te presento el modo Aeolian de La, es decir, La menor:
+
+        La menor
+
+    A B C D E F G A
+     2 1 2 2 1 2 2
+
+Es sospechosamente parecido a Do Mayor, ¿no crees?
+
+
+        Do Mayor
+
+    C D E F G A B C
+     2 2 1 2 2 2 1
+
+
+Resulta que cualquier modo con cualquier tónica presenta exactamente las
+mismas notas que otro modo diferente con su respectiva tónica. A este fenómeno
+lo llamamos relatividad. En este caso, por ejemplo, decimos que La es el relativo menor de Do. Este otro ejemplo muestra como Mi es el relativo frigio de Do.
+
+        Mi Frigio
+
+    E F G A B C D E
+     1 2 2 2 1 2 2
+
+
+¿Y ahora qué hacemos? ¿Cómo sabemos si estamos en un modo u otro? Es más, _¿Acaso existen realmente los modos?_ ¿No podríamos verlos todos comos versiones del modo mayor con diferentes tónicas? Bueno, esta es una pregunta complicada de responder.
+
+Como vimos en la sección de Tonalidades, la sensación de tonalidad se va
+generando según tocamos notas y/o acordes en una melodía. Resulta que dependiendo
+de en qué notas resolvamos, qué acordes empleamos para abrir las progresiones, con qué frecuencia toquemos el acorde asociado a la tónica, etc. se afianzará una sensación de tonalidad u otra.
+
+Compara estas dos melodías, ambas comparten notas, sin embargo, utilizan en mayor cantidad aquellas más relevantes a cada tonalidad.
+
+<h3>La menor</h3>
+
+<div id ="piano_7" class="piano_container"></div>
+
+<h3>Mi Frigio</h3>
+
+<div id ="piano_8" class="piano_container"></div>
+
+> En el primer caso se acentúa la tonalidad menor comenzando directamente con
+un arpegio del acorde tónica: La menor. Para el segundo se enfatizan movimientos
+desde los grados colindantes a la tónica, sonoridad característica de la música
+_"oriental"_.
+
+?> No existe una regla universal para averiguar / calcular la tonalidad exacta
+de una melodía. No obstante, el primer acorde y/o el más repetido de la progresión acostumbra a ser el acorde tónica de la escala/modo que se utilice.
+
+
+
+
+
+
 <link rel="stylesheet" href="PianoGenerator/style.css">
 <script>
 piano({
@@ -324,6 +381,24 @@ piano({
     },
     pressed: ["C", "C#", "D#", "F", "F#", "G#", "A#", "C"],
     controls: ["spring"]
+});
+piano({
+    tag: "piano_7",
+    octaves: 2,
+    number: "pressed",
+    names: "pressed",
+    tonic: "A",
+    pressed: ["A", "C", "E", "A", "B"],
+    controls: ["up"]
+});
+piano({
+    tag: "piano_8",
+    octaves: 2,
+    number: "pressed",
+    names: "pressed",
+    tonic: "E",
+    pressed: ["D", "E", "F", "D", "E"],
+    controls: ["up"]
 });
 </script>
 

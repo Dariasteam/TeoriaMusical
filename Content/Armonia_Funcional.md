@@ -261,7 +261,7 @@ el Sí se mueve hacia la siguiente nota.
 !> Hay MUCHO MÁS que esto. Hemos explicado tan solo las relaciones de las triadas fundamentales para una escala en concreto (Escala Diatónica o Mayor). Los grados de otras escalas se comportan de maneras diferentes y existe una mayor variedad de acordes que aún no hemos explicado y tendrán su comportamiento particular. Además, no siempre es conveniente en una progresión de acordes moverse de grados inestables a otros más estables, a veces interesa encadenar inestabilidad para dar ciertos efectos o se puede resolver de otras maneras, como usando cambios de tonalidad. Sea como fuere, estos conceptos no dejan de ser efectos musicales que ocurren y se descubren de forma orgánica simplemente
 creando y escuchando progresiones.
 
-<h2> Relatividad </h2>
+<h2> Interrelaciones </h2>
 
 Como acabamos de ver, un acorde cualquiera -por ejemplo sol mayor- se
 ha comportado como una grado -en este caso V- únicamente por
