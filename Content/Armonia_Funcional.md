@@ -242,7 +242,8 @@ Todos sus grados son activos, además de que el acorde de por si, al tratarse de
 - Triada (i, iii, iii) → (i, iii) → Intervalo de tercera mayor incluido en la Tónica.
 
 
-?>Prueba a moverte desde la Sensible a la Tónica de Do Mayor
+?>Prueba a moverte desde la Sensible a la Tónica de Do Mayor. Hemos añadido en este caso un segundo Do una octava maś arriba ya que
+el Sí se mueve hacia la siguiente nota.
 
 <h4>B (vii) Sensible</h4>
 <div id ="piano_10" class="piano_container"></div>
@@ -257,15 +258,15 @@ creando y escuchando progresiones.
 
 <h2> Relatividad </h2>
 
-Como vimos con el grado V (Dominante), el acorde de sol se comportó como
-grado V únicamente por el hecho de estar en el contexto adecuado.
+Como acabamos de ver, un acorde cualquiera -por ejemplo sol mayor- se
+ha comportado como una grado -en este caso V- únicamente por
+ser tocado en el contexto adecuado -la escala Mayor de Do-.
 Diremos pues que un acorde cumple una función en la medida en que es tocado dentro de una tonalidad concreta.
 
-Hagamos un ejercicio interesante para mostrar más claramente esto y su gran utilidad para movernos entre escalas / tonalidades. Comencemos por escoger una progresión de la forma `I iii IV`. Si bien sabemos que el grado IV (subdominante) resuelve con cierta gracia en I, vamos a enfocar desde
-otro punto de vista su función. Sabemos que IV se trata de un acorde Mayor
+Hagamos un ejercicio interesante para mostrar más claramente esto y su gran utilidad para movernos entre escalas / tonalidades. Comencemos por escoger una progresión de la forma `I iii IV`. Si bien sabemos que el grado IV (subdominante) resuelve con cierta gracia en I, vamos a enfocar su función desde
+otro punto de vista. Sabemos que IV se trata de un acorde Mayor
 (puesto que está escrito en mayúsculas). Igualmente, sabemos que el grado
-Dominante (V) de una escala mayor debe ser así mismo mayor. ¿Por qué no utilizamos nuestro acorde IV como V de otra escala distinta y resolvemos sobre un cuarto
-acorde que esa una tónica nueva?
+Dominante (V) de una escala mayor debe ser también mayor. ¿Por qué no utilizamos nuestro acorde IV como V de otra escala distinta y resolvemos sobre un cuarto acorde que esté en una tónica nueva?
 
 Veamos un ejemplo:
 
@@ -273,8 +274,7 @@ Veamos un ejemplo:
 - Acorde iii:  E
 - Acorde IV: F
 
-Estos acordes pertenecen a la escala de Do mayor. Encontremos ahora qué escala existe cuyo grado V es el mismo que el IV de la escala de Do, es decir, Fa Mayor. Sabemos que el grado V tiene por tónica la quinta nota de la escala a la que se refiera, por tanto un posible método
-es escribir los intervalos que componen la escala mayor y colocar la nota F
+Estos acordes pertenecen a la escala de Do mayor. Encontremos ahora qué escala y tónica existe cuyo grado V sea el mismo que el IV de la escala de Do Mayor (Fa Mayor). Sabemos que el grado V tiene por tónica el quinto grado (o nota) de la escala a la que se refiera, por tanto un posible método es escribir los intervalos que componen la escala mayor y colocar la nota F
 en la quinta posición. De ahí en adelante, basta con seguir los intervalos
 para averiguar el resto de notas.
 
@@ -297,14 +297,13 @@ para averiguar el resto de notas.
        A# C D D# F G A A#
          2 2 1  2 2 2 1
 
-Encontramos que el acorde Fa mayor es el quinto grado (ó Dominante) de la escala de La sostenido mayor. Probemos entonces a hacer la progresión `C - E - F` y terminar en `A#`.
+Encontramos que el acorde Fa Mayor es el quinto grado (ó Dominante) de la escala de La sostenido Mayor. Probemos entonces a hacer la progresión `C - E - F` y terminar en `A#`.
 Los dos primeros acordes pertenecen a Do mayor, el último a La sostenido mayor y el 3º a ambas escalas.
-
 
 <h4>C (I de C)</h4>
 <div id ="piano_12" class="piano_container"></div>
 
-<h4>E (iii de C)</h4>
+<h4>Em (iii de C)</h4>
 <div id ="piano_13" class="piano_container"></div>
 
 <h4>F (IV de C y V de A#)</h4>
@@ -321,14 +320,19 @@ Si añadimos más acordes de la escala A# arraigaremos esta
 nueva tonalidad y se hará más dificil regresar.
 
 Los dos acordes que mostramos acontinuación, tocados despues de los cuatro previos, se comportarían como IV y vi de A#. Intenta
-tocar los 6 seguidos y regresar a C y A# alternativamente, verás
-como ahora solo resuelve de forma agradable en A#.
+tocar los 6 seguidos, a continuación tocar un último F y regresar a C y A# alternativamente, es decir:
+
+- Progresion 1: C Em F A# D Gm C
+- Progresion 2: C Em F A# D Gm A#
+
 
 <h4>D (IV de A#)</h4>
 <div id ="piano_16" class="piano_container"></div>
 
-<h4>G (vi de A#)</h4>
+<h4>Gm (vi de A#)</h4>
 <div id ="piano_17" class="piano_container"></div>
+
+> La progresión 2 resuelve mucho mejor
 
 !> Como es obvio, esto se cumple para cualquier grado, no solo para el V. Simplemente al ser este el que "tira" con mayor fuerza hacia
 la tónica es el más sencillo de usar para este propósito.
@@ -404,7 +408,7 @@ piano({
 piano({
     tag: "piano_11",
     octaves: 2,
-    pressed: ["C", "E", "G"],
+    pressed: ["C", "E", "G", "C"],
     controls: ["sync"]
 });
 piano({
@@ -428,7 +432,7 @@ piano({
 piano({
     tag: "piano_15",
     octaves: 2,
-    pressed: ["D", "F", "A#", "D"],
+    pressed: ["D", "F", "A#", "D", "F", "A#"],
     controls: ["sync"]
 });
 piano({
