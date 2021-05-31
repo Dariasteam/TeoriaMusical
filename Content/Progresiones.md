@@ -5,10 +5,13 @@ casos alude a la forma en que están organizados alguno de estos elementos a lo 
 
 Hablamos de una progresión ascendente si tenemos una sucesión de notas cada vez más agudas y descendente para el caso contrario. Nosotros utilizaremos exclusivamente la acepción referida a acordes.
 
-Como ya empieza a ser habitrual, el término progresión es **ajeno a notas concretas**. Si los intervalos servían para hablar de distancia o proporciones entre notas, las progresiones describen distancia entre grados (referidos a acordes).
-
 <h2> Progresiones de acordes </h2>
-Podemos expresar las progresiones de acordes mediante la nomenclatura de grados que acabamos de aprender. Un ejemplo de progresión ampliamente utilizada es la siguiente:
+Podemos expresar las progresiones de acordes simplemente colocando en una linea una serie de acordes concretos, por ejemplo:
+
+    C G Am Fm
+
+No obstante, casi siempre es más útil utilizar grados ya
+que esto nos permite tanto ajustar la tonalidad como hacer comparaciones con progresiones idénticas en diferentes tonalidades. Un ejemplo de progresión ampliamente utilizada es la siguiente:
 
     I V vi IV
 
@@ -90,8 +93,8 @@ el lector podrá cantar encima la melodía de la voz sin dificultad.
 <div id ="piano_7" class="piano_container"></div>
 
 <h2> Resolución </h2>
-La resolución o cierre es un concepto que ha ido apareciendo esporádicamente en los apartados previos sin prestarle toda la atención que se merece. En la progresión previa, para ambas canciones podemos ver que lo natural tras llegar al cuarto acorde es regresar al primero como forma de finalizar. De hecho, si se toca varias veces seguidas el segundo acorde (V) para a continuación hacer sonar el primero (I), vemos que este efecto es todavía más marcado. Lo más natural es que nuestras progresiones cierren sobre
-el primer acorde de la escala, pues su tónica será la tónica de la escala en sí.
+
+La resolución o cierre es un concepto que ha ido apareciendo esporádicamente en los apartados previos sin prestarle toda la atención que se merece. En la progresión previa, para ambas canciones podemos notar que el paso del cuarto acorde al primero de nuevo produce un efecto de finalización de la figura musical. De hecho, si se toca varias veces seguidas el segundo acorde (V) para a continuación hacer sonar el primero (I), vemos que este efecto es todavía más marcado. La explicación de este efecto se verá con más detenimiento en el capítulo de Armonía Funcional, por lo pronto basta decir que lo más natural es que nuestras progresiones cierren sobre el primer acorde de la escala. Esot __no__ descarta otras posibildiades.
 
 La sensación de cierre puede acentuarse a través de melodías que acompañen o "guíen" el oido hacia el acorde final. Otra posibilidad es utilizar en el acorde de cierre
 un bajo más grave que en su acorde inmediatamente anterior.

@@ -84,6 +84,8 @@ Recordemos los grados (vistos como acordes) de la escala Mayor y sus nombres aso
 
 Ahora estamos en condiciones de explicar un poco más sobre las
 propiedades de cada una de estas triadas.
+De forma general, cuántos más grados activos contenga un acorde, mayor será su inestabilidad y viceverse. Pasar de acordes con muchos grados estables o otros con menor cantidad producirá tensión. Cambiar de acordes muy activos a
+otros más estables disminuirá la tensión y / o producirá resolución.
 
 <h3>I - Tónica</h3>
 
@@ -140,6 +142,9 @@ mueve hacia viii (i). La resolución más lógica sería:
 - Triada (iii, v, i) → reordenado (i, iii, v) → Acorde Tónica
 
 La inestabilidad en este caso es ligera, pues solo una de sus notas es activa.
+Esto le permite ser usado como acorde al que transicionar desde otro de mayor
+inestabildiad para reducir la tensión sin llegar a dar un efecto de resolución
+de figura al completo, por ejemplo, de IV a iii.
 
 ?>Prueba a moverte desde la Mediante a la Tónica de Do Mayor
 
@@ -167,9 +172,9 @@ La triada hacia la que ocurre el desplazamiento es:
 
 La inestabilidad es mayor que en la mediante pero menor que en la supertónica.
 
-?>Prueba a moverte desde la Subdominante a la Tónica de Do Mayor
+?>Prueba a moverte desde la Subdominante a la Tónica de Do Mayor. Prueba también a moverte desde la Subdominante a la Mediante.
 
-<h4>F (IV) SUbdominante</h4>
+<h4>F (IV) Subdominante</h4>
 <div id ="piano_2" class="piano_container"></div>
 
 
