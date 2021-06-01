@@ -85,7 +85,7 @@ Los modos son simples pero se explican mal.
 
 <h2> Modos de la escala Diatónica </h2>
 
-Cada uno de los modos tiene una sonoridad distintiva y en muchos casos extraordinariamente marcada. Además, cada modo presenta sus propios grados, esto es, tanto el orden en el que aparecen las triadas como la función que cumplen las triadas / notas individuales con respecto a otros modos. Esto abre un abanico inmenso de posibilidades musicales que el lector hará bien en explorar con detenimiento. Por lo pronto, daremos una información general sobre los mismos. En todos los casos usaremos Do como tónica para acentuar las diferencias estrictamente achacables a los modos.
+Cada uno de los modos de la escala diatónica tiene una sonoridad distintiva y en muchos casos extraordinariamente marcada. Además, cada modo presenta sus propios grados, esto es, tanto el orden en el que aparecen las triadas como la función que cumplen las triadas / notas individuales con respecto a otros modos. Esto abre un abanico inmenso de posibilidades musicales que el lector hará bien en explorar con detenimiento. Por lo pronto, daremos una información general sobre los mismos. En todos los casos usaremos Do como tónica para acentuar las diferencias estrictamente achacables a los modos.
 
 <h3> Modo 1: Ionian, Jónico o Mayor </h3>
 
