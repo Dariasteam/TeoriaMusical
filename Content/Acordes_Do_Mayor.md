@@ -66,9 +66,9 @@ las triadas posibles en la escala de do mayor. Como tenemos 7 notas, podremos co
 
 <div id ="piano_B" class="piano_container"></div>
 
-!> Nota como al llegar a una tónica muy próxima a la última nota de la escala (B), el procedimietno continua "dando la vuelta" y recogiendo notas situadas
+!> Nota como al llegar a una tónica muy próxima a la última nota de la escala (B), el procedimiento continua "dando la vuelta" y recogiendo notas situadas
 en una posición anterior. Esto se debe a que la escala
-incluye infinitas repeticioens de la secuencia de notas que contiene.
+incluye infinitas repeticiones de la secuencia de notas que contiene.
 
 <link rel="stylesheet" href="PianoGenerator/style.css">
 <script>

@@ -14,7 +14,7 @@ Volvamos al punto en el que nos permitimos la licencia de llamar a la escala `Di
 Sabemos que la proporción es periódica, es decir, después de nuestra séptima nota volvemos a repetir la secuencia infinitas veces. Esto ocurre también antes de la primera nota, pues esta puede ser vista
 como la posterior a una séptima.
 
-    La fórmula extendida por la izquiera y la derecha
+    La fórmula extendida por la izquierda y la derecha
 
                          Diatónica
 
@@ -44,10 +44,10 @@ la hemos estado representando.
       Nueva Tónica      Nueva tónica     Nueva tónica
 
 
-Dado que la fórmula es periódica, representemos sólo lo mínimo necsario, es decir, una sola repetición de la secuencia.
+Dado que la fórmula es periódica, representemos sólo lo mínimo necesario, es decir, una sola repetición de la secuencia.
 
 
-        Diátonica
+        Diatónica
 
     T st T T T st T
     2 1  2 2 2  1 2
@@ -59,7 +59,7 @@ Sin embargo, aún siendo esto correcto, ya nos hemos acostumbrado a tener en la 
 la secuencia colocando el primer elemento al final, para que la tónica quede al comienzo.
 
 
-        Diátonica
+        Diatónica
 
     st T T T st T T
     2 1  2 2 2  1 2
@@ -71,7 +71,7 @@ Si sustituimos en la fórmula una tónica, por ejemplo Do, obtenemos
 la siguientes notas.
 
 
-    Modo 2 de la escala Diátonica con tónica en Do
+    Modo 2 de la escala Diatónica con tónica en Do
 
     C D D# F G A A#
      2 1  2 2 2 1  2
@@ -85,7 +85,7 @@ Los modos son simples pero se explican mal.
 
 <h2> Modos de la escala Diatónica </h2>
 
-Cada uno de los modos tiene una sonoridad distintiva y en muchos casos extraordinariamente marcada. Además, cada modo presenta sus propios grados, esto es, tanto el orden en el que aparecen las triadas como la función que cumplen las triadas / notas individuales con respecto a otros modos. Esto abre un abanico inmenso de posibilidades musicales que el lector hará bien en explorar con detenimiento. Por lo pronto, daremos una información general sobre los mismos. En todos los casos usaremos Do como tónica para acentuar las diferencias estrictamente achacabales a los modos.
+Cada uno de los modos tiene una sonoridad distintiva y en muchos casos extraordinariamente marcada. Además, cada modo presenta sus propios grados, esto es, tanto el orden en el que aparecen las triadas como la función que cumplen las triadas / notas individuales con respecto a otros modos. Esto abre un abanico inmenso de posibilidades musicales que el lector hará bien en explorar con detenimiento. Por lo pronto, daremos una información general sobre los mismos. En todos los casos usaremos Do como tónica para acentuar las diferencias estrictamente achacables a los modos.
 
 <h3> Modo 1: Ionian, Jónico o Mayor </h3>
 
@@ -135,7 +135,7 @@ Tiene un sonido más oscuro y taciturno. A veces se le considera como una versi�
 
 <h3> Modo 3: Phrygian o Frígio</h3>
 
-Arquetipo de música de medio oriente. Si no se tiene cuidado cualquier cosa que use este modo acaba inevitablemente sonando a desierto, camellos, oasis y palmeras. En la música popular, cuando no se busca ese efecto exótico explicitamente, se utiliza asiduamente tanto en rap, trap y los inicios del reggaeton (empleando solo las notas 1 y 2) como en composiciones grandilocuentes de géneros como el power metal.
+Arquetipo de música de medio oriente. Si no se tiene cuidado cualquier cosa que use este modo acaba inevitablemente sonando a desierto, camellos, oasis y palmeras. En la música popular, cuando no se busca ese efecto exótico explícitamente, se utiliza asiduamente tanto en rap, trap y los inicios del reggaeton (empleando solo las notas 1 y 2) como en composiciones grandilocuentes de géneros como el power metal.
 
         Modo Frigio
 
@@ -156,7 +156,7 @@ Arquetipo de música de medio oriente. Si no se tiene cuidado cualquier cosa que
 
 <h3> Modo 4: Lydian o Lidio</h3>
 
-Este modo suena como etéreo, espacial, celestial, o en definitiva, más maś desconectado que los demás. De hecho, resulta algo difícil realizar una progresión de varios acordes distintos en este modo porque enseguida tienden a resolver solos al modo mayor, perdiéndose el efecto de esta tonalidad. Jonh Williams lo utiliza mucho en sus bandas sonoras, el ejemplo paradigmático es el [Flying Theme de E.T.](https://www.youtube.com/watch?v=2-qrMz-JAzo)
+Este modo suena como etéreo, espacial, celestial, o en definitiva, más maś desconectado que los demás. De hecho, resulta algo difícil realizar una progresión de varios acordes distintos en este modo porque enseguida tienden a resolver solos al modo mayor, perdiéndose el efecto de esta tonalidad. John Williams lo utiliza mucho en sus bandas sonoras, el ejemplo paradigmático es el [Flying Theme de E.T.](https://www.youtube.com/watch?v=2-qrMz-JAzo)
 
         Modo Lidio
 
@@ -199,7 +199,7 @@ Energético y con toques celtas, en este modo está compuesta la mitad de la dis
 
 <h3> Modo 6: Aeolian, Eólico o Menor</h3>
 
-Melancolía, desgarro, pero de alguna manera, montón de energía. Prácticamente todas las baladas que existen se han hecho en este modo. Si el modo Dórico bajaba un poco el ánimo del modo Mayor, este ya lo termina de dejar por los suelos. El Hard Rock y Heavy Metal esta construido prácticamente en exclusiva sobre este modo, compitiendo con el modo Mayor en difusión y acostumbramiento del oido. Un ejemplo que combina los aspectos de balada y sensación de enrgía es [Don't Talk To Strangers de Dio](https://www.youtube.com/watch?v=15hYMIPQw84)
+Melancolía, desgarro, pero de alguna manera, montón de energía. Prácticamente todas las baladas que existen se han hecho en este modo. Si el modo Dórico bajaba un poco el ánimo del modo Mayor, este ya lo termina de dejar por los suelos. El Hard Rock y Heavy Metal esta construido prácticamente en exclusiva sobre este modo, compitiendo con el modo Mayor en difusión y acostumbramiento del oído. Un ejemplo que combina los aspectos de balada y sensación de energía es [Don't Talk To Strangers de Dio](https://www.youtube.com/watch?v=15hYMIPQw84)
 
 
         Modo Menor
@@ -221,7 +221,7 @@ Melancolía, desgarro, pero de alguna manera, montón de energía. Prácticament
 
 <h3> Modo 7: Locrian o Locrio</h3>
 
-La oveja negra. El rarito. No hay mucho más que decir, este modo suena espantoso y prácticamente no exsiten ejemplos de canciones que lo usen. Porque ciertamente, es horrible. ¿Cómo se supone que usas como acorde fundamental y de resolución una triada disminuida?
+La oveja negra. El rarito. No hay mucho más que decir, este modo suena espantoso y prácticamente no existen ejemplos de canciones que lo usen. Porque ciertamente, es horrible. ¿Cómo se supone que usas como acorde fundamental y de resolución una triada disminuida?
 
 
         Modo Locrio
@@ -267,7 +267,7 @@ lo llamamos relatividad. En este caso, por ejemplo, decimos que La es el relativ
      1 2 2 2 1 2 2
 
 
-¿Y ahora qué hacemos? ¿Cómo sabemos si estamos en un modo u otro? Es más, _¿Acaso existen realmente los modos?_ ¿No podríamos verlos todos comos versiones del modo mayor con diferentes tónicas? Bueno, esta es una pregunta complicada de responder.
+¿Y ahora qué hacemos? ¿Cómo sabemos si estamos en un modo u otro? Es más, _¿Acaso existen realmente los modos?_ ¿No podríamos verlos todos como versiones del modo mayor con diferentes tónicas? Bueno, esta es una pregunta complicada de responder.
 
 Como vimos en la sección de Tonalidades, la sensación de tonalidad se va
 generando según tocamos notas y/o acordes en una melodía. Resulta que dependiendo

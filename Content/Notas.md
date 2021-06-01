@@ -36,7 +36,7 @@ las distancias entre dos ocurrencias de la nota Do
 > El concepto de octava es aplicable a cualquier nota, por ejemplo, vemos
 que tras la segunda ocurrencia de la nota Do, surgen también repeticiones de Re y Mi.
 
-Ahora bien, con esto únicamente hemos definidio el comportamiento qué tienen
+Ahora bien, con esto únicamente hemos definido el comportamiento qué tienen
 las notas, pero no hemos explicado por qué sucede esto.
 
 Una definición más formal de octava sería "aquella nota cuya frecuencia es el doble
@@ -49,7 +49,7 @@ _características musicales_ similares, considerándolas como versiones cada vez
 agudas de un mismo **tono**.
 
 ?> Cuando nombramos una nota, la podemos acompañar con su número de octava.
-Por ejemplo, en el caso anterior, Podríamos decir X1, X2, X3 para refereirnos
+Por ejemplo, en el caso anterior, Podríamos decir X1, X2, X3 para referirnos
 a octavas cada vez más agudas de nuestra hipotética nota X. En un caso con notas
 reales, hablamos por ejemplo de un _Do5_ como la octava siguiente a _Do4_.
 
@@ -73,11 +73,11 @@ cuya octava 1 tiene una frecuencia de 100Hz.
 
 De aquí podemos extraer que para esta nota X1 a 100Hz, la octava máxima audible es
 la 8 (X8), puesto que X9 implica una oscilación a 25.600Hz, la cual es mayor
-al límite superior del oido humano (20.000Hz).
+al límite superior del oído humano (20.000Hz).
 
 Vemos también que se pueden generar octavas por debajo de nuestra octava inicial X1,
 obteniendo X0 = 50Hz y X-1 = 25Hz. Igual que en el caso anterior, X-2 = 12,5Hz queda
-por debajo del límte inferior del oido humano (20Hz).
+por debajo del límite inferior del oído humano (20Hz).
 
 Es importante señalar que la selección de nuestro número de octava base ha sido
 **completamente arbitraria**, podríamos tomar 25 Hz como la octava 1 y
@@ -114,7 +114,7 @@ Recuperemos ahora las 4 notas que decidimos apartar temporalmente en el apartado
 únicamente emplea 12 notas, junto a sus respectivas octavas.
 La forma en que las frecuencias de estas 12 notas son seleccionadas **no** es
 dividiendo en 12 partes iguales las frecuencias contenidas entre dos octavas
-como se podría ededucir del nombre, sino estableciendo una relación a pares entre
+como se podría deducir del nombre, sino estableciendo una relación a pares entre
 frecuencias que cumplen todas los pares de notas adyacentes. Esta condición es que,
 partiendo de una nota cualquiera, la nota siguiente se produce como resultado
 de multiplicar la frecuencia de la nota inicial por la razón 2^(1/12) => 1,059463094.
@@ -154,7 +154,7 @@ Vemos que a pesar de las distancias ser distintas,
 la proporción generada al movernos desde la Nota 2 a las Nota 4 (2 notas
 de distancia) es exactamente la misma que al movernos de la Nota 6 a la Nota 8 (de
 nuevo a dos notas de distancia). El cerebro igualmente interpreta el salto
-desde la Nota 2 a la 4 como una versión musicalmente indéntica al salto de la
+desde la Nota 2 a la 4 como una versión musicalmente idéntica al salto de la
 nota 6 a la 8, únicamente diferenciados por percibirse uno más grave que el otro.
 
 ¿Qué implicaciones tiene esto? Que podemos dejar de trabajar con frecuencias
@@ -203,8 +203,8 @@ Expliquemos finalmente que pasa con las 7 notas que en realidad son 12.
 Simplemente, solo tienen nombre 7 notas y el resto se designan referenciándolas
 como sostenidos o bemoles de las anteriores.
 
-Hagamos una equivalencia con nuestro sistema de notas inventado para visaulizar
-las distancias en semitonoes entre las notas y las dos formas de denominar las notas
+Hagamos una equivalencia con nuestro sistema de notas inventado para visualizar
+las distancias en semitonos entre las notas y las dos formas de denominar las notas
 sin nombre propio.
 
 |                | Nota 1 | Nota 2 | Nota 3 | Nota 4 | Nota 5 | Nota 6 | Nota 7 | Nota 8 | Nota 9 | Nota 10 | Nota 11 | Nota 12 | Nota 13 |

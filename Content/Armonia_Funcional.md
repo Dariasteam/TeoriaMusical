@@ -9,13 +9,13 @@ La armonía funcional plantea la **tónica como el centro _tonal_** de la pieza.
 
 !> No hay que perder de vista que no hay una forma _correcta_ de hacer música. No es necesario respetar las "reglas" de
 la armonía funcional para hacer buenas progresiones y en muchos
-casos es desesable romperlas.
+casos es deseable romperlas.
 
 <h2>Notas individuales y Direccionalidad</h2>
 
 Para cualquier escala, se puede tratar de analizar cómo se comportan cualquier grado
 en relación a sus grados colindantes. Ocurre que en muchos casos existe una sensación
-de inestabilidad con un componente direcional: un grado al escucharlo parece querer
+de inestabilidad con un componente direccional: un grado al escucharlo parece querer
 moverse hacia uno de los dos grados contiguos. Una vez hemos tocado el grado
 contiguo, se produce una sensación de cierre o estabilidad. El caso paradigmático
 es, en la escala mayor, el paso de grado vii al viii (grado i una octava más aguda).
@@ -26,7 +26,7 @@ es, en la escala mayor, el paso de grado vii al viii (grado i una octava más ag
 
 Se debería notar como el grado vii no es estable en esta escala, podemos pasar por él durante una melodía sin ningún problema, pero a la hora de terminarla, es más agradable
 subir un semitono más. Vemos entonces que existen dos tipos
-de grados, unos estables y otros intestables o _activos_,
+de grados, unos estables y otros inestables o _activos_,
 
 
 - Grado (o tono) Activo: Aquel que busca resolver en otra nota
@@ -52,10 +52,10 @@ que puede resolver tanto en el grado posterior como en el anterior.
 
 <div id ="piano_grado_2" class="piano_container"></div>
 
-> Toca alguna notas en la escala (teclas blancas) para desarrollar la sensación de tonalidad y a continuación trata de termianr la melodía en uuna nota
+> Toca alguna notas en la escala (teclas blancas) para desarrollar la sensación de tonalidad y a continuación trata de terminar la melodía en una nota
 activa, verás que como resuelve mejor si acto seguido tocas la nota estable
 indicada por la flecha. Si una vez en
-una nota estable se intenta resovler a una inestable se aprecia un efecto de
+una nota estable se intenta resolver a una inestable se aprecia un efecto de
 incompletitud o falta de cierre.
 
 !> Recuerda, esta característica de direccionaldiad es en base a un __grado__, no
@@ -84,7 +84,7 @@ Recordemos los grados (vistos como acordes) de la escala Mayor y sus nombres aso
 
 Ahora estamos en condiciones de explicar un poco más sobre las
 propiedades de cada una de estas triadas.
-De forma general, cuántos más grados activos contenga un acorde, mayor será su inestabilidad y viceverse. Pasar de acordes con muchos grados estables o otros con menor cantidad producirá tensión. Cambiar de acordes muy activos a
+De forma general, cuántos más grados activos contenga un acorde, mayor será su inestabilidad y viceversa. Pasar de acordes con muchos grados estables o otros con menor cantidad producirá tensión. Cambiar de acordes muy activos a
 otros más estables disminuirá la tensión y / o producirá resolución.
 
 <h3>I - Tónica</h3>
@@ -136,14 +136,14 @@ todas sus notas son activas.
 |Direccionalidad| o | ←→ | o | ← | o | ← | → |
 
 Esta triada contiene, en primer lugar un grado iii estable, a continuación
-un grado v igualmente estable y por útilmo un grado vii activo que nos
+un grado v igualmente estable y por último un grado vii activo que nos
 mueve hacia viii (i). La resolución más lógica sería:
 
 - Triada (iii, v, i) → reordenado (i, iii, v) → Acorde Tónica
 
 La inestabilidad en este caso es ligera, pues solo una de sus notas es activa.
 Esto le permite ser usado como acorde al que transicionar desde otro de mayor
-inestabildiad para reducir la tensión sin llegar a dar un efecto de resolución
+inestabilidad para reducir la tensión sin llegar a dar un efecto de resolución
 de figura al completo, por ejemplo, de IV a iii.
 
 ?>Prueba a moverte desde la Mediante a la Tónica de Do Mayor
@@ -164,7 +164,7 @@ de figura al completo, por ejemplo, de IV a iii.
 |-| - | - | - | - | - | -| - |
 |Direccionalidad| o | ←→ | o | ← | o | ← | → |
 
-La triada presenta los grados activos iv y vi, los cuales direccionalemnte
+La triada presenta los grados activos iv y vi, los cuales direccionalmente
 nos mueven hacia sus respectivos grados anteriores. El grado i es estable.
 La triada hacia la que ocurre el desplazamiento es:
 
@@ -191,7 +191,7 @@ La inestabilidad es mayor que en la mediante pero menor que en la supertónica.
 |-| - | - | - | - | - | -| - |
 |Direccionalidad| o | ←→ | o | ← | o | ← | → |
 
-En este caso, el grado v es estable y lso grados vii y ii activos, con la particularidad de que el grado ii peue resolver en dos direcciones. Las posibles triadas de resolución son:
+En este caso, el grado v es estable y lso grados vii y ii activos, con la particularidad de que el grado ii puede resolver en dos direcciones. Las posibles triadas de resolución son:
 
 - Triada (v, i, iii) → Reordenado (i, iii, v) → Acorde Tónica
 - Triada (v, i, i)   → Intervalo de quinta (i, v) contenido en el propio acorde Tónica.
@@ -283,7 +283,7 @@ Estos acordes pertenecen a la escala de Do mayor. Encontremos ahora qué escala 
 en la quinta posición. De ahí en adelante, basta con seguir los intervalos
 para averiguar el resto de notas.
 
-    Intrervalos de la escala mayor y posiciones de las notas aún desconocidas
+    Intervalos de la escala mayor y posiciones de las notas aún desconocidas
 
        1 2 3 4 5 6 7 8
        ¿ ? ? ? ? ? ? ¿
@@ -322,13 +322,13 @@ introducir la nota A#, la cual no pertenece a la escala inicial
 sin aparentes colisiones de tonalidad. No obstante, no resulta
 especialmente disonante regresar a Do mayor tras A#.
 Si añadimos más acordes de la escala A# arraigaremos esta
-nueva tonalidad y se hará más dificil regresar.
+nueva tonalidad y se hará más difícil regresar.
 
-Los dos acordes que mostramos acontinuación, tocados despues de los cuatro previos, se comportarían como IV y vi de A#. Intenta
+Los dos acordes que mostramos a continuación, tocados después de los cuatro previos, se comportarían como IV y vi de A#. Intenta
 tocar los 6 seguidos, a continuación tocar un último F y regresar a C y A# alternativamente, es decir:
 
-- Progresion 1: C Em F A# D Gm C
-- Progresion 2: C Em F A# D Gm A#
+- Progresión 1: C Em F A# D Gm C
+- Progresión 2: C Em F A# D Gm A#
 
 
 <h4>D (IV de A#)</h4>

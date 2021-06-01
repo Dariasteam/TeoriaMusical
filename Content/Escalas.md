@@ -6,7 +6,7 @@ Por razones obvias, en esta escala es indiferente qué tónica elijamos.
 
 ?> Todas las teclas / notas del piano conforman la escala cromática
 
-Si bien se trata de una escala "válida", su utilidad normalmente se ve reducida a aplicarla en pasajes entre figuras hechas con otras escalas, ya que su sonido es muy inestable y poco molodioso.
+Si bien se trata de una escala "válida", su utilidad normalmente se ve reducida a aplicarla en pasajes entre figuras hechas con otras escalas, ya que su sonido es muy inestable y poco melodioso.
 
 
 <link rel="stylesheet" href="PianoGenerator/style.css">

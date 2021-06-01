@@ -29,13 +29,13 @@ pero sonará más aguda.
 ---
 
 A diferencia de los acordes, donde la definición venía expresada con todos los intervalos
-en función de la tónica, en las escalas describimos el número de semitonos con respecto al intervalo anterior en cada momento. Además, casi siempre se incluye una octava por enciam de la tónica. Veamos un ejemplo.
+en función de la tónica, en las escalas describimos el número de semitonos con respecto al intervalo anterior en cada momento. Además, casi siempre se incluye una octava por encima de la tónica. Veamos un ejemplo.
 
 - Escala Icónica definida desde la tónica (como un acorde):
 
 
     - Tónica
-    - 3m    <- Hay 3 semitonos de distancia con respecto a la tónioca (tercera menor)
+    - 3m    <- Hay 3 semitonos de distancia con respecto a la tónica (tercera menor)
     - 3M    <- Hay 4 semitonos de distancia con respecto a la tónica (tercera Mayor)
     - 5     <- Hay 5 semitonos de distancia con respecto a la tónica (quinta justa)
     - 8     <- Hay 12 semitonos de distancia con respecto a la tónica (octava)
@@ -55,7 +55,7 @@ Esta representación nos puede servir como primer paso para calcular las notas d
 
 Escala Icónica de Re:
 
-    D  F   F#   A   D      <- Notas consdierando Re como la tónica
+    D  F   F#   A   D      <- Notas considerando Re como la tónica
      3   1    3   5        <- Número de semitonos entre cada nota y la siguiente
 
 ---
@@ -65,8 +65,9 @@ Escala Icónica de Re:
 Un acorde pertenece a una escala (y por lo tanto es válido utilizarlo dentro
 de dicha escala) cuando todas sus notas pertenezcan a la escala. Por ejemplo,
 nuestra escala _icónica_ de Do vemos que contiene todas las notas necesarias
-para formar Do Mayor
-
+para formar Do Mayor y Do menor simultáneamente. Ambos acordes pertenecen
+entonces a la escala. Las triadas de Do aumentado y disminuido no son posibles
+con estas notas por lo que no pertenecen.
 
 <h2> La Escala Diatónica o escala Mayor </h2>
 
@@ -112,9 +113,8 @@ Escala de La Mayor y sus intervalos:
 con la de Do mayor. Como era de esperar, ambas tienen la misma musicalidad,
 simplemente la escala de La mayor suena más aguda.
 
-
 Por lo pronto no incidiremos en las características sonoras de esta escala
-ya que es un tema que se tratará en profundiad en el apartado de modos. Basta decir
+ya que es un tema que se tratará en profundidad en el apartado de modos. Basta decir
 que resulta agradable al oído, alegre y predecible.
 Estamos muy acostumbrados a escucharla y sabemos cómo se comporta.
 

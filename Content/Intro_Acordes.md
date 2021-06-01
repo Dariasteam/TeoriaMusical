@@ -27,19 +27,19 @@ de Re sostenido o Do.
 > Acorde _icónico_ de Do con su tónica señalada en rosado
 
 
-Si el lector no tiene el oido acostumbrado quizá considere que tienen una
+Si el lector no tiene el oído acostumbrado quizá considere que tienen una
 sonoridad diferenciada al reproducir las notas simultáneamente. Si se reproducen
 en secuencia, queda patente que, como se explico con los intervalos, ambos acordes presentan las mismas propiedades sonoras a pesar de tener distintas tónicas,
 puesto que la relación entre notas es la misma.
 
 !> Si no tocamos las notas de un acorde simultáneamente sino en una secuencia en la que se puede distinguir cada nota individualmente, diremos que estamos tocando un **arpegio**.
-Para nuestro piano, haremos apregios pulsando sobre los botones con flechas
+Para nuestro piano, haremos arpegios pulsando sobre los botones con flechas
 cuando las teclas señaladas en rojo forman un acorde.
 
 ---
 
 Si bien las posibles combinaciones son gigantescas, no todas presentan mismas propiedades
-ni suenan igual de agradable al oido. Si aprovechamos lo que sabemos
+ni suenan igual de agradable al oído. Si aprovechamos lo que sabemos
 sobre la sonoridad de cada intervalo podemos conseguir efectos musicales concretos
 que nos sirvan en nuestras piezas.
 

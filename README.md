@@ -30,7 +30,7 @@ por el lector. Incidimos una vez más en el aspecto de la experimentación.
 
 ## ¿Qué no es esta guía?
 - Un recurso académico en ningún grado. El contenido de esta guía es el
-producto de mi aprendizaje a través de multitud de fuentes, practicamente
+producto de mi aprendizaje a través de multitud de fuentes, prácticamente
 ninguna de las cuales puede considerarse "formal" y bajo el prisma de mi
 interpretación y aplicación personal. Este documento no busca ser un manual
 extensivo sino una referencia rápida a distintos conceptos para que el lector
@@ -43,7 +43,7 @@ se limita únicamente a lo mínimo indispensable para entender algunos conceptos
 considero relevantes.
 
 - Un manual para un instrumento concreto. Si bien se utiliza el piano como
-instrumento base para mostrar algunos conceptos, no pertencen a este ámbito
+instrumento base para mostrar algunos conceptos, no pertenecen a este ámbito
 explicaciones sobre digitación, técnica, etc.
 
 ## ¿Qué sí es esta guía?

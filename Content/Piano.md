@@ -1,6 +1,6 @@
 <h2> Notas en el piano </h2>
 
-Situemos a continuacion cada una de las 12 notas sobre un piano.
+Situemos a continuación cada una de las 12 notas sobre un piano.
 
 <div id ="piano_tutorial_0" class="piano_container">
 </div>
@@ -13,7 +13,7 @@ tecla de blanca, mientras que las negras son para sostenidos / bemoles.
 Esta diferenciación tan notoria es casi exclusiva de los instrumentos semejantes
 al piano y la razón de su existencia se explicará más adelante.
 
-> ¡El piano es interactivo! Explicar conceptos musicales sin poder escucharlos es bastante poco furctífero. Si no tienes a mano un instrumento, puedes pulsar sobre las teclas de los pianos que veas y escucharás las correspondientes notas.
+> ¡El piano es interactivo! Explicar conceptos musicales sin poder escucharlos es bastante poco fructífero. Si no tienes a mano un instrumento, puedes pulsar sobre las teclas de los pianos que veas y escucharás las correspondientes notas.
 
 ---
 
@@ -73,7 +73,7 @@ reproducirá todas las notas señaladas en rojo al mismo tiempo.
 
 ?> Pulsa play para escuchar las notas simultáneas
 
-Los botones con flechas ascedentes y descendentes permitirán
+Los botones con flechas ascendentes y descendentes permitirán
 reproducir las notas en secuencia de izquierda a derecha o de derecha a izquierda respectivamente
 
 <div id ="piano_tutorial_6" class="piano_container">
@@ -102,7 +102,7 @@ piano({
         "C"  : { text: "Do" },
         "C#" : { text: "Do#" },
         "D"  : { text: "Re" },
-        "D#" : { text: "Re#" },
+        "D#" : { text: "Re#" },´
         "E"  : { text: "Mi" },
         "F"  : { text: "Fa" },
         "F#" : { text: "Fa#" },

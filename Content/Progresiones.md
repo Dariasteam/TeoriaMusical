@@ -1,7 +1,7 @@
 <h1> Progresiones </h1>
 
 > La palabra progresión puede referirse a notas individuales o acordes. En ambos
-casos alude a la forma en que están organizados alguno de estos elementos a lo largo de una figura o sección musical concreta de duración abitraria.
+casos alude a la forma en que están organizados alguno de estos elementos a lo largo de una figura o sección musical concreta de duración arbitraria.
 
 Hablamos de una progresión ascendente si tenemos una sucesión de notas cada vez más agudas y descendente para el caso contrario. Nosotros utilizaremos exclusivamente la acepción referida a acordes.
 
@@ -94,9 +94,9 @@ el lector podrá cantar encima la melodía de la voz sin dificultad.
 
 <h2> Resolución </h2>
 
-La resolución o cierre es un concepto que ha ido apareciendo esporádicamente en los apartados previos sin prestarle toda la atención que se merece. En la progresión previa, para ambas canciones podemos notar que el paso del cuarto acorde al primero de nuevo produce un efecto de finalización de la figura musical. De hecho, si se toca varias veces seguidas el segundo acorde (V) para a continuación hacer sonar el primero (I), vemos que este efecto es todavía más marcado. La explicación de este efecto se verá con más detenimiento en el capítulo de Armonía Funcional, por lo pronto basta decir que lo más natural es que nuestras progresiones cierren sobre el primer acorde de la escala. Esot __no__ descarta otras posibildiades.
+La resolución o cierre es un concepto que ha ido apareciendo esporádicamente en los apartados previos sin prestarle toda la atención que se merece. En la progresión previa, para ambas canciones podemos notar que el paso del cuarto acorde al primero de nuevo produce un efecto de finalización de la figura musical. De hecho, si se toca varias veces seguidas el segundo acorde (V) para a continuación hacer sonar el primero (I), vemos que este efecto es todavía más marcado. La explicación de este efecto se verá con más detenimiento en el capítulo de Armonía Funcional, por lo pronto basta decir que lo más natural es que nuestras progresiones cierren sobre el primer acorde de la escala. Esto __no__ descarta otras posibilidades.
 
-La sensación de cierre puede acentuarse a través de melodías que acompañen o "guíen" el oido hacia el acorde final. Otra posibilidad es utilizar en el acorde de cierre
+La sensación de cierre puede acentuarse a través de melodías que acompañen o "guíen" el oído hacia el acorde final. Otra posibilidad es utilizar en el acorde de cierre
 un bajo más grave que en su acorde inmediatamente anterior.
 
 <link rel="stylesheet" href="PianoGenerator/style.css">

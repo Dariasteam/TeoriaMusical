@@ -62,15 +62,15 @@ dicho grado. Piensa por ejemplo en el primer grado y como siempre va a
 coincidir con la tónica, la cual puede ser cualquier nota.
 
 Ahora podemos describir nuestra escala "bemólica" en función de la escala
-mayor o diátonica, la cual se considera universalmente conocida y "estándar".
-Quedaría pues descrita como `Escala Diatónoica o Mayor IV#`.
+mayor o diatónica, la cual se considera universalmente conocida y "estándar".
+Quedaría pues descrita como `Escala Diatónica o Mayor IV#`.
 
 Para ser honestos, no es muy diferente de escribir `Escala Diatónica o Mayor con la cuarta nota sostenida`.
 
 ## Grado referido a acordes
 Este caso sí tiene algo más de utilidad. Aquí, aprovechamos las letras de
-los números romanso para indicar si el acorde de la escala a trata
-es mayor o menor, utilizando mayusculas y minúsculas respectivamente. En caso
+los números romanos para indicar si el acorde de la escala a trata
+es mayor o menor, utilizando mayúsculas y minúsculas respectivamente. En caso
 de otros acordes, como por ejemplo el disminuido, se utilizan los símbolos asociados.
 Veamos un ejemplo para la escala mayor.
 
