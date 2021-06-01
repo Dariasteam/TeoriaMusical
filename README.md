@@ -1,4 +1,4 @@
-# Manual músical Rápido para la Música Occidental
+# Manual musical Rápido para la Música Occidental
 
 Para hacer música rapidito, entender la jerga que usan los que sí saben
 y no volverse muy loco por el camino.
