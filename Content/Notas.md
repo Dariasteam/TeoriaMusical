@@ -36,7 +36,7 @@ las distancias entre dos ocurrencias de la nota Do
 > El concepto de octava es aplicable a cualquier nota, por ejemplo, vemos
 que tras la segunda ocurrencia de la nota Do, surgen también repeticiones de Re y Mi.
 
-Ahora bien, con esto únicamente hemos definido el comportamiento qué tienen
+Ahora bien, con esto únicamente hemos definido el comportamiento que tienen
 las notas, pero no hemos explicado por qué sucede esto.
 
 Una definición más formal de octava sería "aquella nota cuya frecuencia es el doble
