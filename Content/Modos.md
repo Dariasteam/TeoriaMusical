@@ -235,7 +235,7 @@ La oveja negra. El rarito. No hay mucho más que decir, este modo suena espantos
 
 | Grados del modo Locrio| iº | II | iii | iv | V | VII | viii
 |-|-|-|-|-|-|-|-|
-| Triadas de Do Locrio| C | Dm | Em | F| G | Am| B |
+| Triadas de Do Locrio| Cº | D | Em | Fm | G | A| Bm |
 
 <div id ="piano_6" class="piano_container"></div>
 
