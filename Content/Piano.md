@@ -102,7 +102,7 @@ piano({
         "C"  : { text: "Do" },
         "C#" : { text: "Do#" },
         "D"  : { text: "Re" },
-        "D#" : { text: "Re#" },´
+        "D#" : { text: "Re#" },
         "E"  : { text: "Mi" },
         "F"  : { text: "Fa" },
         "F#" : { text: "Fa#" },
