@@ -464,7 +464,7 @@ piano({
         "F"  : { text: "iv" },
         "G"  : { text: "v" },
         "A"  : { text: "vi" },
-        "B"  : { text: "vi" }
+        "B"  : { text: "vii" }
     }
 });
 piano({
