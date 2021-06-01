@@ -199,7 +199,7 @@ Energético y con toques celtas, en este modo está compuesta la mitad de la dis
 
 <h3> Modo 6: Aeolian, Eólico o Menor</h3>
 
-Melancolía, desgarro, pero de alguna manera, montón de energía. Prácticamente todas las baladas que existen se han hecho en este modo. Si el modo Dórico bajaba un poco el ánimo del modo Mayor, este ya lo termina de dejar por los suelos. El Hard Rock y Heavy Metal esta construido prácticamente en exclusiva sobre este modo, compitiendo con el modo Mayor en difusión y acostumbramiento del oído. Un ejemplo que combina los aspectos de balada y sensación de energía es [Don't Talk To Strangers de Dio](https://www.youtube.com/watch?v=15hYMIPQw84)
+Melancolía, desgarro, pero de alguna manera, montón de energía. Prácticamente todas las baladas que existen se han hecho en este modo. Si el modo Dórico bajaba un poco el ánimo del modo Mayor, este ya lo termina de dejar por los suelos. El Hard Rock y Heavy Metal esta construido casi en exclusiva sobre este modo, compitiendo con el modo Mayor en difusión y acostumbramiento del oído. Un ejemplo que combina los aspectos de balada y sensación de energía es [Don't Talk To Strangers de Dio](https://www.youtube.com/watch?v=15hYMIPQw84)
 
 
         Modo Menor
