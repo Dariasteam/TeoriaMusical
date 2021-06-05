@@ -14,6 +14,10 @@ Por ejemplo, si hacemos vibrar una cuerda de un instrumento músical, esta vibra
 
 - Amplitud (a) : Distancia entre las dos posiciones de mayor separación en el espacio en las que se sitúa el cuerpo oscilante. Siguiendo el ejemplo anterior, el sonido de una cuerda que al vibrar se mueva unos milímetros se escuchará más bajo que el de otra que se desplace unos centímetros. Podemos tomarlo como sinónimo de _volumen_.
 
+![Onda sinusoidal](/pics/sin_wave.png)
+
+?> Ejemplo de onda. En horizontal el tiempo, en vertical la amplitud. La distancia entre dos picos es su frecuencia.
+
 !> **El "volumen"** que percibimos en realidad depende también de la frecuencia. Sonidos de diferente _frecuencia_ pero misma _amplitud_ son interpretados por el cerebro como a diferentes volúmenes. Para saber más: https://es.wikipedia.org/wiki/Psicoac%C3%BAstica
 
 ## Ondas producidas por instrumentos
@@ -24,7 +28,9 @@ Pensemos por ejemplo en una guitarra. Al pulsar una cuerda y esta comenzar a vib
 
 A esta característica del sonido por el cual en un sonido podemos identificar una frecuencia base la llamamos **Timbre**.
 
-Ejemplo de ondas aquí
+![Onda de un piano](/pics/piano_wave.png)
+
+?> Ejemplo de onda producida por un piano. Las imperfecciones provocan el timbre de este instrumento,
 
 # Definiciones músicales
 
