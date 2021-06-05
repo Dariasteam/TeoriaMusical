@@ -21,6 +21,8 @@ siempre que tenga la misma tónica.
 
 <div id ="Cm1" class="piano_container"></div>
 
+!> En el modo Mayor de la escala diatónica solo se pueden formar acordes sus2 para los grados I, ii, IV, V y vi.
+
 ---
 
 <h2> Acordes suspendido de cuarta o sus4 </h2>
@@ -41,6 +43,8 @@ en una triada mayor o menor de misma tónica.
 <div id ="C2" class="piano_container"></div>
 
 <div id ="Cm2" class="piano_container"></div>
+
+!>  En el modo Mayor de la escala diatónica solo se pueden formar acordes sus4 para los grados I, ii, iii, V y vi.
 
 ---
 
