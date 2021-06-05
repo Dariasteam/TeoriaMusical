@@ -125,7 +125,7 @@ Tiene un sonido más oscuro y taciturno. A veces se le considera como una versi�
 
 | Grados del modo Dórico| i | ii | III | IV | v | viº | VII
 |-|-|-|-|-|-|-|-|
-| Triadas de Do Dórico| C | Dm | D# | F | Gm | Aº | A# |
+| Triadas de Do Dórico| Cm | Dm | D# | F | Gm | Aº | A# |
 
 > Fíjate como, al igual que los intervalos se ha _desfasado_ una posición con respecto a los del modo mayor, las triadas también lo han hecho. Las triadas i y ii son menores ya que se corresponden con las triadas ii y iii del modo Mayor.
 
@@ -291,7 +291,43 @@ _"oriental"_.
 !> No existe una regla universal para averiguar / calcular la tonalidad exacta
 de una melodía. No obstante, el primer acorde y/o el más repetido de la progresión acostumbra a ser el acorde tónica de la escala/modo que se utilice.
 
+<h2> Cambios Modales </h2>
 
+Son un tipo de cambio de tonalidad consiste en utilizar acordes pertenecientes a un modo A durante una progresión hecha en otro modo diferente. Hagamos un ejemplo. Utilizaremos la siguiente progresión hecha en Do Mayor.
+
+
+| Modo | C Mayor | C Mayor | C Mayor |  C Mayor |
+| - | - | - | - | - |
+| Acorde | C  |  Em | F  | C |
+| Grado  | I  | iii | IV | I |
+
+Hasta aquí todo normal. Tocaremos esa sección una vez y a continuación, para la segunda variación, haremos la siguiente
+variación.
+
+| Modo | C Mayor | C Mayor | C menor |  C Mayor |
+| - | - | - | - | - |
+| Acorde | C  |  Em  | F#m  | C |
+| Grado  | I  |  iii | iv | I |
+
+Ahora estamos sustituyendo el grado 3 y 4 por las versiones de los mismos en el modo menor y con esto la progresión se vuelve más melosa e interesante. Pulsa los siguientes teclados para escuchar la progresión.
+
+<div id ="prog_1" class="piano_container"></div>
+
+<div id ="prog_2" class="piano_container"></div>
+
+<div id ="prog_3" class="piano_container"></div>
+
+<div id ="prog_4" class="piano_container"></div>
+
+<div id ="prog_5" class="piano_container"></div>
+
+<div id ="prog_6" class="piano_container"></div>
+
+<div id ="prog_7" class="piano_container"></div>
+
+<div id ="prog_8" class="piano_container"></div>
+
+<div id ="prog_9" class="piano_container"></div>
 
 
 
@@ -398,6 +434,54 @@ piano({
     tonic: "E",
     pressed: ["D", "E", "F", "D", "E"],
     controls: ["up"]
+});
+piano({
+    tag: "prog_1",
+    octaves: 2,
+    pressed: ["C", "E", "G", "C"],
+    controls: ["sync"]
+});
+piano({
+    tag: "prog_2",
+    octaves: 2,
+    pressed: ["E", "G", "B", "B"],
+    controls: ["sync"]
+});
+piano({
+    tag: "prog_3",
+    octaves: 2,
+    pressed: ["F", "A", "C", "F"],
+    controls: ["sync"]
+});
+piano({
+    tag: "prog_4",
+    octaves: 2,
+    pressed: ["E", "G", "C", "G"],
+    controls: ["sync"]
+});
+piano({
+    tag: "prog_5",
+    octaves: 2,
+    pressed: ["C", "E", "G", "E"],
+    controls: ["sync"]
+});
+piano({
+    tag: "prog_6",
+    octaves: 2,
+    pressed: ["E", "G", "B", "B"],
+    controls: ["sync"]
+});
+piano({
+    tag: "prog_7",
+    octaves: 2,
+    pressed: ["F", "G#", "C", "G#"],
+    controls: ["sync"]
+});
+piano({
+    tag: "prog_8",
+    octaves: 2,
+    pressed: ["C", "E", "G", "E", "G"],
+    controls: ["sync"]
 });
 </script>
 
