@@ -69,9 +69,22 @@ para formar Do Mayor y Do menor simultáneamente. Ambos acordes pertenecen
 entonces a la escala. Las triadas de Do aumentado y disminuido no son posibles
 con estas notas por lo que no pertenecen.
 
-<h2> La Escala Diatónica o escala Mayor </h2>
 
-Aún existiendo tantas escalas como combinaciones posibles de las 12 notas hay, indiscutiblemente la de mayor importancia es la **Escala diatónica**. La inmensa mayoría de música que conocerá el lector se habrá hecho utilizándola de una forma u otra. A pesar de que no es estrictamente correcto, nos referiremos a ella
+<h2> La Escala Cromática </h2>
+
+Según nuestra definición, la escala más simple de todas es, naturalmente, aquella que
+contiene todos los intervalos que conocemos. Esta se conoce como **Escala cromática**.
+Por razones obvias, en esta escala es indiferente qué tónica elijamos.
+
+<div id ="piano_cromatic" class="piano_container"></div>
+
+?> Todas las teclas / notas del piano conforman la escala cromática
+
+Si bien se trata de una escala "válida", su utilidad normalmente se ve reducida a aplicarla en pasajes entre figuras hechas con otras escalas, ya que su sonido es muy inestable y poco melodioso. Los géneros en los que más se emplea son el jazz y el blues.
+
+<h2> La Escala Diatónica o "escala Mayor" </h2>
+
+La **Escala diatónica** es indiscutiblemente la de mayor importancia en la música occidental. La inmensa mayoría de obras que conocerá el lector se habrá hecho utilizándola de una forma u otra. A pesar de que no es estrictamente correcto, nos referiremos a ella
 como Escala Mayor durante algunas secciones hasta que podamos explicar más
 detalladamente el por qué de esto.
 
@@ -191,5 +204,29 @@ piano({
     tonic: "A",
     pressed: ["A", "B", "C#", "D", "E", "F#", "G#", "A"],
     controls: ["up"]
+});
+piano({
+    tag: "piano_cromatic",
+    octaves: 1,
+    names: "all",
+    relevant: {
+        "C"  : { color: "fuchsia" },
+        "C#" : { color: "purple" },
+        "D"  : { color: "red" },
+        "D#" : { color: "orange" },
+        "E"  : { color: "yellow" },
+        "F"  : { color: "lime" },
+        "F#" : { color: "olive" },
+        "G"  : { color: "green" },
+        "G#" : { color: "teal" },
+        "A"  : { color: "aqua" },
+        "A#" : { color: "blue" },
+        "B"  : { color: "navy" }
+    },
+    controls: [
+        "up",
+        "down",
+        "spring"
+    ]
 });
 </script>
