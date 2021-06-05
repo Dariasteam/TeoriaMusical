@@ -10,6 +10,10 @@ Se construye a partir de una tónica, una _segunda mayor_ y una quinta justa.
 
 <div id ="Csus2" class="piano_container"></div>
 
+Nuevos intervalos contenidos:
+
+- 2M - 5: Distancia de una cuarta justa.
+
 !> Fíjate como el acorde puede resolver indistintamente en una triada mayor o menor
 siempre que tenga la misma tónica.
 
@@ -26,6 +30,10 @@ Se construye a partir de una tónica, una _cuarta justa_ y una quinta justa.
 <h3> Ejemplo de Csus2 </h3>
 
 <div id ="Csus4" class="piano_container"></div>
+
+Nuevos intervalos contenidos:
+
+- 4 - 5: Distancia de una segunda mayor.
 
 !> Igual que en el caso anterior, un acorde sus4 puede resolver indistintamente
 en una triada mayor o menor de misma tónica.
@@ -65,9 +73,6 @@ piano({
     names: "all",
     number: "pressed",
     tonic: "C",
-    relevant: {
-        "D"  : { color: "lime" },
-    },
     pressed: ["C", "D", "G","C"],
     controls: ["sync", "spring"]
 });
@@ -95,9 +100,6 @@ piano({
     names: "all",
     number: "pressed",
     tonic: "C",
-    relevant: {
-        "F"  : { color: "lime" },
-    },
     pressed: ["C", "F", "G","C"],
     controls: ["sync", "spring"]
 });

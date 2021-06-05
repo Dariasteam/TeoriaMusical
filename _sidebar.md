@@ -12,6 +12,5 @@
 * [Progresiones](Content/Progresiones.md)
 * [Tonalidades](Content/Tonalidades.md)
 * [Armonía Funcional](Content/Armonia_Funcional.md)
-* [Modos](Content/Modos.md)
 * [Acordes II](Content/Acordes/)
-* [Glosario](Content/Glosario.md)
+* [Modos](Content/Modos.md)
