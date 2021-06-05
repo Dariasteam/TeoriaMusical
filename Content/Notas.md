@@ -177,7 +177,7 @@ como también lo es la de Nota 8 a Nota 9.
 Por ejemplo, la distancia de Nota 3 a Nota 5 es de un tono o dos semitonos.
 
 ?> Ahora también puedes interpretar una octava como dos notas que se encuentran a
-exactamente 12 semitonos de distancia. Hurra!
+exactamente 12 semitonos de distancia. ¡Hurra!
 
 ### Sostenidos y Bemoles
 Se trata de una forma de referirse a una nota en base a otra inmediatamente
@@ -215,7 +215,7 @@ sin nombre propio.
 Vemos que no todas las notas con nombre propio distan lo mismo con sus adyacentes
 con nombre.
 
-?> Aquellas notas que ya poseen nombre de por si es inusual denominarlas como
+?> Aquellas notas que ya poseen nombre de por sí es inusual denominarlas como
 sostenidos o bemoles. Fíjate por ejemplo en el caso de Fa. Se encuentra a un semitono
 de distancia de Mi, pero no se le llama Mi#. El mismo caso ocurre con Si y Do
 

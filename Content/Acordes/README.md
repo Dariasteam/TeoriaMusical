@@ -1,0 +1,3 @@
+<h1> Acordes II </h1>
+
+Ya familiarizados con las triadas, conozcamos unos cuántos tipos de acordes más que ampliarán nuestra expresividad a la hora de componer progresiones. Para todos ellos, existe un apartado que habla de sus características según la armonía funcional. Esto no debe llevar a error y restringirnos a usarlos sólo según dichas reglas, habremos de probar combinaciones por nosotros mismos y juzgar según nuestro oído.
