@@ -47,7 +47,7 @@ En el apartado siguiente exploraremos el tipo
 de acorde más simple y a la vez más relevante: la triada. Tras ello proseguiremos
 con otros apartados, dejando una lista más extensa con otros tipos de acordes y sus explicaciones en el apartado [Acordes](s) para que el lector la consulte cuando considere.
 
-Es importante señalar que, a pesar de que la definición de un acordes se hace con intervalos en base a la tónica, musicalemnte influyen todas las combinaciones de intervalos contenidas. Por ejemplo, en el caso de nuestro acorde _icónico_, no hemos tenido en consideración para la definición el intervalo de segunda menor que ocurre entre
+Es importante señalar que, a pesar de que la definición de un acordes se hace con intervalos en base a la tónica, musicalmente influyen todas las combinaciones de intervalos contenidas. Por ejemplo, en el caso de nuestro acorde _icónico_, no hemos tenido en consideración para la definición el intervalo de segunda menor que ocurre entre
 las notas 2 y 3 (la cuarta y quinta justas respecto a la tónica)
 
 <h2> Triadas </h2>
@@ -65,14 +65,14 @@ Existen cuatro tipos diferenciados
 Internamente está compuesto de dos intervalos de tercera, una mayor y otra menor __en ese orden__. (Desde una tercera mayor a una quinta justa hay una tercera menor)
 
 Se representa simplemente con la letra de la tónica,
-aunque a veces se añade una M mayúscula o el sufijo _Maj_. Por ejemplo, Do mayor es C, CM ó CMaj. La distinición entre el acorde Do Mayor (C) y la nota aislada Do (C) se realiza por contexto.
+aunque a veces se añade una M mayúscula o el sufijo _Maj_. Por ejemplo, Do mayor es C, CM ó CMaj. La distinción entre el acorde Do Mayor (C) y la nota aislada Do (C) se realiza por contexto.
 
 <div id ="piano_2" class="piano_container"></div>
 
 > Do Mayor o C. Internamente contiene un intervalo de tercera mayor y otro menor.
 
 ?> Los acordes Mayores suenan alegres y agradables. Se pueden tocar durante un
-largo periodo de tiempo que no producen desagrado al oido. Existen multitud
+largo periodo de tiempo que no producen desagrado al oído. Existen multitud
 de piezas construidas únicamente en base a uno o dos acordes mayores.
 
 <h3> Acordes Menores </h3>
@@ -107,9 +107,9 @@ por ejemplo, Fº para Fa disminuido.
 
 <div id ="piano_4" class="piano_container"></div>
 
-> Do Disminuido o Cº. Internamente contiene dos itnervalso de tercera menor.
+> Do Disminuido o Cº. Internamente contiene dos intervalos de tercera menor.
 
-?> Los acordes disminuidos ya no son tan tan agradables al oido como los
+?> Los acordes disminuidos ya no son tan tan agradables al oído como los
 mayores y menores y su se usan con una frecuente considerablemente menor.
 Además, cuando aparecen en una pieza, no suelen emplearse de manera que destaquen
 especialmente sino como acordes de transición entre
@@ -162,10 +162,30 @@ Ejemplo de varias versiones del acorde de Re menor
 los arpegios no son igual de interesantes, así como el acento en
 el bajo varía.
 
-Un uso muy común es tocar un acorde alternando el bajo entre dos notas distintas.
+<h2> Inversiones </h2>
 
-En el apartado inversiones de la sección [acordes]() se profundiza más en este
-concepto.
+?> Llamamos Inversiones a las posibles variaciones de nota más grave en un acorde **sin** desordenar estas.
+
+?> Un acorde está en estado fundamental si su tónica actúa como bajo y sus notas están ordenadas.
+
+Por ejemplo, para una triada de Do Mayor, encontramos tres inversiones:
+
+<h4> Primera inversión de C o estado fundamental</h4>
+
+<div id ="inv_1" class="piano_container"></div>
+
+<h4> Segunda inversión de C </h4>
+
+<div id ="inv_2" class="piano_container"></div>
+
+<h4> Tercera inversión de C </h4>
+
+<div id ="inv_3" class="piano_container"></div>
+
+!> Fíjate como este último caso no es una inversión puesto que las notas se han
+desordenado (la quinta no está precedida por la tercera o sucedida por la primera)
+
+<div id ="no_inv" class="piano_container"></div>
 
 <link rel="stylesheet" href="PianoGenerator/style.css">
 <script>
@@ -266,6 +286,42 @@ piano({
     names: "all",
     tonic: "D",
     pressed: ["D", "F", "A", "A"],
+    number: "pressed",
+    controls: ["sync", "spring", "up", "down"]
+});
+piano({
+    tag: "inv_1",
+    octaves: 2,
+    names: "all",
+    tonic: "C",
+    pressed: ["C", "E", "G"],
+    number: "pressed",
+    controls: ["sync", "spring", "up", "down"]
+});
+piano({
+    tag: "inv_2",
+    octaves: 2,
+    names: "all",
+    tonic: "C",
+    pressed: ["E", "G", "C"],
+    number: "pressed",
+    controls: ["sync", "spring", "up", "down"]
+});
+piano({
+    tag: "inv_3",
+    octaves: 2,
+    names: "all",
+    tonic: "C",
+    pressed: ["G", "C", "E"],
+    number: "pressed",
+    controls: ["sync", "spring", "up", "down"]
+});
+piano({
+    tag: "no_inv",
+    octaves: 2,
+    names: "all",
+    tonic: "C",
+    pressed: ["C", "G", "E"],
     number: "pressed",
     controls: ["sync", "spring", "up", "down"]
 });
