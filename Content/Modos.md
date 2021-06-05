@@ -293,7 +293,7 @@ de una melodía. No obstante, el primer acorde y/o el más repetido de la progre
 
 <h2> Cambios Modales </h2>
 
-Son un tipo de cambio de tonalidad consiste en utilizar acordes pertenecientes a un modo A durante una progresión hecha en otro modo diferente. Hagamos un ejemplo. Utilizaremos la siguiente progresión hecha en Do Mayor.
+Son un tipo de cambio de tonalidad consiste en utilizar acordes pertenecientes a un modo B durante una progresión hecha en otro modo diferente A. Hagamos un ejemplo. Utilizaremos la siguiente progresión en Do Mayor.
 
 
 | Modo | C Mayor | C Mayor | C Mayor |  C Mayor |
@@ -301,15 +301,15 @@ Son un tipo de cambio de tonalidad consiste en utilizar acordes pertenecientes a
 | Acorde | C  |  Em | F  | C |
 | Grado  | I  | iii | IV | I |
 
-Hasta aquí todo normal. Tocaremos esa sección una vez y a continuación, para la segunda variación, haremos la siguiente
+Hasta aquí todo normal. Tocaremos esa sección una vez y a continuación, para la segunda repetición, haremos la siguiente
 variación.
 
 | Modo | C Mayor | C Mayor | C menor |  C Mayor |
 | - | - | - | - | - |
-| Acorde | C  |  Em  | F#m  | C |
+| Acorde | C  |  Em  | Fm  | C |
 | Grado  | I  |  iii | iv | I |
 
-Ahora estamos sustituyendo el grado 3 y 4 por las versiones de los mismos en el modo menor y con esto la progresión se vuelve más melosa e interesante. Pulsa los siguientes teclados para escuchar la progresión.
+Ahora estamos sustituyendo el grado 4 por su versión en el modo _paralelo_ menor (paralelo puesto que en ambos casos la tónica es Do). Con esto la progresión se vuelve más melosa e interesante. Pulsa los siguientes teclados para escuchar la progresión.
 
 <div id ="prog_1" class="piano_container"></div>
 
@@ -328,8 +328,6 @@ Ahora estamos sustituyendo el grado 3 y 4 por las versiones de los mismos en el 
 <div id ="prog_8" class="piano_container"></div>
 
 <div id ="prog_9" class="piano_container"></div>
-
-
 
 <link rel="stylesheet" href="PianoGenerator/style.css">
 <script>

@@ -85,7 +85,7 @@ que sea la tónica usada en una misma escala. Por ejemplo, veamos Do y G# Mayor.
 |-|-|-|-|-|-|-|-|
 | Nota |C | D | E | F | G | A | B |
 | Grados| I | ii | iii | IV | V | vi | viiº
-| Triada |C | Dm | E | F | G | Am | Bº |
+| Triada |C | Dm | Em | F | G | Am | Bº |
 
 | Sol# Mayor | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 |-|-|-|-|-|-|-|-|
