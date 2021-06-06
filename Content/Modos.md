@@ -135,7 +135,7 @@ Tiene un sonido más oscuro y taciturno. A veces se le considera como una versi�
 
 <h3> Modo 3: Phrygian o Frígio</h3>
 
-Arquetipo de música de medio oriente. Si no se tiene cuidado cualquier cosa que use este modo acaba inevitablemente sonando a desierto, camellos, oasis y palmeras. En la música popular, cuando no se busca ese efecto exótico explícitamente, se utiliza asiduamente tanto en rap, trap y los inicios del reggaeton (empleando solo las notas 1 y 2) como en composiciones grandilocuentes de géneros como el power metal.
+Arquetipo de música de medio oriente. Si no se tiene cuidado cualquier cosa que use este modo acaba inevitablemente sonando a desierto, camellos, oasis y palmeras. En la música popular, cuando no se busca ese efecto exótico explícitamente, se utiliza asiduamente tanto en rap, trap y los inicios del reggaeton (empleando solo los grados i y II) como en composiciones más centradas en guitarra como el flamenco, el thrash y el power metal.
 
         Modo Frigio
 
