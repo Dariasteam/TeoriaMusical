@@ -53,6 +53,10 @@ recibir una información una vez que esta ya se posee. En cualquier caso, sí pr
 tratar los temas en un orden y grado de complejidad que considero adecuados
 según mi experiencia personal.
 
+## Contacto
+
+[dariasteam94@gmail.com](dariasteam94@gmail.com)
+
 ## Licencia
 > [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
