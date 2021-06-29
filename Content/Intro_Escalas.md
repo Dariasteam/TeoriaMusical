@@ -145,11 +145,12 @@ Si representamos en una tabla las escalas diatónica y pentatónica queda patent
 
 | Escala      | | | | | | | | |
 |   -         |-|-|-|-|-|-|-|-|
-| Escala Diatónica   |Tónica |2|2|1|2|2|2|1|
-| Escala Pentatónica |Tónica |2| |3|2|2| |3|
-| Diatónica de Do   |C |D|E|F|G|A|B|C|
-| Pentatónica de Do |C |D| |F|G|A| |C|
+| Intervalos Escala Diatónica   |Tónica |2|2|1|2|2|2|1|
+| Intervalos Escala Pentatónica |Tónica |2| |3|2|2| |3|
+| Notas Diatónica de Do   |C |D|E|F|G|A|B|C|
+| Notas Pentatónica de Do |C |D| |F|G|A| |C|
 
+?> Bajo este prisma, la escala pentatónica es la diatónica sin la tercera y séptima nota.
 
 
 <link rel="stylesheet" href="PianoGenerator/style.css">
