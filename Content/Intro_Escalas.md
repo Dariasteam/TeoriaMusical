@@ -131,6 +131,27 @@ ya que es un tema que se tratará en profundidad en el apartado de modos. Basta 
 que resulta agradable al oído, alegre y predecible.
 Estamos muy acostumbrados a escucharla y sabemos cómo se comporta.
 
+<h2> La escala Pentatónica </h2>
+
+Usualmente esta escala se explica de forma previa a la diatónica ya que es más sencilla de utilizar y nos permite escribir melodías y realizar improvisaciones muy rápidamente. No obstante, a mi juicio, la forma correcta de entenderla es como una versión reducida de la escala diatónica. Sería así una "subescala" derivada de la escala diatónica a la que se le han eliminado alguna notas para, en cierta medida, garantizar que toquemos la nota que toquemos esta suene "bien". Explicaremos este fenómeno con mayor detenimiento en posteriores apartados.
+
+Esta escala está compuesta únicamente por 5 notas, manteniendo estas la siguiente relación de intervalos: `Tónica - 2 - 3 - 2 - 2 - 3`.
+
+<div id ="piano_6" class="piano_container"></div>
+
+> Escala Pentatónica de Do en el piano con amplitud de dos octavas
+
+Si representamos en una tabla las escalas diatónica y pentatónica queda patente su relación. Veamos un ejemplo para la tónica Do.
+
+| Escala      | | | | | | | | |
+|   -         |-|-|-|-|-|-|-|-|
+| Escala Diatónica   |Tónica |2|2|1|2|2|2|1|
+| Escala Pentatónica |Tónica |2| |3|2|2| |3|
+| Diatónica de Do   |C |D|E|F|G|A|B|C|
+| Pentatónica de Do |C |D| |F|G|A| |C|
+
+
+
 <link rel="stylesheet" href="PianoGenerator/style.css">
 <script>
 piano({
@@ -223,6 +244,17 @@ piano({
         "A#" : { color: "blue" },
         "B"  : { color: "navy" }
     },
+    controls: [
+        "up",
+        "down",
+        "spring"
+    ]
+});
+piano({
+    tag: "piano_6",
+    octaves: 2,
+    names: "all",
+    pressed: ["C", "D", "F", "G", "A", "C"],
     controls: [
         "up",
         "down",
