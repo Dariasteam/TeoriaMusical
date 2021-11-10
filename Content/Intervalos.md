@@ -59,7 +59,7 @@ lo aprendido sobre un instrumento.
 
 > Intervalo producido entre una nota y la misma repetida, estén o no en la misma octava. Se simboliza con el número **"1"**
 
-Tocado simultáneamente no produce prácticamente ningún efecto musical, tan solo realza ligeramente la nota y eleva el volúmen. POr razones obvias, no provoca disonancia.
+Tocado simultáneamente no produce prácticamente ningún efecto musical, tan solo realza ligeramente la nota y eleva el volúmen. Por razones obvias, no provoca disonancia.
 
 <div id ="piano_2" class="piano_container">
 </div>

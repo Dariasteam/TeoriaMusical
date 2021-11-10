@@ -1,0 +1,11 @@
+.stage{
+    width:400px;
+    height:400px;
+    margin:2em;
+    float:left;
+    position:relative;
+    background:#ccc;
+    overflow:hidden;
+    font-weight:bold;
+    text-align:center;
+}
